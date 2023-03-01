@@ -1,26 +1,174 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+   <table>
+        <tr>
+            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-matheus-marinho.png" alt="persona1"></td>
+            <td colspan="2"><strong>Matheus Marinho</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Idade:</strong>21<br><strong>Ocupação:</strong>Estudante Universitario</td>
+            <td>
+                <strong>Aplicativos</strong>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Uber</li>
+                    <li>iFood</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Motivações</strong>
+                <ul>
+                    <li>Melhor planejamento do pedido, sem precisar tomar decisões impulsivas; </li>
+                    <li>Conhecimento prévio do cardápio sem mesmo precisar ir ao estabelecimento; </li>
+                </ul>
+            </td>
+            <td>
+                <strong>Frustações</strong>
+                <ul>
+                    <li>Fotos do menu em baixa qualidade</li>
+                    <li>Cardápio desatualizado</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Hobbies, História</strong>
+                <ul>
+                    <li>Gosta de tocar guitarra</li>
+                    <li>Degustar vários rótulos de cerveja</li>
+                </ul>
+            </td>
+        </tr>
+   </table>
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+   <table>
+        <tr>
+            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-luiz-felipe-almeida.png" alt="persona1"></td>
+            <td colspan="2"><strong>Luiz Felipe Almeida</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Idade:</strong>42<br><strong>Ocupação:</strong>Advogado</td>
+            <td>
+                <strong>Aplicativos</strong>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+               </ul>
+            </td>
+        </tr>
+       <tr>
+            <td>
+                <strong>Motivações</strong>
+                <ul>
+                    <li>Rapidez da escolha</li>
+                    <li>Menores chances de erros nos pedidos </li>
+                </ul>
+            </td>
+            <td>
+                <strong>Frustações</strong>
+                <ul>
+                    <li>Esperar o garçom trazer o cardápio</li>
+                    <li>Cardápios sujos e rasurados</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Hobbies, História</strong>
+                <ul>
+                    <li>Jogar futebol com os amigos</li>
+                    <li>Ler quadrinhos</li>
+                </ul>
+            </td>
+        </tr>
+   </table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+   <table>
+        <tr>
+            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-samnhtha-boaventura.png" alt="persona1"></td>
+            <td colspan="2"><strong>Samanhtha Boaventura</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Idade:</strong>34<br><strong>Ocupação:</strong>Engenheira Química</td>
+            <td>
+                <strong>Aplicativos</strong>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Uber</li>
+                    <li>iFood</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Motivações</strong>
+                <ul>
+                    <li>Facilidade em achar pratos ou bebidas de seu gosto mais rapidamente com filtros</li>
+                    <li>Compartilhar cardápio em um grupo de amigos ou família para escolher de forma mais rápida o que vão pedir</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Frustações</strong>
+                <ul>
+                    <li>Cardápios feitos com materiais de baixa qualidade</li>
+                    <li>Itens em falta no estabelecimento</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Hobbies, História</strong>
+                <ul>
+                    <li>Degustação de drinks</li>
+                    <li>Viajar para conhecer novas culturas culinárias</li>
+                    <li>Prática de Yoga</li>
+                </ul>
+            </td>
+        </tr>
+   </table>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+   <table>
+        <tr>
+            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-antonio-eduardo.png" alt="persona1"></td>
+            <td colspan="2"><strong>Antônio Eduardo</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Idade:</strong>50<br><strong>Ocupação:</strong>Dono de bar</td>
+            <td>
+                <strong>Aplicativos</strong>
+                <ul>
+                    <li>Instagram</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Motivações</strong>
+                <ul>
+                    <li>Flexibilidade para renovar o cardápio</li>
+                    <li>Possibilidade de disponibilizar o cardápio em outros idiomas</li>
+                </ul>
+            </td>
+            <td>
+               <strong>Frustações</strong>
+                <ul>
+                    <li>Gastos recorrentes na atualização de preços</li>
+                    <li>Atraso na entrega dos cardápios pela gráfica</li>
+                    <li>Desgaste precoce do cardápio e reposição</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Hobbies, História</strong>
+                <ul>
+                    <li>Ler livros de autoajuda</li>
+                    <li>Ouvir música clássica</li>
+                    <li>Cozinhar novos pratos</li>
+                </ul>
+            </td>
+       </tr>
+   </table>
 
 ## Histórias de Usuários
 
@@ -28,17 +176,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Matheus Marinho   | Ter conhecimento prévio do cardápio sem precisar se deslocar ao estabelecimento. | Não tomar decisões por impulso.  |
+|Luiz Felipe Almeida       | Analisar cada item com mais calma.  | Diminuir as chances de erro nos pedidos.  |
+|Samantha Boaventura | Ter mais facilidade em encontrar pratos e bebidas de seu interesse. | Para compartilhar e se encontrar com seus amigos. |
+|Antônio Eduardo | Encontrar cardápios em outros idiomas. | Se encontrar com gestores e fazer network. |
 
 ## Modelagem do Processo de Negócio 
 
@@ -79,30 +220,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O aplicativo deve conceder ao usuário master uma forma de login. | Alta | 
+|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital. | Alta | 
+|RF-003| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. | Média |
+|RF-004| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. | Média |
+|RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. | Alta |
+|RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. | Média |
+|RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. | Baixa |
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sujestões anonimas enviadas peloas usuarios. | Baixa |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | Alta | 
+|RNF-002| O aplicativo deverá estar disponível ao usuário 24h por dia. |  Alta | 
+|RNF-003| O aplicativo deve conter uma interface gráfica de fácil manuseio. |  Média | 
+|RNF-004| O aplicativo deve estar disponível também no idioma inglês. |  Baixa | 
+|RNF-005| O aplicativo não deverá apresentar um tempo de resposta que exceda 3 segundos quando não existirem problemas relacionados à qualidade de conexão. |  Alta | 
+|RNF-006| O aplicativo deve suportar vários usuários conectados de forma simultânea, não apresentando lentidão em suas funcionalidades. |  Alta | 
+|RNF-007| O aplicativo será desenvolvido com React Native. |  Alta | 
 
 ## Restrições
 
@@ -111,13 +248,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O sistema deve ser desenvolvido com ferramentas e tecnologias de incrementos acordados e disponíveis para todos os integrantes que compõe o grupo. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 

@@ -1,46 +1,40 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O cardápio físico foi por muito tempo a melhor opção de comunicação entre os restaurantes e seus clientes, sendo, inclusive, uma primeira impressão dada aos usuários pelos estabelecimentos. Um cardápio mal cuidado ou mal diagramado, pode transmitir a péssimas sensações ao freguês, podendo impactar nas vendas.  
+
+O avanço tecnológico e um maior apelo por sustentabilidade, tornou os cardápios físicos obsoletos e deu espaço para os digitais, trazendo consigo inúmeras vantagens até então impossíveis pelos reais, sendo a principal delas e mais bem quista pelos estabelecimentos: a economia. Mas engana-se quem pensa que esses benefícios se restringem apenas a valores monetários; a praticidade, disponibilidade e facilidade de atualização são alguns dos diversos ganhos por parte dos cardápios digitais.  
+
+Sabe-se, também, que criar um cardápio coeso, bem diagramado e que possa resultar em vendas mais expressivas, não é uma tarefa simples. Buscamos, através da nossa solução, auxiliar os estabelecimentos a criarem seus cardápios de forma eficaz e descomplicada, trazendo conceitos e estudos de vieses cognitivos agregados que possibilitem experiências melhores todos.  
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como melhorar a experiência de estabelecimentos e clientes através de cardápios digitais e trazer novas vantagens para este segmento?  
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Temos como objetivo a criação de uma aplicação mobile que possibilite aos estabelecimentos criarem e disponibilizarem seus cardápios de forma simples e eficaz. 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> Objetivos Específicos :
+> - Desenvolver uma interface intuitiva e fácil de usar para que os estabelecimentos possam cadastrar e gerenciar seus cardápios de forma eficiente.
+> - Criar um sistema de busca avançado que permita aos usuários filtrar e encontrar facilmente os itens que desejam no cardápio.
+> - Oferecer aos estabelecimentos a opção de personalizar seus cardápios com imagens, descrições, preços e outras informações relevantes para os clientes.
+> - Garantir a disponibilidade do app em diferentes plataformas mobile e a compatibilidade com diferentes tipos de dispositivos, como smartphones e tablets, para aumentar a acessibilidade e o alcance do aplicativo.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de um app de visualização de cardápio pode ser útil em diversas situações. Um exemplo é em restaurantes e bares que já possuem um sistema de atendimento preferencial eficiente, mas desejam oferecer aos clientes a possibilidade de visualizar o cardápio antes mesmo de chegar ao estabelecimento. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com o app, o cliente pode navegar pelo cardápio com calma, ler as descrições dos pratos e bebidas e decidir o que vai pedir com antecedência e sem a “pressão” de deixar o garçom esperando. Isso pode agilizar o atendimento no momento em que chegar no local, já que p cliente já terá uma ideia do que deseja consumir. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, o app de visualização de cardápio pode ser uma forma de divulgação do estabelecimento, já que os usuários podem compartilhar as informações com amigos e familiares. Dessa forma, o app pode atrair novos clientes para o negócio. 
+
+Por fim, a criação de um app de visualização de cardápio pode ser uma forma de modernizar o estabelecimento, tornando-o mais atraente para o público mais jovem e conectado. O app pode transmitir uma imagem de inovação e modernidade, o que pode ser um diferencial competitivo em relação a outros estabelecimentos do mesmo ramo. 
+
+  
+Forma resumida: 
+
+Um aplicativo de visualização de cardápio pode ser útil em restaurante e bares que já possuem um sistema ade atendimento presencial eficiente, oferecendo aos clientes a possibilidade de visualizar o cardápio com antecedência e agilizando o atendimento. Além disso, o app pode ser uma forma de divulgação do estabelecimento, atraindo novos clientes e transmitindo uma imagem de inovação e modernidade.  
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desse projeto seria composto por clientes de restaurantes e bares que desejam ter acesso ao cardápio de forma digital e antecipada, e que valorizam a comodidade e a praticidade. Um outro público-alvo seria os proprietários de bares e restaurantes que desejam modernizar o seu estabelecimento, oferecendo uma experiência diferenciada aos seus clientes e se destacar no mercado. 
