@@ -185,23 +185,47 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente em alguns bares, restaurantes, pizzarias etc. temos problemas com disponibilidade de cardapio, seja devido a demora de atendimento pelo garçom, ou por falta mesmo do cardapio em si. Além desse problema com a disponibilidade, ainda existe o problema com a manutenção, como o ajuste de valores, recuperação de danos, inclusão/exclusão de algum item etc. Como forma de melhoria para esse processo o cardapio digital solucionaria grande parte desses problemas, já seria necessário apenas que o cliente baixe o app do estabelecimento e veja todos o cardapio, e o responsável por isso no estabelecimento faça o mesmo, porém com a função de adicionar itens ao cardapio. 
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta desenvolvida no projeto, trata-se de um app de cardapio em que os usuários possam apenas visualizar os itens, bem como seus valores, imagens, descrições etc., adicionados pelo responsável pela tarefa no estabelecimento. O projeto ficara limitado a isso devido a nível de conhecimento da equipe não ser elevado e o tempo para a capacitação e desenvolvimento não ser o suficiente. Opções de melhorias para o projeto, seria adicionar uma forma do usuário fazer um pedido baseado no número de sua mesa, ou algo do tipo, sendo assim o usuário master iria receber esse pedido e seria criado uma “comanda” digital.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Login do usuário master
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Abrange o RF-001. 
 
-![Processo 1](img/02-bpmn-proc1.png)
+![Processo 1](img/modelagem-1.png)
 
-### Processo 2 – NOME DO PROCESSO
+### Processo 2 – CRUD do cardapio
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+Abrange os RF-001 e RF-002.
 
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo 2](img/modelagem-2.png)
+
+### Processo 3 – Visualização do cardapio
+
+Abrange os RF-002, RF-003 e RF-004.
+
+![Processo 3](img/modelagem-3.png)
+
+### Processo 4 – Avaliação do item do cardapio
+
+Abrange os RF-003, RF-004 e RF-006.
+
+![Processo 4](img/modelagem-4.png)
+
+### Processo 5 – Enviar sugestões
+
+Abrange o RF-007.
+
+![Processo 5](img/modelagem-5.png)
+
+### Processo 6 – Visualizar sugestões
+
+Abrange os RF-007 e RF-008.
+
+![Processo 6](img/modelagem-6.png)
 
 ## Indicadores de Desempenho
 
