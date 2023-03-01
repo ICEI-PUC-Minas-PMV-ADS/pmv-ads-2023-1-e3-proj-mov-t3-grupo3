@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Análise e Desenvolvimento de Sistemas
 
 `CURSO`
 
-`DISCIPLINA`
+`Projeto Eixo 3`
 
-`SEMESTRE`
+`3º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto que sera desenvolvido nesse semestre, sera uma aplicação mobile, que tem como objetivo principal a disponibilização de um “cardapio virtual” para um estabelecimento. Nesse app, o responsável pelo cardapio irá “alimentá-lo”, adicionando itens. Já o cliente poderá fazer apenas a visualização desse cardapio, aplicando filtros de pesquisa etc. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anderson Marques Rosa
+* Bruno César Feza Rodrigues
+* Felipe Jorge Buzelin
+* Matheus Estevam Nunes Cordeiro
+* Samara Martins Oliveira 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Mateus Curcino de Lima
 
 ## Instruções de utilização
 
