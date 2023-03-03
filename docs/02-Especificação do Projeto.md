@@ -179,7 +179,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Matheus Marinho   | Ter conhecimento prévio do cardápio sem precisar se deslocar ao estabelecimento. | Não tomar decisões por impulso.  |
 |Luiz Felipe Almeida       | Analisar cada item com mais calma.  | Diminuir as chances de erro nos pedidos.  |
 |Samantha Boaventura | Ter mais facilidade em encontrar pratos e bebidas de seu interesse. | Para compartilhar e se encontrar com seus amigos. |
-|Antônio Eduardo | Encontrar cardápios em outros idiomas. | Se encontrar com gestores e fazer network. |
+|Antônio Eduardo | Adicionar ítens ao cardápio. | Para que os clientes possam consultá-lo |
 
 ## Modelagem do Processo de Negócio 
 
