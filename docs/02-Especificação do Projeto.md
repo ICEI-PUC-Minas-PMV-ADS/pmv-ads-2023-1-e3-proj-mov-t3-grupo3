@@ -251,7 +251,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. | Alta |
 |RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. | Média |
 |RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. | Baixa |
-|RF-008| O aplicativo deve permitir que o usuário master visualize as sujestões anonimas enviadas peloas usuarios. | Baixa |
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuarios. | Baixa |
 
 ### Requisitos não Funcionais
 
@@ -281,11 +281,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+A matriz de rastreabilidade apresenta a relação entre os requisitos funcionais, caracterizando uma rastreabilidade horizontal.
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+![Matriz de rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/0bf3fcb113e363992fad7c45ffeef5e7d667eda5/docs/img/MATRIZ%20DE%20RASTREABILIDADE.PNG?raw=true)
 
 > **Links Úteis**:
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
