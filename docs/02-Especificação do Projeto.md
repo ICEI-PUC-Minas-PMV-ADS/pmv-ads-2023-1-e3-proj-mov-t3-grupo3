@@ -108,7 +108,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
                 <strong>Motivações</strong>
                 <ul>
                     <li>Facilidade em achar pratos ou bebidas de seu gosto mais rapidamente com filtros</li>
-                    <li>Compartilhar cardápio em um grupo de amigos ou família para escolher de forma mais rápida o que vão pedir</li>
+                    <li>Compartilhar cardápio em um grupo de amigos ou família para escolher de forma mais rápida o que pedir</li>
                 </ul>
             </td>
             <td>
