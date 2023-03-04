@@ -331,7 +331,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 - **Teste:** Aqui são movidos as tarefas prontas para teste.
 
-- **Conclído:** todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
+- **Concluído:** todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
 
 - **Lembrete:** uma aba com as datas das próximas entregas e a referência delas. 
 
