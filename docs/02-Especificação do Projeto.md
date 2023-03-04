@@ -251,7 +251,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. | Alta |
 |RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. | Média |
 |RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. | Baixa |
-|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuarios. | Baixa |
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. | Baixa |
 
 ### Requisitos não Funcionais
 
