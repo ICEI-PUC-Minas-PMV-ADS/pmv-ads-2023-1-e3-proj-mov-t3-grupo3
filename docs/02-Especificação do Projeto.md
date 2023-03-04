@@ -7,8 +7,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-matheus-marinho.png"
-"></td>
+            <td rowspan="2">![1](https://user-images.githubusercontent.com/103212087/222927705-99fd3d03-86d7-4214-876f-a522f6c52f50.png)
+
             <td colspan="2"><strong>Matheus Marinho</strong></td>
         </tr>
         <tr>
