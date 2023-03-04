@@ -301,6 +301,7 @@ A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o *
 - Anderson Marques Rosa
 - Matheus Estevam Nunes Cordeiro
 - Samara Martins Oliveira
+               
 **Equipe de Design:**
 - Bruno Cesar Feza Rodrigues
 
