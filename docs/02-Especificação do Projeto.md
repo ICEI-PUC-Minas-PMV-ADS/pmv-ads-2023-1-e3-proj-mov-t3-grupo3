@@ -341,6 +341,8 @@ O quadro KANBAN do grupo no Trello está disponível através da URL: https://tr
 
 ## Gestão de Orçamento
 
-Por se tratar de um projeto acadêmico a gestão do orçamento será fictícia com intuíto de apenas simular um orçamento real, nos permitindo figurar valores que se adequem a realidade do nosso projeto. 
+Por se tratar de um projeto acadêmico a gestão do orçamento será fictícia com intuíto de apenas simular um orçamento real, nos permitindo figurar valores que se adequem a realidade do nosso projeto. O orçamento está descrito na imagem abaixo: 
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento Projeto](https://user-images.githubusercontent.com/103212087/222928688-e1b1a6a6-230d-438b-a74b-bf5c21738316.png)
+
+
