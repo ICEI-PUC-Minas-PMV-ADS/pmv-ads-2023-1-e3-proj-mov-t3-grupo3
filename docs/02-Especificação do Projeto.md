@@ -276,6 +276,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Diagrama de Casos de Uso
+Tendo os atores das ações definidos como usuário cliente e usuário admin, nosso diagrama de caso de uso define as sequências das ações executadas pelos atores e as relações entre essa ações e quais os valores gerados por elas. Nosso diagrama está representado na figura abaixo: 
 
 ![Diagrama de caso de uso UML](img/diagrama_de_caso_de_uso.png)
 
@@ -287,7 +288,21 @@ A matriz de rastreabilidade apresenta a relação entre os requisitos funcionais
 ![Matriz de rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/0bf3fcb113e363992fad7c45ffeef5e7d667eda5/docs/img/MATRIZ%20DE%20RASTREABILIDADE.PNG?raw=true)
 
 
-# Gerenciamento de Projeto
+## Gerenciamento de Projeto
+A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o ***planejamento e gereciamento do projeto***. Esta é uma metodologia efetiva, simples e flexível para **pequenas equipes**, permitindo que o projeto sofra incrementos a cada Sprint.
+
+
+### Divisão de Papéis
+
+- **Product Owner:** Profº Mateus Cursino de Lima
+- **Scrum Master:** Felipe Jorge Buzelin
+
+**Equipe de Desenvolvimento:**
+- Anderson Marques Rosa
+- Matheus Estevam Nunes Cordeiro
+- Samara Martins Oliveira
+**Equipe de Design:**
+- Bruno Cesar Feza Rodrigues
 
 
 ## Gerenciamento de Tempo
