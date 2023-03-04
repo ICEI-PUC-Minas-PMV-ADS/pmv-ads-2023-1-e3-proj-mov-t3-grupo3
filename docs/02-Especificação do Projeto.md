@@ -341,6 +341,6 @@ O quadro KANBAN do grupo no Trello está disponível através da URL: [https://t
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Por se tratar de um projeto acadêmico a gestão do orçamento será fictícia com intuíto de apenas simular um orçamento real, nos permitindo figurar valores que se adequem a realidade do nosso projeto. 
 
 ![Orçamento](img/02-orcamento.png)
