@@ -288,7 +288,7 @@ A matriz de rastreabilidade apresenta a relação entre os requisitos funcionais
 ![Matriz de rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/0bf3fcb113e363992fad7c45ffeef5e7d667eda5/docs/img/MATRIZ%20DE%20RASTREABILIDADE.PNG?raw=true)
 
 
-## Gerenciamento de Projeto
+## Gerenciamento da Equipe
 A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o ***planejamento e gereciamento do projeto***. Esta é uma metodologia efetiva, simples e flexível para **pequenas equipes**, permitindo que o projeto sofra incrementos a cada Sprint.
 
 
@@ -307,6 +307,7 @@ A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o *
 
 
 ## Gerenciamento de Tempo
+Nosso projeto é de origem acadêmica, sendo divido em sprints, onde cada etapa de desenvolvimento tem uma data pré-determinada pela Universidade. A primeira etapa deve ser entregue no dia 05 de março de 2023 e a quinta e última no dia 23 de junho de 2023.
 
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/Cronograma.png)
@@ -315,11 +316,28 @@ A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o *
 
 ![Gráfico de Gantt](img/Gantt.png)
 
-## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+## Gerenciamento de Tarefas
 
-![Simple Project Timeline](img/02-project-timeline.png)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, estruturado com as seguintes listas:
+
+- **Propriedades das Tarefas:** É a etiqueta das tarefas, ou a prioridade em que serão apresentadas sendo alta cor vermelha, média cor amarela ou baixa cor verde.
+
+- **Backlog:** Lista ordenada de todos os requisitos que se tem conhecimento de que precisam estar no produto. Cada tarefa está associada a um 'milestone', que pressupõe uma entrega final.
+
+- **A Fazer:** Tarefas que estão disponíveis para os desenvolvedores fazer e ninguém assumiu ainda, ou seja está separada para entrega e aguardadndo o desenvolvedor assumir a resposabilidade por ela;
+
+- **Em Andamento:** Quando uma tarefa do Sprint Backlog tiver sido iniciada, ela é movida para cá;
+
+- **Teste:** Aqui são movidos as tarefas prontas para teste.
+
+- **Conclído:** todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
+
+- **Lembrete:** uma aba com as datas das próximas entregas e a referência delas. 
+
+O quadro KANBAN do grupo no Trello está disponível através da URL: [https://trello.com/b/phegKomU/quadro-kanban-aplicativo-de-card%C3%A1pio-digital] e é apresentado, no estado atual, na figura abaixo:
+
+![quadro kanban](https://user-images.githubusercontent.com/103212087/222927392-49650936-63b1-4f05-9011-ee73c05746c2.png)
 
 ## Gestão de Orçamento
 
