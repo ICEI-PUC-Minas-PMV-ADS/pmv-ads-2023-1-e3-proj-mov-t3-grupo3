@@ -11,7 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
             <td colspan="2"><strong>Matheus Marinho</strong></td>
         </tr>
         <tr>
-            <td><strong>Idade:</strong>21<br><strong>Ocupação:</strong>Estudante Universitario</td>
+            <td><strong>Idade:</strong>21<br><strong>Ocupação:</strong>Estudante Universitário</td>
             <td>
                 <strong>Aplicativos</strong>
                 <ul>
@@ -179,17 +179,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Matheus Marinho   | Ter conhecimento prévio do cardápio sem precisar se deslocar ao estabelecimento. | Não tomar decisões por impulso.  |
 |Luiz Felipe Almeida       | Analisar cada item com mais calma.  | Diminuir as chances de erro nos pedidos.  |
 |Samantha Boaventura | Ter mais facilidade em encontrar pratos e bebidas de seu interesse. | Para compartilhar e se encontrar com seus amigos. |
-|Antônio Eduardo | Adicionar ítens ao cardápio. | Para que os clientes possam consultá-lo |
+|Antônio Eduardo | Adicionar itens ao cardápio. | Para que os clientes possam consultá-lo |
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
-Atualmente em alguns bares, restaurantes, pizzarias etc. temos problemas com disponibilidade de cardapio, seja devido a demora de atendimento pelo garçom, ou por falta mesmo do cardapio em si. Além desse problema com a disponibilidade, ainda existe o problema com a manutenção, como o ajuste de valores, recuperação de danos, inclusão/exclusão de algum item etc. Como forma de melhoria para esse processo o cardapio digital solucionaria grande parte desses problemas, já seria necessário apenas que o cliente baixe o app do estabelecimento e veja todos o cardapio, e o responsável por isso no estabelecimento faça o mesmo, porém com a função de adicionar itens ao cardapio. 
+Atualmente em alguns bares, restaurantes, pizzarias etc., temos problemas com disponibilidade de cardápio, seja devido à demora de atendimento pelo garçom, ou por falta do cardápio em si. Além desse problema com a disponibilidade, ainda existe o problema com a manutenção, como o ajuste de valores, recuperação de danos, inclusão/exclusão de algum item etc. Como forma de melhoria para esse processo o cardápio digital solucionaria grande parte desses problemas, já que seria necessário apenas que o cliente baixe o app do estabelecimento e veja todo o cardápio, e o responsável por isso no estabelecimento faça o mesmo, porém com a função de adicionar itens ao cardápio. 
 
 ### Descrição Geral da Proposta
 
-A proposta desenvolvida no projeto, trata-se de um app de cardapio em que os usuários possam apenas visualizar os itens, bem como seus valores, imagens, descrições etc., adicionados pelo responsável pela tarefa no estabelecimento. O projeto ficara limitado a isso devido a nível de conhecimento da equipe não ser elevado e o tempo para a capacitação e desenvolvimento não ser o suficiente. Opções de melhorias para o projeto, seria adicionar uma forma do usuário fazer um pedido baseado no número de sua mesa, ou algo do tipo, sendo assim o usuário master iria receber esse pedido e seria criado uma “comanda” digital.
+A proposta desenvolvida no projeto, trata-se de um app de cardápio em que os usuários possam apenas visualizar os itens, bem como seus valores, imagens, descrições etc., adicionados pelo responsável pela tarefa no estabelecimento. O projeto ficará limitado a isso devido ao nível de conhecimento da equipe não ser elevado e o tempo para a capacitação e desenvolvimento não ser o suficiente. Uma opção de melhoria para o projeto seria adicionar uma forma do usuário fazer um pedido baseado no número de sua mesa, sendo assim, o usuário master iria receber esse pedido e seria criado uma “comanda” digital.
 
 ### Processo 1 – Login do usuário master
 
@@ -229,11 +229,11 @@ Abrange os RF-007 e RF-008.
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Indicadores de desempenho iniciais contemplando as funcionalidades previstas para serem desenvolvidas.
 
 
 ![Indicadores de Desempenho](img/indic-desempenho01.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+ 
 
 ## Requisitos
 
