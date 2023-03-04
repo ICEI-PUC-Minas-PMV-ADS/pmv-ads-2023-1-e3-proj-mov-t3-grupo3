@@ -335,7 +335,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 - **Lembrete:** uma aba com as datas das próximas entregas e a referência delas. 
 
-O quadro KANBAN do grupo no Trello está disponível através da URL: [https://trello.com/b/phegKomU/quadro-kanban-aplicativo-de-card%C3%A1pio-digital] e é apresentado, no estado atual, na figura abaixo:
+O quadro KANBAN do grupo no Trello está disponível através da URL: https://trello.com/b/phegKomU/quadro-kanban-aplicativo-de-card%C3%A1pio-digital e é apresentado, no estado atual, na figura abaixo:
 
 ![quadro kanban](https://user-images.githubusercontent.com/103212087/222927392-49650936-63b1-4f05-9011-ee73c05746c2.png)
 
