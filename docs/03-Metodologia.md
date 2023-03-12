@@ -48,20 +48,20 @@ Foram consideradas as seguintes listas:
 
 Utilizamos o Trello para acompanhar andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. Foram consideradas as seguintes listas:
 
-`PRIORIDADE DA TAREFA`: Cada atividade será marcada com a cor correspondente ao nível de prioridade para execução.
+`Prioridade da Tarefa`: Cada atividade será marcada com a cor correspondente ao nível de prioridade para execução.
 - Verde: prioridade baixa;
 - Amarelo: prioridade média;
 - Vermelho: prioridade alta;
 
-`BACKLOG DO PRODUTO`: é uma lista detalhada de todas as tarefas que serão feitas durante o projeto. Caso surja a necessidade de incorporar novas atividades ao projeto, estas devem ser adicionadas a esta lista.
+`Backlog do Produto`: é uma lista detalhada de todas as tarefas que serão feitas durante o projeto. Caso surja a necessidade de incorporar novas atividades ao projeto, estas devem ser adicionadas a esta lista.
 
-`A FAZER`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
+`A Fazer`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
 
-`EM ANDAMENTO`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
+`Em Andamento`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
 
-`FASE DE TESTE`: é a lista de tarefas da sprint que estão em fase de testes para finalizar a entrega.
+`Fase de Teste`: é a lista de tarefas da sprint que estão em fase de testes para finalizar a entrega.
 
-`CONCLUÍDO`: é a lista de tarefas da Sprint que já foram concluídas e estão prontas para serem entregues ao usuário.
+`Concluído`: é a lista de tarefas da Sprint que já foram concluídas e estão prontas para serem entregues ao usuário.
 
 No Trello, o quadro Kanban é atualizado após a realização de commits associados a tarefas nas sprints, demonstrado na imagem:
 
