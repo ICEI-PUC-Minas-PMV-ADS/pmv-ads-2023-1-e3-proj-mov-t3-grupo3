@@ -6,7 +6,7 @@ Abaixo, vamos citar e descrever os métodos e ferramentas para planejamento, org
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito estão apresentados na tabela e descrição no ítem Ferramentas ao final da página.
 
 
 ## Controle de Versão
