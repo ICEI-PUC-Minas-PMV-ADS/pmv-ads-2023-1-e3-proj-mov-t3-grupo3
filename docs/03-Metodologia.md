@@ -1,8 +1,6 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 Abaixo, vamos citar e descrever os métodos e ferramentas para planejamento, organização de tarefas, manutenção de código e dos artefatos necessários para a execução do projeto.
 
 
@@ -59,7 +57,7 @@ Utilizamos o Trello para acompanhar andamento do projeto, a execução das taref
 `A FAZER`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
 
 `EM ANDAMENTO`: é a lista dos Backlogs que serão trabalhados na Sprint em curso.
-![Project Backlog](docs/img/TRELLO.PNG)
+
 `FASE DE TESTE`: é a lista de tarefas da sprint que estão em fase de testes para finalizar a entrega.
 
 `CONCLUÍDO`: é a lista de tarefas da Sprint que já foram concluídas e estão prontas para serem entregues ao usuário.
@@ -72,16 +70,22 @@ No Trello, o quadro Kanban é atualizado após a realização de commits associa
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas empregadas no projeto e suas respectivas funções são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+|Função     |Ferramentas          |
+|-----------|---------------------|
+|Ferramenta de repositório e documentação | Github |
+|Editor de código |Visual Studio /  Visual Studio Code|
+|Ferramentas de comunicação | Microsoft Teams, WhatsApp |
+|Ferramentas de diagramação | Figma, Canva|
+|Ferramentas de modelagem de processos | Lucidchart |
+|Ferramentas de gestão de projetos |Trello | 
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+- O `Github` auxilia no versionamento do projeto e contém toda a documentação de forma organizada.
+- O `Visual Studio` e `Visual Studio Code` foram escolhidos por serem leves e gratuitos, personalizável através de extensões.
+- O `Microsoft Teams` foi escolhido por já ser a plataforma padrão de comunicação via vídeo conferência dos alunos da PUC Minas.
+- O `Whatsapp` foi escolhido por ser uma plataforma gratuita que permite a formação de grupo de chat que facilita a troca de mensagens entre os integrantes da equipe
+- O `Figma` e o `Canva` foram usados por serem ferramentas completas, que entregam várias possibilidades de criação de layouts.
+- O `Lucidchart`foi escolhido para o desenvolvimento de diagramas pois é uma ferramenta versátil e fácil de se utilizar.
+- O `Trello` foi escolhido por ser uma ferramenta que permite uma visualização lúdica com cores que ajudam a identificar os cartões de forma eficiente.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
