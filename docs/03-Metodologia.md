@@ -43,7 +43,7 @@ A equipe está organizada da seguinte maneira:
 - Equipe de Design: Bruno César Feza Rodrigues e Samara Martins Oliveira.
 
 ### Processo
-A metodologia adotada para o desenvolvimento do projeto será o Scrum e cada ciclo de atividade será planejado através de sprint. O Scrum é um dos métodos ágeis mais populares, ideal para projetos que tenham prazo curto de entrega. Utilizamos o GitHub Projects para acompanhar o andamento do projeto,mexecução das tarefas e o status de desenvolvimento da solução. 
+A metodologia adotada para o desenvolvimento do projeto será o Scrum e cada ciclo de atividade será planejado através de sprint. O Scrum é um dos métodos ágeis mais populares, ideal para projetos que tenham prazo curto de entrega. Utilizamos o Trello para acompanhar o andamento do projeto, execução das tarefas e o status de desenvolvimento da solução. 
 Foram consideradas as seguintes listas:
 
 Utilizamos o Trello para acompanhar andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. Foram consideradas as seguintes listas:
