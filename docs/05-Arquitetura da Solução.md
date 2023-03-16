@@ -92,15 +92,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
-## Modelo Físico
-
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
-
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> - Linguagem de programação: JavaScript
+> - Framework: React Native
+> - Bibliotecas: Axios (para fazer requisições HTTP) e React Navigation (para navegação entre telas) 
+> - Banco de dados: Json server
+> - Ferramentas: Node.js (para executar o Json server), Expo (para facilitar o desenvolvimento e testes do aplicativo), VS Code (como IDE), Android Studio e Xcode (emuladores de Android e IOS) e Git (para controle de versão)
 
 ## Hospedagem
 
