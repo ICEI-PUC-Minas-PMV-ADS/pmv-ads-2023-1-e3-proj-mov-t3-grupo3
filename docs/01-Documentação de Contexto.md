@@ -1,6 +1,6 @@
 # Introdução
 
-O cardápio físico foi por muito tempo a melhor opção de comunicação entre os restaurantes e seus clientes, sendo, inclusive, uma primeira impressão dada aos usuários pelos estabelecimentos. Um cardápio mal cuidado ou mal diagramado, pode transmitir a péssimas sensações ao freguês, podendo impactar nas vendas.  
+O cardápio físico foi por muito tempo a melhor opção de comunicação entre os restaurantes e seus clientes, sendo, inclusive, uma primeira impressão dada aos usuários pelos estabelecimentos. Um cardápio mal cuidado ou mal diagramado, pode transmitir péssimas sensações ao freguês, podendo impactar nas vendas.  
 
 O avanço tecnológico e um maior apelo por sustentabilidade, tornou os cardápios físicos obsoletos e deu espaço para os digitais, trazendo consigo inúmeras vantagens até então impossíveis pelos reais, sendo a principal delas e mais bem quista pelos estabelecimentos: a economia. Mas engana-se quem pensa que esses benefícios se restringem apenas a valores monetários; a praticidade, disponibilidade e facilidade de atualização são alguns dos diversos ganhos por parte dos cardápios digitais.  
 
@@ -24,7 +24,7 @@ Temos como objetivo a criação de uma aplicação mobile que possibilite aos es
 
 A criação de um app de visualização de cardápio pode ser útil em diversas situações. Um exemplo é em restaurantes e bares que já possuem um sistema de atendimento preferencial eficiente, mas desejam oferecer aos clientes a possibilidade de visualizar o cardápio antes mesmo de chegar ao estabelecimento. 
 
-Com o app, o cliente pode navegar pelo cardápio com calma, ler as descrições dos pratos e bebidas e decidir o que vai pedir com antecedência e sem a “pressão” de deixar o garçom esperando. Isso pode agilizar o atendimento no momento em que chegar no local, já que p cliente já terá uma ideia do que deseja consumir. 
+Com o app, o cliente pode navegar pelo cardápio com calma, ler as descrições dos pratos e bebidas e decidir o que vai pedir com antecedência e sem a “pressão” de deixar o garçom esperando. Isso pode agilizar o atendimento no momento em que chegar no local, já que o cliente já terá uma ideia do que deseja consumir. 
 
 Além disso, o app de visualização de cardápio pode ser uma forma de divulgação do estabelecimento, já que os usuários podem compartilhar as informações com amigos e familiares. Dessa forma, o app pode atrair novos clientes para o negócio. 
 

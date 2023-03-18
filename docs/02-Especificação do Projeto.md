@@ -7,11 +7,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-matheus-marinho.png" alt="persona1"></td>
+            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-matheus-marinho.png"
+"></td>
             <td colspan="2"><strong>Matheus Marinho</strong></td>
         </tr>
         <tr>
-            <td><strong>Idade:</strong>21<br><strong>Ocupação:</strong>Estudante Universitario</td>
+            <td><strong>Idade:</strong>21<br><strong>Ocupação:</strong>Estudante Universitário</td>
             <td>
                 <strong>Aplicativos</strong>
                 <ul>
@@ -108,7 +109,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
                 <strong>Motivações</strong>
                 <ul>
                     <li>Facilidade em achar pratos ou bebidas de seu gosto mais rapidamente com filtros</li>
-                    <li>Compartilhar cardápio em um grupo de amigos ou família para escolher de forma mais rápida o que vão pedir</li>
+                    <li>Compartilhar cardápio em um grupo de amigos ou família para escolher de forma mais rápida o que pedir</li>
                 </ul>
             </td>
             <td>
@@ -179,62 +180,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Matheus Marinho   | Ter conhecimento prévio do cardápio sem precisar se deslocar ao estabelecimento. | Não tomar decisões por impulso.  |
 |Luiz Felipe Almeida       | Analisar cada item com mais calma.  | Diminuir as chances de erro nos pedidos.  |
 |Samantha Boaventura | Ter mais facilidade em encontrar pratos e bebidas de seu interesse. | Para compartilhar e se encontrar com seus amigos. |
-|Antônio Eduardo | Encontrar cardápios em outros idiomas. | Se encontrar com gestores e fazer network. |
-
-## Modelagem do Processo de Negócio 
-
-### Análise da Situação Atual
-
-Atualmente em alguns bares, restaurantes, pizzarias etc. temos problemas com disponibilidade de cardapio, seja devido a demora de atendimento pelo garçom, ou por falta mesmo do cardapio em si. Além desse problema com a disponibilidade, ainda existe o problema com a manutenção, como o ajuste de valores, recuperação de danos, inclusão/exclusão de algum item etc. Como forma de melhoria para esse processo o cardapio digital solucionaria grande parte desses problemas, já seria necessário apenas que o cliente baixe o app do estabelecimento e veja todos o cardapio, e o responsável por isso no estabelecimento faça o mesmo, porém com a função de adicionar itens ao cardapio. 
-
-### Descrição Geral da Proposta
-
-A proposta desenvolvida no projeto, trata-se de um app de cardapio em que os usuários possam apenas visualizar os itens, bem como seus valores, imagens, descrições etc., adicionados pelo responsável pela tarefa no estabelecimento. O projeto ficara limitado a isso devido a nível de conhecimento da equipe não ser elevado e o tempo para a capacitação e desenvolvimento não ser o suficiente. Opções de melhorias para o projeto, seria adicionar uma forma do usuário fazer um pedido baseado no número de sua mesa, ou algo do tipo, sendo assim o usuário master iria receber esse pedido e seria criado uma “comanda” digital.
-
-### Processo 1 – Login do usuário master
-
-Abrange o RF-001. 
-
-![Processo 1](img/modelagem-1.png)
-
-### Processo 2 – CRUD do cardapio
-
-Abrange os RF-001 e RF-002.
-
-![Processo 2](img/modelagem-2.png)
-
-### Processo 3 – Visualização do cardapio
-
-Abrange os RF-002, RF-003 e RF-004.
-
-![Processo 3](img/modelagem-3.png)
-
-### Processo 4 – Avaliação do item do cardapio
-
-Abrange os RF-003, RF-004 e RF-006.
-
-![Processo 4](img/modelagem-4.png)
-
-### Processo 5 – Enviar sugestões
-
-Abrange o RF-007.
-
-![Processo 5](img/modelagem-5.png)
-
-### Processo 6 – Visualizar sugestões
-
-Abrange os RF-007 e RF-008.
-
-![Processo 6](img/modelagem-6.png)
-
-## Indicadores de Desempenho
-
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+|Antônio Eduardo | Adicionar itens ao cardápio. | Para que os clientes possam consultá-lo |
 
 ## Requisitos
 
@@ -251,7 +197,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. | Alta |
 |RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. | Média |
 |RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. | Baixa |
-|RF-008| O aplicativo deve permitir que o usuário master visualize as sujestões anonimas enviadas peloas usuarios. | Baixa |
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. | Baixa |
 
 ### Requisitos não Funcionais
 
@@ -276,45 +222,73 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Diagrama de Casos de Uso
+Tendo os atores das ações definidos como usuário cliente e usuário admin, nosso diagrama de caso de uso define as sequências das ações executadas pelos atores e as relações entre essa ações e quais os valores gerados por elas. Nosso diagrama está representado na figura abaixo: 
 
 ![Diagrama de caso de uso UML](img/diagrama_de_caso_de_uso.png)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+A matriz de rastreabilidade apresenta a relação entre os requisitos funcionais, caracterizando uma rastreabilidade horizontal.
 
 
-# Gerenciamento de Projeto
+![Matriz de rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/0bf3fcb113e363992fad7c45ffeef5e7d667eda5/docs/img/MATRIZ%20DE%20RASTREABILIDADE.PNG?raw=true)
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+
+## Gerenciamento da Equipe
+A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o ***planejamento e gereciamento do projeto***. Esta é uma metodologia efetiva, simples e flexível para **pequenas equipes**, permitindo que o projeto sofra incrementos a cada Sprint.
+
+
+### Divisão de Papéis
+
+- **Product Owner:** Profº Mateus Cursino de Lima
+- **Scrum Master:** Felipe Jorge Buzelin
+
+**Equipe de Desenvolvimento:**
+- Anderson Marques Rosa
+- Matheus Estevam Nunes Cordeiro
+- Samara Martins Oliveira
+               
+**Equipe de Design:**
+- Bruno Cesar Feza Rodrigues
+
 
 ## Gerenciamento de Tempo
+Nosso projeto é de origem acadêmica, sendo divido em sprints, onde cada etapa de desenvolvimento tem uma data pré-determinada pela Universidade. A primeira etapa deve ser entregue no dia 05 de março de 2023 e a quinta e última no dia 23 de junho de 2023.
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Diagrama de rede simplificado notação francesa (método francês)](img/Cronograma.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
 
-## Gerenciamento de Equipe
+![Gráfico de Gantt](img/Gantt.png)
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+## Gerenciamento de Tarefas
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, estruturado com as seguintes listas:
+
+- **Propriedades das Tarefas:** É a etiqueta das tarefas, ou a prioridade em que serão apresentadas sendo alta cor vermelha, média cor amarela ou baixa cor verde.
+
+- **Backlog:** Lista ordenada de todos os requisitos que se tem conhecimento de que precisam estar no produto. Cada tarefa está associada a um 'milestone', que pressupõe uma entrega final.
+
+- **A Fazer:** Tarefas que estão disponíveis para os desenvolvedores fazer e ninguém assumiu ainda, ou seja está separada para entrega e aguardadndo o desenvolvedor assumir a resposabilidade por ela;
+
+- **Em Andamento:** Quando uma tarefa do Sprint Backlog tiver sido iniciada, ela é movida para cá;
+
+- **Teste:** Aqui são movidos as tarefas prontas para teste.
+
+- **Concluído:** todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
+
+- **Lembrete:** uma aba com as datas das próximas entregas e a referência delas. 
+
+O quadro KANBAN do grupo no Trello está disponível através da URL: https://trello.com/b/phegKomU/quadro-kanban-aplicativo-de-card%C3%A1pio-digital e é apresentado, no estado atual, na figura abaixo:
+
+![quadro kanban](https://user-images.githubusercontent.com/103212087/222927392-49650936-63b1-4f05-9011-ee73c05746c2.png)
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Por se tratar de um projeto acadêmico a gestão do orçamento será fictícia com intuíto de apenas simular um orçamento real, nos permitindo figurar valores que se adequem a realidade do nosso projeto. O orçamento está descrito na imagem abaixo: 
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento Projeto](https://user-images.githubusercontent.com/103212087/222928688-e1b1a6a6-230d-438b-a74b-bf5c21738316.png)
+
+
