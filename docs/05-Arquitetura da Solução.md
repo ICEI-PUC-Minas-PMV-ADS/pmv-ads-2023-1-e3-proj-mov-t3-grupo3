@@ -75,11 +75,9 @@ O diagrama abaixo ilustra a relação entre classes e suas funcionalidades dentr
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O diagrama abaixo apresenta como as entidades se relacionam entre si na aplicação.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![Diagrama ER](img/diagramaER.png)
 
 ## Esquema Relacional
 
