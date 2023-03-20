@@ -77,7 +77,7 @@ O diagrama abaixo ilustra a relação entre classes e suas funcionalidades dentr
 
 O diagrama abaixo apresenta como as entidades se relacionam entre si na aplicação.
 
-![Diagrama ER](img/diagramaER.png)
+![Diagrama ER](img/diagramaer.png)
 
 ## Esquema Relacional
 
