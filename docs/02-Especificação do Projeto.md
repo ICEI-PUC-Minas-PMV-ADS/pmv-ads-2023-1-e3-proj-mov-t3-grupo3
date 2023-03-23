@@ -7,7 +7,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-matheus-marinho.png"
+            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/persona-matheus-marinho.png?raw=true"
 "></td>
             <td colspan="2"><strong>Matheus Marinho</strong></td>
         </tr>
@@ -50,7 +50,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-luiz-felipe-almeida.png" alt="persona1"></td>
+            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/persona-luiz-felipe-almeida.png" alt="persona2"></td>
             <td colspan="2"><strong>Luiz Felipe Almeida</strong></td>
         </tr>
         <tr>
@@ -90,7 +90,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-samnhtha-boaventura.png" alt="persona1"></td>
+            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/persona-samnhtha-boaventura.png" alt="persona3"></td>
             <td colspan="2"><strong>Samanhtha Boaventura</strong></td>
         </tr>
         <tr>
@@ -132,7 +132,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
    <table>
         <tr>
-            <td rowspan="2"><img src="https://raw.githubusercontent.com/matheusenc/kibe-surdo/main/docs/img/persona-antonio-eduardo.png" alt="persona1"></td>
+            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/03-Metodologia.md" alt="persona4"></td>
             <td colspan="2"><strong>Antônio Eduardo</strong></td>
         </tr>
         <tr>
