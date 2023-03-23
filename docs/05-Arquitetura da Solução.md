@@ -106,15 +106,13 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+A aplicação da qualidade de software é fundamental para garantir que o produto final atenda às necessidades dos usuários e seja entregue dentro do prazo e orçamento previstos. Além disso, a qualidade de software contribui para a manutenção e evolução do produto, gerando valor para o negócio. Segue baixo uma tabela contendo as principais características e subcaracterísticas de qualidade definidas pela norma ISO/IEC 25010 aplicadas a nosso projeto:
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
-
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
-
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+| Característica | Subcaracterísticas  | Justificativa |
+|------|-----------------------------------------|----|
+|Funcionalidade| Adequação, Acurácia, Interoperabilidade | É importante que o aplicativo atenda às necessidades do usuário admin, permitindo a criação, edição e remoção de itens do cardápio de forma adequada e precisa. Além disso, a interoperabilidade é importante para garantir que o aplicativo possa ser executado em diferentes plataformas de dispositivos móveis. | 
+|Confiabilidade| Tolerância a falhas, Recuperabilidade | É importante que o aplicativo tenha alta disponibilidade e tolerância a falhas, garantindo que o usuário admin possa acessar o cardápio e fazer alterações a qualquer momento. Além disso, a recuperação de falhas é importante para garantir que os dados do cardápio sejam mantidos e recuperados em caso de falhas do sistema. | 
+|Usabilidade| Facilidade de uso, Estética e design, Acessibilidade | É importante que o aplicativo seja fácil de usar e apresente um design atraente e intuitivo, garantindo que o usuário admin possa criar e gerenciar o cardápio com facilidade. Além disso, a acessibilidade é importante para garantir que o aplicativo possa ser utilizado por usuários com diferentes níveis de habilidade e necessidades especiais. |
+|Eficiência de desempenho| Tempo de resposta, Consumo de recursos | É importante que o aplicativo seja rápido e responsivo durante a criação, edição e remoção de itens do cardápio, bem como na visualização do cardápio criado e sugestões dos clientes. Além disso, é importante que o aplicativo utilize recursos de hardware e software de forma otimizada, garantindo uma boa experiência de uso e evitando problemas de performance. |
+|Manutenibilidade| Modularidade, Reusabilidade | É importante que o aplicativo seja fácil de manter e evoluir, permitindo que novas funcionalidades possam ser adicionadas no futuro. A modularidade e reusabilidade do código são importantes para garantir que o aplicativo possa ser facilmente mantido e atualizado sem afetar outras partes do sistema. |
+|Portabilidade| Adaptabilidade, Instalabilidade | É importante que o aplicativo possa ser facilmente instalado em diferentes dispositivos móveis e plataformas. A adaptabilidade é importante para garantir que o aplicativo possa se adaptar a diferentes tamanhos de tela e resoluções. Além disso, a instalabilidade é importante para garantir que o aplicativo possa ser instalado sem problemas em diferentes dispositivos móveis. |
