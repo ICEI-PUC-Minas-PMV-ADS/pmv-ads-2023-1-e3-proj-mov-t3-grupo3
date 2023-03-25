@@ -65,7 +65,7 @@ Abrange os RF-007 e RF-008.
 
 Indicadores de desempenho iniciais contemplando as funcionalidades previstas para serem desenvolvidas.
 
-![Indicadores de Desempenho](img/indic-desempenho02.png)
+![Indicadores de Desempenho](img/indic-desempenho03.png)
 
 ## Diagrama de Classes
 
