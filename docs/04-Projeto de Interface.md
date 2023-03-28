@@ -23,3 +23,25 @@ Nossos wireframes estão dividos entre visão do usuário e visão do admin, ond
 ## Home Page - Cliente:
 ![Home Page - Cliente](https://user-images.githubusercontent.com/103212087/228382145-43ef2971-f231-461d-9cbf-38b28f6662f3.png)
 
+
+## Detalhe do Produto - Cliente:
+![Detalhe do Produto - Cliente](https://user-images.githubusercontent.com/103212087/228382364-5d42cdce-0ba3-4124-aaf8-5291cead62b9.png)
+
+
+## Sobre o Restaurante - Cliente:
+![Sobre o Restaurante - Cliente](https://user-images.githubusercontent.com/103212087/228382488-689ee6a3-63fc-4738-b53b-8389d4c0ee22.png)
+
+
+## Home Page - Admin:
+![Home Page - Admin](https://user-images.githubusercontent.com/103212087/228382643-9a821100-3050-4f99-9e2c-bd9925648187.png)
+
+
+## Detalhe do Produto - Admin:
+![Detalhe do Produto - Admin](https://user-images.githubusercontent.com/103212087/228382778-1fcb6b25-b930-4c53-a7d3-339c0513342b.png)
+
+
+## Sobre o Restaurante - Admin:
+![Sobre o Restaurante - Admin](https://user-images.githubusercontent.com/103212087/228382984-7fd2cb84-702f-4ec8-a732-5c5ce28715b0.png)
+
+
+
