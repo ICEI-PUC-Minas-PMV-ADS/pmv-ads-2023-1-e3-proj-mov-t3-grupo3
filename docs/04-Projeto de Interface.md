@@ -18,7 +18,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-Nossos wireframes estão dividos entre visão do usuário e visão do admin, onde o admin é responsável por todas as edições de texto, imagens e a opção de esconder e/ou mostrar algumas funcionalidades ao usuário. 
+Os wireframes foram desenvolvidos na plataforma Figma estão disponíveis através do link https://www.figma.com/file/CUb3hHs0jkGPS8S2bMv27x/Untitled?node-id=0%3A1&t=lT9tjW1LUO4HBNOm-1. As telas estão dividas entre visão do usuário e visão do admin, onde o admin é responsável por todas as edições de texto, imagens e a opção de esconder e/ou mostrar algumas funcionalidades do usuário. 
 
 ## Home Page - Cliente:
 ![Home Page - Cliente](https://user-images.githubusercontent.com/103212087/228383719-399088f4-4088-494e-9460-52a3ba6e83ce.png)
