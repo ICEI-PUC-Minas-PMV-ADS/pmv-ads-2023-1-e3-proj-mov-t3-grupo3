@@ -25,23 +25,24 @@ Nossos wireframes estão dividos entre visão do usuário e visão do admin, ond
 
 
 ## Detalhe do Produto - Cliente:
-![Detalhe do Produto - Cliente](https://user-images.githubusercontent.com/103212087/228382364-5d42cdce-0ba3-4124-aaf8-5291cead62b9.png)
+![Detalhe do Produto - Cliente](https://user-images.githubusercontent.com/103212087/228383856-a821eca9-3a95-4a16-a889-0313cd14003a.png)
 
 
 ## Sobre o Restaurante - Cliente:
-![Sobre o Restaurante - Cliente](https://user-images.githubusercontent.com/103212087/228382488-689ee6a3-63fc-4738-b53b-8389d4c0ee22.png)
+![Sobre o Restaurante - Cliente](https://user-images.githubusercontent.com/103212087/228383920-7c1d4ca2-55c2-4f90-a21a-5fc0340d4065.png)
 
 
 ## Home Page - Admin:
-![Home Page - Admin](https://user-images.githubusercontent.com/103212087/228382643-9a821100-3050-4f99-9e2c-bd9925648187.png)
+![Home Page - Admin](https://user-images.githubusercontent.com/103212087/228383958-18fad988-4682-46d1-82e1-6ae288e99178.png)
 
 
 ## Detalhe do Produto - Admin:
-![Detalhe do Produto - Admin](https://user-images.githubusercontent.com/103212087/228382778-1fcb6b25-b930-4c53-a7d3-339c0513342b.png)
+![Detalhe do Produto - Admin](https://user-images.githubusercontent.com/103212087/228384172-0d9ab402-c96b-46b3-afe1-60d873616d08.png)
 
 
 ## Sobre o Restaurante - Admin:
-![Sobre o Restaurante - Admin](https://user-images.githubusercontent.com/103212087/228382984-7fd2cb84-702f-4ec8-a732-5c5ce28715b0.png)
+![Sobre o Restaurante - Admin](https://user-images.githubusercontent.com/103212087/228384230-6fbf1125-dffd-492f-bc3c-9415e7723d56.png)
+
 
 
 
