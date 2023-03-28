@@ -1,11 +1,7 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+As telas foram criadas com intuito de facilitar a navegação do cliente e do admin, tornando o caminho intuitivo de modo a contribuir para uma melhor experiência de ambos. Foram utilizados vieses cognitivos de design para melhorar a experiência do usuário enquanto interage com o aplicativo e do admin visando um melhor desempenho em suas vendas. Todos os requisitos foram utilizados e aplicados no projeto da interface a fim de desenvolvermos a melhor solução possível. 
 
 ## Diagrama de Fluxo
 
