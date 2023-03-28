@@ -21,7 +21,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 Nossos wireframes estão dividos entre visão do usuário e visão do admin, onde o admin é responsável por todas as edições de texto, imagens e a opção de esconder e/ou mostrar algumas funcionalidades ao usuário. 
 
 ## Home Page - Cliente:
-![Home Page - Cliente](https://user-images.githubusercontent.com/103212087/228382145-43ef2971-f231-461d-9cbf-38b28f6662f3.png)
+![Home Page - Cliente](https://user-images.githubusercontent.com/103212087/228383719-399088f4-4088-494e-9460-52a3ba6e83ce.png)
 
 
 ## Detalhe do Produto - Cliente:
