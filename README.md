@@ -6,7 +6,12 @@
 
 `3º Semestre`
 
-O projeto que sera desenvolvido nesse semestre será uma aplicação mobile, que tem como objetivo principal a disponibilização de um “cardapio virtual” para um estabelecimento. Nesse app, o responsável pelo cardapio irá “alimentá-lo” adicionando itens. Já o cliente poderá fazer apenas a visualização desse cardápio, aplicando filtros de pesquisa etc. 
+##  ***Cardappio***
+
+## Logo da Aplicação
+![Cardappio Logo](https://user-images.githubusercontent.com/103212087/228968282-5e453fd6-90fb-4ddc-b89a-9b2d78b06e83.png)
+
+O projeto a ser desenvolvido neste semestre é uma aplicação mobile, que tem como objetivo principal a disponibilização de um “cardápio virtual” para um estabelecimento. Nesse app, o responsável pelo cardápio irá “alimentá-lo” adicionando itens. Já o cliente poderá fazer apenas a visualização desse cardápio, aplicando filtros de pesquisa etc e avaliações.  
 
 ## Integrantes
 
