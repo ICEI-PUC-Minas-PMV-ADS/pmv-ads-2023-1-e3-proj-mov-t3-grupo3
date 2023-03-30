@@ -8,8 +8,6 @@ As telas foram criadas com intuito de facilitar a navegação do cliente e do ad
 O diagrama de fluxo apresenta os caminhos e ações que os usuários cliente e admin são capaz de executar na nossa aplicação, onde suas principais tarefas são: avaliação dos pratos e restaurante para o usuário cliente e edição do cardápio pelo usuário admin. As ações estão representadas pelos quadrados pretos, as telas pelos cinzas e os usuários possuem suas respectivas cores. 
 
 ![Fluxo do Usuário](https://user-images.githubusercontent.com/103212087/228968767-5e80e15a-40a6-4102-b7c9-0b8698b4ac29.png)
-
-
 ## Wireframes
 
 Os wireframes foram desenvolvidos na plataforma Figma estão disponíveis através do link https://www.figma.com/file/CUb3hHs0jkGPS8S2bMv27x/Untitled?node-id=0%3A1&t=lT9tjW1LUO4HBNOm-1. As telas estão dividas entre visão do usuário e visão do admin, onde o admin é responsável por todas as edições de texto, imagens e a opção de esconder e/ou mostrar algumas funcionalidades do usuário. 
