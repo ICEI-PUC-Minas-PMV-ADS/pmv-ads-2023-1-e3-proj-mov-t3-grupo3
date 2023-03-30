@@ -5,7 +5,7 @@ As telas foram criadas com intuito de facilitar a navegação do cliente e do ad
 
 ## Diagrama de Fluxo
 
-O diagrama de fluxo apresenta os caminhos e ações que os usuários cliente e admin são capaz de executar na nossa aplicação, onde suas principais tarefas são: avaliação dos pratos e restaurante para o usuário cliente e edição do cardápio pelo usuário admin. 
+O diagrama de fluxo apresenta os caminhos e ações que os usuários cliente e admin são capaz de executar na nossa aplicação, onde suas principais tarefas são: avaliação dos pratos e restaurante para o usuário cliente e edição do cardápio pelo usuário admin. As ações estão representadas pelos quadrados pretos, as telas pelos cinzas e os usuários possuem suas respectivas cores. 
 
 ![Fluxo do Usuário](https://user-images.githubusercontent.com/103212087/228968767-5e80e15a-40a6-4102-b7c9-0b8698b4ac29.png)
 
