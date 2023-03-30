@@ -5,16 +5,10 @@ As telas foram criadas com intuito de facilitar a navegação do cliente e do ad
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O diagrama de fluxo apresenta os caminhos e ações que os usuários cliente e admin são capaz de executar na nossa aplicação, onde suas principais tarefas são: avaliação dos pratos e restaurante para o usuário cliente e edição do cardápio pelo usuário admin. 
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+![Fluxo do Usuário](https://user-images.githubusercontent.com/103212087/228968767-5e80e15a-40a6-4102-b7c9-0b8698b4ac29.png)
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
