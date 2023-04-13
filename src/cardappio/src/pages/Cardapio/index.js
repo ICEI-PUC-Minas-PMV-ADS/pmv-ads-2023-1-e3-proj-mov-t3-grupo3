@@ -1,26 +1,18 @@
 import { useNavigation } from "@react-navigation/native";
-import React, { useEffect, useState } from "react";
-import { FlatList, Text, View, StyleSheet } from "react-native";
-import { urlApi } from "../../services/urlApi";
+import React from "react";
+import { FlatList, View, StyleSheet } from "react-native";
 import ItemCardapio from "./components/ItemCardapio";
 import Topo from "./components/Topo";
+import Rodape from "./components/Rodape";
+import {useItens} from "../../common/context/useItens"
 
 export default function Cardapio() {
-  const [itens, setItens] = useState([]);
-
+  const [listaItens] = useItens()
   const navigation = useNavigation();
-
-  useEffect(() => {
-    fetch(urlApi)
-      .then((response) => response.json())
-      .then((data) => setItens(data.itens_do_cardapio))
-      .catch((error) => console.error(error));
-  }, []);
-
   return (
     <View style={styles.page}>
       <FlatList
-        data={itens}
+        data={listaItens}
         keyExtractor={({ id }) => id}
         renderItem={({ item }) => (
           <ItemCardapio
@@ -31,6 +23,7 @@ export default function Cardapio() {
           />
         )}
         ListHeaderComponent={Topo}
+        ListFooterComponent={Rodape}
       />
     </View>
   );

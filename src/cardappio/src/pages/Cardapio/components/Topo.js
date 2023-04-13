@@ -8,12 +8,18 @@ import {
   TouchableOpacity,
 } from "react-native";
 import Logo from "../../../../assets/cardappio-logo.png";
-import Icon from "@expo/vector-icons/FontAwesome";
+import Icon from "@expo/vector-icons/FontAwesome5";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Topo() {
+  const navigation = useNavigation()
   return (
     <>
-      <TouchableOpacity style={styles.topo}>
+      <TouchableOpacity style={styles.topo} onPress={
+        () => {
+          navigation.navigate("Sobre")
+        } 
+      }>
         <Image style={styles.imagem} source={Logo} />
         <View style={styles.textoTopo}>
           <Text style={styles.tituloTopo}>Cardappio</Text>

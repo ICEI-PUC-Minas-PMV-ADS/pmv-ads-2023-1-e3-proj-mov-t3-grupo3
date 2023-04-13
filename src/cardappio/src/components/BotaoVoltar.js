@@ -5,19 +5,24 @@ import { Text, TouchableOpacity, View, StyleSheet } from 'react-native'
 export default function BotaoVoltar() {
   const navigation = useNavigation()
     return (
-    <View>
-        <TouchableOpacity style={style.botao} onPress={
+    <View style={styles.container}>
+        <TouchableOpacity style={styles.botao} onPress={
             () =>{
                 navigation.goBack()
             }
         }>
-            <Text style={style.textoBotao}>Voltar ao Cardápio</Text>
+            <Text style={styles.textoBotao}>Voltar ao Cardápio</Text>
         </TouchableOpacity>
     </View>
     )
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
+    container:{
+        alignItems: "center",
+        marginTop: 20,
+        marginBottom: 15,
+    },
     botao:{
         backgroundColor: "#EF4F51",
         paddingHorizontal: 86,
