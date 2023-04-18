@@ -2,7 +2,7 @@ import React from 'react'
 import { Image, Text, View, StyleSheet } from 'react-native'
 import {  useRoute } from '@react-navigation/native'
 import CardInfo from './components/CardInfo'
-import BotaoVoltar from '../../components/BotaoVoltar'
+import BotaoVoltarCardapio from '../../components/BotaoVoltarCardapio'
 
 export default function Item() {
   const route = useRoute()
@@ -13,7 +13,7 @@ export default function Item() {
       <Text style={styles.titulo}>Detalhe do produto</Text>
       <Image style={styles.imagem} source={{ uri: item.url_img }}/>
       <CardInfo {...item}/>
-      <BotaoVoltar/>
+      <BotaoVoltarCardapio/>
     </View>
   )
 }

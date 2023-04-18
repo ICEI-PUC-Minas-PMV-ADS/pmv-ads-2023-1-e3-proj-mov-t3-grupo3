@@ -1,51 +1,71 @@
-import React from "react";
-import { View, StyleSheet, Text, Image, TouchableOpacity, ScrollView } from "react-native";
-import textos from "./mock/textos.mock.js";
+import React, { useState } from "react";
+import {
+  View,
+  StyleSheet,
+  Text,
+  Image,
+  TouchableOpacity,
+  ScrollView,
+} from "react-native";
 import CardSobre from "./components/CardSobre";
-import BotaoVoltar from "../../components/BotaoVoltar"
-import Logo from "../../../assets/cardappio-logo.png"
-import Icon  from "@expo/vector-icons/MaterialIcons";
+import BotaoVoltarCardapio from "../../components/BotaoVoltarCardapio";
+import Logo from "../../../assets/cardappio-logo.png";
+import Icon from "@expo/vector-icons/MaterialIcons";
+import BotaoAdd from "../../components/BotaoAdd";
+import { useTextoInfo } from "../../common/context/useTextoInfo.js";
+import AddEditInfo from "./components/AddEditInfo";
 
 export default function Sobre() {
-    return (
+  const { textosInfo } = useTextoInfo();
+  const [ativaNovaInfo, setAtivaNovaInfo] = useState(false);
+
+  const textos = textosInfo;
+  
+  function onPressButtonAdd() {
+    setAtivaNovaInfo(!ativaNovaInfo);
+  }
+
+  
+  return (
     <ScrollView style={styles.page}>
-    
       <View style={styles.header}>
         <Text style={styles.aboutText}>Sobre o Restaurante</Text>
         <Image style={styles.cardappioLogoImg} source={Logo} />
         <Text style={styles.nomeText}>Cardappio</Text>
       </View>
-    
+
       <View style={styles.avalicao}>
         <Text style={styles.avaliacaoText}>Avaliação dos Clientes:</Text>
       </View>
-      
+
       {textos.map((texto) => (
-        <CardSobre key={texto.id} {...texto}/>
+          <CardSobre key={texto.id} texto={texto}/>
       ))}
 
-      <BotaoVoltar/>
-      
+      {!ativaNovaInfo && <BotaoAdd onPress={onPressButtonAdd} />}
+      {ativaNovaInfo && <AddEditInfo onPress={onPressButtonAdd}/>}
+
+      <BotaoVoltarCardapio />
+
       <View style={styles.boxAvaliacao}>
         <Text style={styles.tituloBoxAvaliacao}>
           Faça sua avaliação e deixe uma sugestão...
         </Text>
       </View>
-      
+
       <TouchableOpacity style={styles.buttonLogin}>
         <Text style={styles.buttonLoginText}>
           Faça login para editar o cardápio
         </Text>
-        <Icon name="login"/>
+        <Icon name="login" />
       </TouchableOpacity>
-    
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   page: {
-    flex: 1
+    flex: 1,
   },
 
   header: {
@@ -74,7 +94,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     paddingTop: 10,
-    marginBottom: 20
+    marginBottom: 20,
   },
 
   //texto Avaliação dos Clientes
@@ -90,7 +110,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-
 
   //card de avaliação
   boxAvaliacao: {

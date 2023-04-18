@@ -1,0 +1,74 @@
+{
+  "usuario_adm": [
+    {
+      "id": "1",
+      "nome": "Administrador",
+      "login": "cardappadm@cardapp.com",
+      "senha": "123"
+    }
+  ],
+  "textos_sobre": [
+    {
+      "id": "1",
+      "titulo": "Horário de Funcionamento",
+      "descricao": "Lorem Ipsum"
+    },
+    {
+      "id": "2",
+      "titulo": "Endereço",
+      "descricao": "Lorem Ipsum is simply dummy text of the"
+    },
+    {
+      "id": "3",
+      "titulo": "Rede Social",
+      "descricao": "Lorem Ipsum"
+    },
+    {
+      "id": "5d80a97d-3a6b-46d3-9a36-e10c9f771a61",
+      "titulo": "Formas de Pagamento",
+      "descricao": "Pix"
+    }
+  ],
+  "itens_do_cardapio": [
+    {
+      "id": "1",
+      "nome": "X-Bacon",
+      "valor": "28,50",
+      "descricao": "Hambúrguer Angus de 100 gramas da casa, queijo prato, bacon, molho barbecue servido no pão branco artesanal.",
+      "copy": "O bacon mais crocante e saboroso que você pode provar!",
+      "url_img": "https://user-images.githubusercontent.com/68551343/230529771-85cbde9f-138c-4137-bb74-adef80f9a4ab.jpeg"
+    },
+    {
+      "id": "2",
+      "nome": "Veggie Burger",
+      "valor": "30,90",
+      "descricao": "Hamburguer Vegetal Metafoods, queijo Prato, no pão de Hamburguer",
+      "copy": "Uma opção saudável e saborosa para todos.",
+      "url_img": "https://user-images.githubusercontent.com/68551343/230529767-002c9226-fc59-471a-be24-52c851e90ab5.jpeg"
+    },
+    {
+      "id": "3",
+      "nome": "BBQ Burger",
+      "valor": "40,90",
+      "descricao": "Hambúrguer da casa 160g, queijo cheddar, bacon, onion ring, molho barbecue no pão branco artesanal da casa",
+      "copy": "Perfeito para quem gosta de um sabor intenso e defumado.",
+      "url_img": "https://user-images.githubusercontent.com/68551343/230529763-a93ad62f-af09-4d8c-bda7-4827a42ea791.jpeg"
+    },
+    {
+      "id": "4",
+      "nome": "Double Burger",
+      "valor": "38,90",
+      "descricao": "Um Duplo hamburguer no nosso blend Angus,de 100 gramas, Queijo Prato, Queijo Cheddar, Cebola Roxa, Picles de pepino, maionese verde, no pão de hamburguer Artesanal",
+      "copy": "Ideal para quem deseja uma refeição satisfatória e abundante.",
+      "url_img": "https://user-images.githubusercontent.com/68551343/230529769-867bd5e2-0e64-4d98-a3aa-9cb443b51dea.jpeg"
+    },
+    {
+      "id": "5",
+      "nome": "Cheese Burger",
+      "valor": "23,50",
+      "descricao": "Hambúrguer Angus da casa 100 gramas, queijo prato no pão branco artesanal da casa - Turbine com peperone strips, vinagrete, queijo cheddar, alface, tomate, cebola roxa, cebola crispy",
+      "copy": "Uma opção clássica e simples, mas sempre deliciosa.",
+      "url_img": "https://user-images.githubusercontent.com/68551343/230529772-c024a0c1-bd86-4bbc-95b5-74b46156f87f.jpeg"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState, useContext, createContext } from "react";
-import { urlApi } from "../../services/urlApi";
+import { urlApiItens } from "../../services/urlApi";
+import axios from 'axios';
 
 export const ItemContext = createContext();
 
@@ -14,15 +15,14 @@ export const ItemProvider = ({children}) => {
 
 export const useItens = () => {
     const {listaItens, setListaItens} = useContext(ItemContext)
-    const url = urlApi
+    const url = urlApiItens
     useEffect(() => {
-        fetch(url)
-        .then((response) => response.json())
-        .then((data) => setListaItens(data.itens_do_cardapio))
+        axios.get(url)
+        .then((response) => setListaItens(response.data))
         .catch((error) => console.error(error))
-    }, [])
+            }, [])
     
-    return [listaItens]
+    return {listaItens}
 }
 
 

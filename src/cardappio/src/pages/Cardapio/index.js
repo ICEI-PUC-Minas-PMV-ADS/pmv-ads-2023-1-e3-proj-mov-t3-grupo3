@@ -1,13 +1,13 @@
 import { useNavigation } from "@react-navigation/native";
-import React from "react";
+import {React, useContext} from "react";
 import { FlatList, View, StyleSheet } from "react-native";
 import ItemCardapio from "./components/ItemCardapio";
 import Topo from "./components/Topo";
-import Rodape from "./components/Rodape";
+import BotaoAdd from "../../components/BotaoAdd"
 import {useItens} from "../../common/context/useItens"
 
 export default function Cardapio() {
-  const [listaItens] = useItens()
+  const { listaItens }  = useItens()
   const navigation = useNavigation();
   return (
     <View style={styles.page}>
@@ -23,7 +23,7 @@ export default function Cardapio() {
           />
         )}
         ListHeaderComponent={Topo}
-        ListFooterComponent={Rodape}
+        ListFooterComponent={BotaoAdd}
       />
     </View>
   );
