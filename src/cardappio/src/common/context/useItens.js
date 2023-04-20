@@ -18,6 +18,7 @@ export const useItens = () => {
     const {listaItens, setListaItens} = useContext(ItemContext)
     const isFocused = useIsFocused();
 
+    //Faz uma requisição na API e pega todos os itens cadastrados e insere na variavel listaItens através do setListaItens
     useEffect(() => {
         try {
           API.get(`${BASE_URL}/itens_do_cardapio`)

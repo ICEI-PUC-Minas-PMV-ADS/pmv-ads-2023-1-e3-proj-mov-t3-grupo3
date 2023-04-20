@@ -7,8 +7,10 @@ import { useUser } from "../../common/context/useUser";
 import BotaoVoltar from "../../components/BotaoVoltar";
 
 export default function Login () {
+    //estado dos input
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('')
+    //função de login do contexto useUser
     const {login} = useUser()
 
     return (
@@ -19,7 +21,7 @@ export default function Login () {
                 <Image style={styles.cardappioLogoImg} source={Logo}/>
             </View>
 
-            {/* Campos para digitar login e e-mail, senha e botão "Login" */}
+            {/* Campos para digitar login e e-mail, senha e botão "Login", possuem um parametro onChangeText recebendo o set de estado de cada input */}
             <InputArea>
                 <SignInput
                     placeholder="Digite o seu e-mail"
@@ -31,7 +33,7 @@ export default function Login () {
                     password={true}
                     onChangeText={setPassword}                
                 />
-
+                {/* a chamada da fnução login, recebendo como parametro os estados dos input */}
                 <BotaoLogin onPress={()=> login({email, password})}>
                     <BotaoLoginText>Login</BotaoLoginText>
                 </BotaoLogin>

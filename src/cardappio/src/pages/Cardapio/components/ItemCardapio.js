@@ -9,6 +9,7 @@ export default function ItemCardapio({
   aoPressionar,
 }) {
   return (
+    //Cada card em forma de "botao" com redirecionamento para sua pagina, "acionando" a função que foi passada como parametro na chamada do componente
     <TouchableOpacity style={styles.card} onPress={aoPressionar}>
       <View style={styles.cardInfo}>
         <Text style={styles.nome}>{nome}</Text>

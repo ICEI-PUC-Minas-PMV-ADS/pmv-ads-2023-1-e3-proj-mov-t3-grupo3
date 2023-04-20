@@ -14,10 +14,12 @@ import { useUser } from "../../../common/context/useUser";
 
 export default function Topo() {
   const navigation = useNavigation()
+  //usuario e estado do login retornado pelo contexto useUser
   const { user, signed } = useUser()
 
   return (
     <>
+    {/* Botao com redirecionamento para a pagina de sobre */}
       <TouchableOpacity style={styles.topo} onPress={
         () => {
           navigation.navigate("Sobre")
@@ -29,6 +31,7 @@ export default function Topo() {
           <Text style={styles.subtituloTopo}>Ver mais</Text>
         </View>
       </TouchableOpacity>
+      {/* Condição dizendo que caso o signed seja true, ele ira mostrar o componente Text, que contem o nome do usuario logado */}
       {signed && <Text>Olá, {user.nome}!</Text>}
       <View style={styles.pesquisa}>
         <TextInput
@@ -39,6 +42,7 @@ export default function Topo() {
           placeholder="Ferramenta de pesquisa"
           placeholderTextColor={"#FEB342"}
         />
+        {/* Botão para realizar pesquisa. Obs: Talvez eu coloque ele junto com o placeholder do TextInput anterior, para que a pesquisa seja feita a cada letra digitada pelo usuario */}
         <TouchableOpacity>
           <Icon
             style={StyleSheet.flatten([

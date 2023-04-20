@@ -7,10 +7,12 @@ import BotaoAdd from "../../components/BotaoAdd"
 import {useItens} from "../../common/context/useItens"
 
 export default function Cardapio() {
+  //array contendo todos os itens retornado pela API no contexto useItens
   const { listaItens }  = useItens()
   const navigation = useNavigation();
   return (
     <View style={styles.page}>
+      {/* percorre todo o array listaItens porem de forma mais otimizado com o flatlist e não com o map, tendo como cabeçalho o componente topo e rodape o componente de botao feito para adicionar itens */}
       <FlatList
         data={listaItens}
         keyExtractor={({ id }) => id}
@@ -18,7 +20,7 @@ export default function Cardapio() {
           <ItemCardapio
             {...item}
             aoPressionar={() => {
-              navigation.navigate("Item", item);
+              navigation.navigate("Item", item); //Talvez eu coloque esse navigate no componente ItemCardapio
             }}
           />
         )}

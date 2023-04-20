@@ -6,33 +6,38 @@ import { useTextoInfo } from "../../../common/context/useTextoInfo";
 import { useUser } from "../../../common/context/useUser";
 
 export default function CardSobre({texto}) {
+  
+  //Estado do formulario de edição
   const [ativaEditar, setAtivaEditar] = useState(false);
+  //Função retornada pelo contexto useTextInfo
   const {removeInfo} = useTextoInfo()
+  //Controle de estado de login retornado pelo contexto useUser
   const {signed} = useUser()
+
+  //Função para alterar o estado do formulario de edição uma informação
   function onPreesButtonEditar(){
     setAtivaEditar(!ativaEditar)
   }
 
-  function onPreesButtonRemove(id){
-    removeInfo(id)
-  }
-
   return (
+    //caso o estado de edução seja false, ele ira mostrar os botões de edição e de exclusão
     <>
       {!ativaEditar && <View style={styles.box}>
           <Text style={styles.tituloBox}>{texto.titulo}</Text>
           <Text style={styles.infoBox}>{texto.descricao}</Text>
+          {/* Os botões de edição e exclusão so iram aparecer caso o estado signed seja true */}
           {signed && <TouchableOpacity onPress={onPreesButtonEditar}>
             <Icon name="edit" />
           </TouchableOpacity>}
           {signed && <TouchableOpacity
             onPress={() => {
-              onPreesButtonRemove(texto.id);
+              removeInfo(texto.id);
             }}
           >
             <Icon name="highlight-remove" />
           </TouchableOpacity>}
         </View>}
+        {/* Caso o estado de Editar seja true, ele ira esconder o "Card" do texto e ira mostrar o campo de edição */}
       {ativaEditar && <AddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
     </>
   );

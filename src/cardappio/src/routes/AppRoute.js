@@ -13,6 +13,7 @@ const Stack = createNativeStackNavigator();
 
 export default function AppRoute() {
   return (
+    //Providers e rotas de navegação em stack
     <UserProvider>
       <ItemProvider>
         <TextoInfoProvider>

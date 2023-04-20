@@ -18,11 +18,15 @@ import { useNavigation } from "@react-navigation/native";
 import { useUser } from "../../common/context/useUser";
 
 export default function Sobre() {
+  //Estado contendo todos os textos retornados pela API no contexto useTextoInfo
   const { textosInfo } = useTextoInfo();
+  //Controle do estado do formulario para adicionar uma nova informação
   const [ativaNovaInfo, setAtivaNovaInfo] = useState(false);
+  //Estado de login e função para realizar logout retornados pelo contexto useUser
   const { signed, logout } = useUser();
   const navigation = useNavigation();
 
+  //Função para alterar o estado do formulario de adicionar uma nova informação
   function onPressButtonAdd() {
     setAtivaNovaInfo(!ativaNovaInfo);
   }
@@ -38,11 +42,13 @@ export default function Sobre() {
       <View style={styles.avalicao}>
         <Text style={styles.avaliacaoText}>Avaliação dos Clientes:</Text>
       </View>
-
+    {/* Faz com que seja seja renderizado um componente CardSobre para cada texto retornado do array TextosInfo */}
       {textosInfo.map((texto) => (
+        //Passado como parametro o texto de cada posição para cada componente renderizado, alem de atribuir uma key, ja que é uma lista
         <CardSobre key={texto.id} texto={texto} />
       ))}
 
+      {/* Caso o estado do formulario seja false, sera mostrado o botão de adicionar e caso seja true, o botão é esondido e é exibido um formulario de inserção de uma nova informação */}
       {!ativaNovaInfo && <BotaoAdd onPress={onPressButtonAdd} />}
       {ativaNovaInfo && <AddEditInfo tituloForm={"Inserir nova informação"} onPress={onPressButtonAdd} />}
 
@@ -53,6 +59,7 @@ export default function Sobre() {
           Faça sua avaliação e deixe uma sugestão...
         </Text>
       </View>
+      {/* Caso o estado signed seja false ele tera a opção de fazer login e caso seja true ele ira mostrar o logout */}
       {!signed ? (
         <TouchableOpacity
           style={styles.buttonLogin}

@@ -19,7 +19,8 @@ export const TextoInfoProvider = ({ children }) => {
 export const useTextoInfo = () => {
   const { textosInfo, setTextoInfos } = useContext(TextoInfoContext);
   const isFocused = useIsFocused();
-
+  
+  //Faz uma requisição na API e pega todos as informações cadastrados e insere na variavel textosInfo através do setTextoInfos
   useEffect(() => {
       try {
         API.get(`${BASE_URL}/textos_sobre`)
@@ -29,6 +30,7 @@ export const useTextoInfo = () => {
       }
   }, [isFocused]);
 
+  //Recebe parametros e atribui a um objeto,assim fazendo uma requisição na API e insere o novo dado no banco e no textosInfo
   const addInfo = async (titulo, descricao) => {
     const novaInfo = {
       id: faker.datatype.uuid(),
@@ -47,6 +49,7 @@ export const useTextoInfo = () => {
     }
   };
 
+  //Recebe parametros e atribui a um objeto,assim fazendo uma requisição na API e insere o novo dado no banco e no textosInfo, substituindo o anterior
   const updateInfo = async (id, titulo, descricao) => {
     const textoAtualizado = {
       id: id,
@@ -67,6 +70,7 @@ export const useTextoInfo = () => {
     }
   };
 
+  //Recebe parametros a id de um objeto, assim fazendo uma requisição na API e remove o objeto do banco e atribui ao textosInfo, o valor anterior com um filtro excluindo o objeto que possui aquele id
   const removeInfo = async (id) => {
     try {
       await API.delete(`${BASE_URL}/664/textos_sobre/${id}`)

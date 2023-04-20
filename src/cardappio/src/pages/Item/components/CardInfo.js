@@ -2,7 +2,9 @@ import React from 'react'
 import { Text, View, StyleSheet } from 'react-native'
 
 export default function CardInfo({nome, valor, descricao }) {
-  return (
+//recebe as props ja do objeto passado no index de maneira descontruida
+
+    return (
     <View style={styles.card}>
         <Text style={styles.nomeDoPrato}>{nome}</Text>
         <Text style={styles.descricao}>{descricao}</Text>

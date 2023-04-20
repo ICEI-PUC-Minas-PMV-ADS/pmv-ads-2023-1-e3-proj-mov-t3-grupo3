@@ -4,9 +4,11 @@ import Icon from "@expo/vector-icons/MaterialIcons";
 import { useUser } from "../common/context/useUser";
 
 export default function BotaoAdd({ onPress }) {
+  //Estado de login passado pelo contexto useUser
   const { signed } = useUser();
 
   return (
+    //Caso o signed seja true, ou seja, caso o usuario esteja logado, ele ira mostrar o botão, que utiliza função passada como paramtro vinda do componente pai
     <>
       {signed && (
         <TouchableOpacity style={styles.container} onPress={onPress}>
