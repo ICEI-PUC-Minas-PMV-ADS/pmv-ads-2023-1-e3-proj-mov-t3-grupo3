@@ -1,0 +1,27 @@
+###Informações
+
+GET http://localhost:3000/textos_sobre
+
+
+###CREATE
+POST  http://localhost:3000/textos_sobre
+content-type: application/json
+
+{
+    "id": "4",
+    "titulo": "Formas de pagamento",
+    "descricao": "Pix"
+}
+
+###UPDATE
+PUT http://localhost:3000/textos_sobre/4
+Content-Type: application/json
+
+{
+    "id": "4",
+    "titulo": "Formas de pagamento",
+    "descricao": "Pix - Cartão - Dinheiro"
+}
+
+###DELETE
+DELETE http://localhost:3000/textos_sobre/4

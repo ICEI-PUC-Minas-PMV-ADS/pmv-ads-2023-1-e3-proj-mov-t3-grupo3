@@ -3,11 +3,12 @@ import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import Icon from "@expo/vector-icons/MaterialIcons";
 import AddEditInfo from "./AddEditInfo";
 import { useTextoInfo } from "../../../common/context/useTextoInfo";
+import { useUser } from "../../../common/context/useUser";
 
 export default function CardSobre({texto}) {
   const [ativaEditar, setAtivaEditar] = useState(false);
   const {removeInfo} = useTextoInfo()
-
+  const {signed} = useUser()
   function onPreesButtonEditar(){
     setAtivaEditar(!ativaEditar)
   }
@@ -21,18 +22,18 @@ export default function CardSobre({texto}) {
       {!ativaEditar && <View style={styles.box}>
           <Text style={styles.tituloBox}>{texto.titulo}</Text>
           <Text style={styles.infoBox}>{texto.descricao}</Text>
-          <TouchableOpacity onPress={onPreesButtonEditar}>
+          {signed && <TouchableOpacity onPress={onPreesButtonEditar}>
             <Icon name="edit" />
-          </TouchableOpacity>
-          <TouchableOpacity
+          </TouchableOpacity>}
+          {signed && <TouchableOpacity
             onPress={() => {
               onPreesButtonRemove(texto.id);
             }}
           >
             <Icon name="highlight-remove" />
-          </TouchableOpacity>
+          </TouchableOpacity>}
         </View>}
-      {ativaEditar && <AddEditInfo onPress={onPreesButtonEditar} texto={texto}/>}
+      {ativaEditar && <AddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
     </>
   );
 }

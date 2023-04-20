@@ -18,7 +18,7 @@
 
 3. No terminal, navegue até a pasta do seu banco de dados (db.json) e execute o comando:
 
-   ```json-server --watch db.json --port 3001```
+   ```npx json-server-auth db.json```
 
    Esse comando irá iniciar o servidor na porta 3001.
 
@@ -26,4 +26,4 @@
 
    ```npx expo start```
 
-Isso deve ser suficiente para configurar um servidor local com JSON Server e Expo/React Native. Basta agora fazer as requisições HTTP para a URL do seu servidor, que por padrão será ``http://localhost:3001``. Caso sua porta seja diferente e queira configurar de outra maneira, lembre de entrar no arquivo urlApi.js, localizado dentro da pasta services, e alterar sua url base ``const baseUrl = "http://localhost:SuaPorta/"``
+Isso deve ser suficiente para configurar um servidor local com JSON Server e Expo/React Native. Basta agora fazer as requisições HTTP para a URL do seu servidor, que por padrão será ``http://localhost:3000``. Caso sua porta seja diferente e queira configurar de outra maneira, lembre de entrar no arquivo urlApi.js, localizado dentro da pasta services, e alterar sua url base ``const BASE_URL = "http://localhost:SuaPorta/"``

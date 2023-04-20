@@ -4,7 +4,7 @@ import InputFormulario from '../../../components/InputFormulario'
 import BotaoSubmit from '../../../components/BotaoSubmit'
 import { useTextoInfo } from "../../../common/context/useTextoInfo"
 
-export default function AddEditInfo({onPress, texto = null}) {
+export default function AddEditInfo({tituloForm, onPress, texto = null}) {
   const [titulo, setTitulo] = useState('');
   const [descricao, setDescricao] = useState('');
   const { addInfo, updateInfo } = useTextoInfo();
@@ -12,7 +12,6 @@ export default function AddEditInfo({onPress, texto = null}) {
   function onPressSalvar(){
     if(texto !=null){
       updateInfo(texto.id, titulo, descricao)
-      console.log(titulo, descricao)
       onPress();
     }else{
       addInfo(titulo, descricao)
@@ -35,7 +34,7 @@ export default function AddEditInfo({onPress, texto = null}) {
 
   return (
     <View>
-      <Text>Adicionar Informação</Text>
+      <Text>{tituloForm}</Text>
       <InputFormulario label="Titulo" value={titulo} onChangeText={setTitulo}/>
       <InputFormulario label="Descrição" value={descricao} onChangeText={setDescricao}/>
       <BotaoSubmit onPress={onPressSalvar}/>

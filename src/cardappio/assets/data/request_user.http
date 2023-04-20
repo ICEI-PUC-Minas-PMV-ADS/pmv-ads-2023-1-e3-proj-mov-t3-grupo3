@@ -1,0 +1,23 @@
+###Informações
+
+GET http://localhost:3000/users
+
+
+###REGISTER
+POST  http://localhost:3000/register
+content-type: application/json
+
+{
+    "nome": "Matheus",
+    "email": "a@a",
+    "password": "1234"
+}
+
+###LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email": "adm@cardappio.com",
+    "password": "1234"
+}

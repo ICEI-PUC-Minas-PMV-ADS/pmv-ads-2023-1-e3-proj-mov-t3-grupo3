@@ -1,6 +1,7 @@
 import { useEffect, useState, useContext, createContext } from "react";
-import { urlApiItens } from "../../services/urlApi";
-import axios from 'axios';
+import { BASE_URL } from "../../services/urlApi";
+import API from "../../services/webapi.services";
+import { useIsFocused } from '@react-navigation/native';
 
 export const ItemContext = createContext();
 
@@ -15,13 +16,17 @@ export const ItemProvider = ({children}) => {
 
 export const useItens = () => {
     const {listaItens, setListaItens} = useContext(ItemContext)
-    const url = urlApiItens
+    const isFocused = useIsFocused();
+
     useEffect(() => {
-        axios.get(url)
-        .then((response) => setListaItens(response.data))
-        .catch((error) => console.error(error))
-            }, [])
-    
+        try {
+          API.get(`${BASE_URL}/itens_do_cardapio`)
+          .then((response) => setListaItens(response.data))
+        } catch (error) {
+          console.error(error);
+        }
+    }, [isFocused]);
+      
     return {listaItens}
 }
 

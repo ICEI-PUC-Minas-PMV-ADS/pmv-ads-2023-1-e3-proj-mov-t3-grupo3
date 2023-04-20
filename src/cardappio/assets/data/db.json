@@ -1,10 +1,16 @@
 {
-  "usuario_adm": [
+  "users": [
     {
-      "id": "1",
-      "nome": "Administrador",
-      "login": "cardappadm@cardapp.com",
-      "senha": "123"
+      "email": "adm@cardappio.com",
+      "password": "$2a$10$Caaj7kV6hxIxLKzHh2irIukAQMbc.IUULRivoEvCw7nYdlRtIMlTa",
+      "nome": "Matheus",
+      "id": 1
+    },
+    {
+      "email": "a@a",
+      "password": "$2a$10$Y3MCo2VqsW1RiNm3iKoYyea4hOpg6SQEfPSZQsJPu51nppoeGti5a",
+      "nome": "Matheus",
+      "id": 2
     }
   ],
   "textos_sobre": [
@@ -22,11 +28,6 @@
       "id": "3",
       "titulo": "Rede Social",
       "descricao": "Lorem Ipsum"
-    },
-    {
-      "id": "5d80a97d-3a6b-46d3-9a36-e10c9f771a61",
-      "titulo": "Formas de Pagamento",
-      "descricao": "Pix"
     }
   ],
   "itens_do_cardapio": [

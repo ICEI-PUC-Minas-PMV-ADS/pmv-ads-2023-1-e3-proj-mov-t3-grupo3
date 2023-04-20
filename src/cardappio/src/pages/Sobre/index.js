@@ -14,18 +14,19 @@ import Icon from "@expo/vector-icons/MaterialIcons";
 import BotaoAdd from "../../components/BotaoAdd";
 import { useTextoInfo } from "../../common/context/useTextoInfo.js";
 import AddEditInfo from "./components/AddEditInfo";
+import { useNavigation } from "@react-navigation/native";
+import { useUser } from "../../common/context/useUser";
 
 export default function Sobre() {
   const { textosInfo } = useTextoInfo();
   const [ativaNovaInfo, setAtivaNovaInfo] = useState(false);
+  const { signed, logout } = useUser();
+  const navigation = useNavigation();
 
-  const textos = textosInfo;
-  
   function onPressButtonAdd() {
     setAtivaNovaInfo(!ativaNovaInfo);
   }
 
-  
   return (
     <ScrollView style={styles.page}>
       <View style={styles.header}>
@@ -38,12 +39,12 @@ export default function Sobre() {
         <Text style={styles.avaliacaoText}>Avaliação dos Clientes:</Text>
       </View>
 
-      {textos.map((texto) => (
-          <CardSobre key={texto.id} texto={texto}/>
+      {textosInfo.map((texto) => (
+        <CardSobre key={texto.id} texto={texto} />
       ))}
 
       {!ativaNovaInfo && <BotaoAdd onPress={onPressButtonAdd} />}
-      {ativaNovaInfo && <AddEditInfo onPress={onPressButtonAdd}/>}
+      {ativaNovaInfo && <AddEditInfo tituloForm={"Inserir nova informação"} onPress={onPressButtonAdd} />}
 
       <BotaoVoltarCardapio />
 
@@ -52,13 +53,29 @@ export default function Sobre() {
           Faça sua avaliação e deixe uma sugestão...
         </Text>
       </View>
-
-      <TouchableOpacity style={styles.buttonLogin}>
-        <Text style={styles.buttonLoginText}>
-          Faça login para editar o cardápio
-        </Text>
-        <Icon name="login" />
-      </TouchableOpacity>
+      {!signed ? (
+        <TouchableOpacity
+          style={styles.buttonLogin}
+          onPress={() => {
+            navigation.navigate("Login");
+          }}
+        >
+          <Text style={styles.buttonLoginText}>
+            Faça login para editar o cardápio
+          </Text>
+          <Icon name="login" />
+        </TouchableOpacity>
+      ) : (
+        <TouchableOpacity
+          style={styles.buttonLogin}
+          onPress={() => {
+            logout();
+          }}
+        >
+          <Text style={styles.buttonLoginText}>Logout</Text>
+          <Icon name="logout" />
+        </TouchableOpacity>
+      )}
     </ScrollView>
   );
 }

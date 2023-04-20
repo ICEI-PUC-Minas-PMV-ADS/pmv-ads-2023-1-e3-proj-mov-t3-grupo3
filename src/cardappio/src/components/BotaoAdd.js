@@ -1,24 +1,28 @@
-import React from 'react'
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native'
-import Icon from "@expo/vector-icons/Ionicons";
+import React from "react";
+import { Text, StyleSheet, TouchableOpacity } from "react-native";
+import Icon from "@expo/vector-icons/MaterialIcons";
+import { useUser } from "../common/context/useUser";
 
+export default function BotaoAdd({ onPress }) {
+  const { signed } = useUser();
 
-export default function BotaoAdd({onPress}) {
   return (
-    <View>
-    <TouchableOpacity style={styles.container} onPress={onPress}>
-            <Icon style={styles.icone} name='add-circle-outline'/>
-            <Text>Adicionar</Text>
+    <>
+      {signed && (
+        <TouchableOpacity style={styles.container} onPress={onPress}>
+          <Icon style={styles.icone} name="add-circle-outline" />
+          <Text>Adicionar</Text>
         </TouchableOpacity>
-    </View>
-  )
+      )}
+    </>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        alignItems: "center"
-    },
-    icone:{
-        fontSize: 22,
-    }
-})
+  container: {
+    alignItems: "center",
+  },
+  icone: {
+    fontSize: 22,
+  },
+});

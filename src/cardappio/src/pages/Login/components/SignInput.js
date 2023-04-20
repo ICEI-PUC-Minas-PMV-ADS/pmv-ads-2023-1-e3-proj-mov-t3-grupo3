@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { TextInput, View } from "react-native";
 
 //estilização do campos para digitar
 const InputArea = styled.View`
@@ -23,13 +24,15 @@ const Input = styled.TextInput`
 
 
 //retorno do prop
-export default ({placeholder, password}) => {
+export default ({placeholder, password, onChangeText}) => {
     return (
         <InputArea>
             <Input
                 placeholder={placeholder}
                 placeholderTextColor="#c3c1c1" 
                 secureTextEntry={password}
+                onChangeText={onChangeText}
+                autoCapitalize="none"
             />
         </InputArea>
     );

@@ -10,9 +10,12 @@ import {
 import Logo from "../../../../assets/cardappio-logo.png";
 import Icon from "@expo/vector-icons/FontAwesome5";
 import { useNavigation } from "@react-navigation/native";
+import { useUser } from "../../../common/context/useUser";
 
 export default function Topo() {
   const navigation = useNavigation()
+  const { user, signed } = useUser()
+
   return (
     <>
       <TouchableOpacity style={styles.topo} onPress={
@@ -26,6 +29,7 @@ export default function Topo() {
           <Text style={styles.subtituloTopo}>Ver mais</Text>
         </View>
       </TouchableOpacity>
+      {signed && <Text>Olá, {user.nome}!</Text>}
       <View style={styles.pesquisa}>
         <TextInput
           style={StyleSheet.flatten([
