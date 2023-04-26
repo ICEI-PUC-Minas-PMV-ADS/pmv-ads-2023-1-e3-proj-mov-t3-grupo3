@@ -21,10 +21,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "cleartext": {
+          "enabled": true
+        }
+      }    
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "proxy": {
+      "https": false,
+      "http": true,
+      "ssl": false
+    },
+    "packagerOpts": {
+  "sourceExts": ["js", "json", "ts", "tsx", "jsx"],
+  "hostType": "lan",
+  "lanType": "ip"
+}
   }
 }

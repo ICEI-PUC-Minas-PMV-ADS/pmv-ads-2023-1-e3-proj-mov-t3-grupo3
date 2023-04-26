@@ -4,6 +4,7 @@ import { faker } from "@faker-js/faker";
 import API from "../../services/webapi.services";
 import { useIsFocused } from '@react-navigation/native';
 import { Alert } from "react-native";
+import axios from "axios";
 
 export const TextoInfoContext = createContext();
 
