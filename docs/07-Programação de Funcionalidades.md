@@ -8,15 +8,15 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-01| O sistema deve permitir o usuário se cadastrar e fazer login na plataforma.   |   | 
-|RF-02| O sistema deve validar as informações de login do usuário.  |  |
-|RF-03|O usuário deve conseguir alterar informações do seu perfil.  |   | 
-|RF-04| O usuário terá a possibilidade de dar “likes” ou “pular” os perfis que forem apresentados. |  |
-|RF-05|O sistema deve conectar usuários que trocaram “likes”. (Match)  |   | 
-|RF-06|No perfil deve ser possível escolher filtros para a busca de usuários. |  |
-|RF-07| Usuários que deram match devem conseguir se comunicarem por chat.  |   | 
-|RF-08| O sistema deve permitir o usuário avaliar os perfis com quem obteve contato.   | |
-|RF-09| O usuário deve conseguir visualizar os perfis dos demais usuários  |    |
+|RF-001| O aplicativo deve conceder ao usuário master uma forma de login.   |   | 
+|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital.  |  |
+|RF-003| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |   | 
+|RF-004| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. |  |
+|RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. |   | 
+|RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|  |
+|RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |   | 
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |  |
+|RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |    |
 
 # Instruções de acesso
 
