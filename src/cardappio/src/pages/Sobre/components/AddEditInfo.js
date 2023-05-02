@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Text, View } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 import InputFormulario from '../../../components/InputFormulario'
 import BotaoSubmit from '../../../components/BotaoSubmit'
 import { useTextoInfo } from "../../../common/context/useTextoInfo"
@@ -40,15 +40,40 @@ export default function AddEditInfo({tituloForm, onPress, texto = null}) {
   }, [])
 
   return (
-    <View>
+    <View style={styles.alteracao}>
       {/* Titulo do formulario passado como parametro, possivelmente Edição ou Adição */}
-      <Text>{tituloForm}</Text>
+      <Text style={styles.tituloEditar}>{tituloForm}</Text>
       {/* Inputs contendo os valores dos estados e com a função de set no seu estado a cada alteração */}
-      <InputFormulario label="Titulo" value={titulo} onChangeText={setTitulo}/>
-      <InputFormulario label="Descrição" value={descricao} onChangeText={setDescricao}/>
+      <InputFormulario label="Título:" value={titulo} onChangeText={setTitulo}/>
+      <InputFormulario label="Descrição:" value={descricao} onChangeText={setDescricao}/>
       <BotaoSubmit onPress={onPressSalvar}/>
       <BotaoSubmit onPress={onPressCalcelar} textoBotao={"Cancelar"}/>
     </View>
   )
 }
 
+const styles = StyleSheet.create({
+
+  alteracao: {
+    marginTop: 5,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 5,
+    borderRadius: 10,
+    padding: 15,
+  },
+
+  tituloEditar: {
+    color: "#000",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+
+  tituloAlteracao: {
+    fontSize: 20,
+    color: "#fff",
+    //backgroundColor: "#000",
+  },
+
+});

@@ -26,16 +26,18 @@ export default function CardSobre({texto}) {
           <Text style={styles.tituloBox}>{texto.titulo}</Text>
           <Text style={styles.infoBox}>{texto.descricao}</Text>
           {/* Os botões de edição e exclusão so iram aparecer caso o estado signed seja true */}
+          <View style={styles.positionicons}>
           {signed && <TouchableOpacity onPress={onPreesButtonEditar}>
-            <Icon name="edit" />
+            <Icon name="edit" size={20}/>
           </TouchableOpacity>}
           {signed && <TouchableOpacity
             onPress={() => {
               removeInfo(texto.id);
             }}
           >
-            <Icon name="highlight-remove" />
+            <Icon name="highlight-remove" size={20}/>
           </TouchableOpacity>}
+          </View>
         </View>}
         {/* Caso o estado de Editar seja true, ele ira esconder o "Card" do texto e ira mostrar o campo de edição */}
       {ativaEditar && <AddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
@@ -53,16 +55,29 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     borderRadius: 10,
     padding: 15,
+    flex: 1,
   },
 
   tituloBox: {
     color: "#fcb444",
     fontSize: 18,
     fontWeight: "bold",
+    //backgroundColor: "#FF0000",
   },
 
   infoBox: {
     color: "#fff",
     fontSize: 16,
+    //backgroundColor: "#fcb444",
   },
+
+  positionicons: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+    marginTop: 8,
+    //backgroundColor: "#05a5d8", 
+  },
+
 });

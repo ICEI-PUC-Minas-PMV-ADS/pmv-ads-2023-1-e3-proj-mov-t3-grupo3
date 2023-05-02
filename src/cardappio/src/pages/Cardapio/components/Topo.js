@@ -32,7 +32,9 @@ export default function Topo() {
         </View>
       </TouchableOpacity>
       {/* Condição dizendo que caso o signed seja true, ele ira mostrar o componente Text, que contem o nome do usuario logado */}
+      <View style={styles.nomeEditar}>
       {signed && <Text>Olá, {user.nome}!</Text>}
+      </View>
       <View style={styles.pesquisa}>
         <TextInput
           style={StyleSheet.flatten([
@@ -76,6 +78,14 @@ const styles = StyleSheet.create({
   subtituloTopo:{
     color: "#EF4F51"
   },
+
+  nomeEditar: {
+    flex: 1,
+    alignItems: 'flex-end',
+    marginLeft: 20,
+    marginRight: 20,
+  }, 
+
   pesquisa: {
     flexDirection: "row",
     alignItems: "center",
