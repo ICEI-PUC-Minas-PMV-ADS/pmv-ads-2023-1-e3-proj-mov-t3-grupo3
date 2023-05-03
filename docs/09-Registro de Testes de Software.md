@@ -15,24 +15,24 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Objetivo do Teste 	| Verificar se o usuário consegue fazer login na aplicação. |
 | Passos 	| - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Preencher os campos obrigatórios (usuário e senha); <br> - Clicar em "Login"; <br> |
 |Critério de Êxito |Redirecionamento para a tela com os ítens do cardápio. |
-|Resultado| - |
-|Registro| - |
+|Resultado| Como usuários admin, é possível realizar o login, utilizando e-mail e senha. |
+|Registro| <img src= "https://user-images.githubusercontent.com/103212087/236046493-9d162b97-2757-4b51-bf95-e453556fbca3.gif" width=30% height=30%> |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Adicionar ítens do cardápio** 	|
 |	Requisito Associado 	|RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital;<br>RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos.
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar ítens ao cardápio com sucesso. |
 | Passos 	| - Acessar a tela inicial; <br> - Acessar o campo de listar ítens; <br> - Inserir novos dados; <br> - Confirmar inserção; <br> - Visualizar mensagem de confirmação efetuada com sucesso; |
 |Critério de Êxito | - O ítem cadastrado estará listado na tela inicial. |
-|Resultado| - |
-|Registro| - |
+|Resultado| É possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. |
+|Registro| <img src= "https://user-images.githubusercontent.com/103212087/236047127-24a479a3-3eb8-4225-900d-2719057cfc48.gif" width=30% height=30%> |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 –Editar ítens do cardápio** 	|
 |	Requisito Associado 	| RF-002 - O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital. <br> RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar ítens do cardápio com sucesso. |
 | Passos 	| -Acessar a tela inicial; <br> - Visualizar o ítem listado a ser editado; <br> -Acessar o campo de edição do ítem; <br> -Editar os dados; <br> - Clicar no botão de confirmar a ação; <br> - Visualizar mensagem de confirmação efetuada com sucesso. |
 |Critério de Êxito | - O ítem editado estará listado de forma atualizada na tela inicial. |
-|Resultado| - |
-|Registro| - |
+|Resultado| Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante  |
+|Registro| <img src= "https://user-images.githubusercontent.com/103212087/236046825-c3e62d31-eba8-44ad-bc13-5ea3bfa2a588.gif" width=30% height=30%> |
 |  	|  	|
 | **Caso de Teste** 	| **CT-04 – Excluir ítens do cardápio** 	|
 |	Requisito Associado 	| RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital. <br> RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |
