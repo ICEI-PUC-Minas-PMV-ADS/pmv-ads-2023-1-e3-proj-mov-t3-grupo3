@@ -19,42 +19,6 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |
 
-# Artefatos Produzidos
-
-## Home Cardápio
-Na página inicial, o usuário pode visualizar a lista com os itens disponíveis no cardápio, bem como suas descrições e valores. (RF-003)
-
-<img src="https://user-images.githubusercontent.com/103212087/236043231-1a0b554e-d6de-4fdd-bd42-91971c24980a.png" width=30% height=30%>
-
-## Item
-Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes. (RF-005)
-
-<img src="https://user-images.githubusercontent.com/103212087/236045433-6485df7e-29a4-49d9-bb80-13361cf35afe.gif" width=30% height=30%>
-
-
-## Pesquisa
-É possível pesquisar por itens específicos utilizando a barra de busca/filtro. (RF-004)
-
-<img src= "https://user-images.githubusercontent.com/103212087/236045843-9ba16f54-bc3e-492b-86f5-197c47ce9bcf.png" width=30% height=30%>
-
-
-## Login
-Ao usuários admin, é possível realizar o login, utilizando e-mail e senha. (RF-001)
-
-<img src= "https://user-images.githubusercontent.com/103212087/236046493-9d162b97-2757-4b51-bf95-e453556fbca3.gif" width=30% height=30%>
-
-
-## Editar Informações
-Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante (RF-009)
-
-<img src= "https://user-images.githubusercontent.com/103212087/236046825-c3e62d31-eba8-44ad-bc13-5ea3bfa2a588.gif" width=30% height=30%>
-
-
-
-## Adicionar Item
-Da mesma forma, é possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. (RF-002)
-
-<img src= "https://user-images.githubusercontent.com/103212087/236047127-24a479a3-3eb8-4225-900d-2719057cfc48.gif" width=30% height=30%>
 
 
 # Instruções de acesso
