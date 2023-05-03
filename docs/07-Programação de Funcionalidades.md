@@ -22,21 +22,27 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 # Artefatos Produzidos
 
 ## Home Cardápio
+Na página inicial, o usuário pode visualizar a lista com os itens disponíveis no cardápio, bem como suas descrições e valores. (RF-003)
 ![Home](img/ListaCardappio.png)
 
 ## Item
+Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes. (RF-005)
 ![Item](img/Item.gif)
 
 ## Pesquisa
+É possível pesquisar por itens específicos utilizando a barra de busca/filtro. (RF-004)
 ![Pesquisa](img/PesquisaCardappio.png)
 
 ## Login
+Ao usuários admin, é possível realizar o login, utilizando e-mail e senha. (RF-001)
 ![Login](img/Login.gif)
 
 ## Editar Informações
+Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante (RF-009)
 ![Edit](img/EditarInfo.gif)
 
 ## Adicionar Item
+Da mesma forma, é possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. (RF-002)
 ![Add](img/AddItem.gif)
 
 
