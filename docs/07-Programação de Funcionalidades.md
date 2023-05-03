@@ -53,7 +53,8 @@ Uma vez conectado, o usuário master pode realizar alterações na descrição d
 
 ## Adicionar Item
 Da mesma forma, é possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. (RF-002)
-![Add](img/AddItem.gif)
+
+<img src= "https://user-images.githubusercontent.com/103212087/236047127-24a479a3-3eb8-4225-900d-2719057cfc48.gif" width=30% height=30%>
 
 
 # Instruções de acesso
