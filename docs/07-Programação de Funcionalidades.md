@@ -20,7 +20,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |    |
 
 # Login
-[Login~](img/Login.gif)
+[Login](img/Login.gif)
 
 # Instruções de acesso
 
