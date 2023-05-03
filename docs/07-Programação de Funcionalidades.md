@@ -32,10 +32,10 @@ Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhe
 <img src="https://user-images.githubusercontent.com/103212087/236045433-6485df7e-29a4-49d9-bb80-13361cf35afe.gif" width=30% height=30%>
 
 
-
 ## Pesquisa
 É possível pesquisar por itens específicos utilizando a barra de busca/filtro. (RF-004)
-![Pesquisa](img/PesquisaCardappio.png)
+<img src= "https://user-images.githubusercontent.com/103212087/236045843-9ba16f54-bc3e-492b-86f5-197c47ce9bcf.png" width=30% height=30%>
+
 
 ## Login
 Ao usuários admin, é possível realizar o login, utilizando e-mail e senha. (RF-001)
