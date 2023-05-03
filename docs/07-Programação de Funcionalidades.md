@@ -25,19 +25,19 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 ![Login](img/Login.gif)
 
 ## Home Cardápio
-![Home](ListaCardappio.png)
+![Home](img/ListaCardappio.png)
 
 ## Item
-![Item](Item.gif)
+![Item](img/Item.gif)
 
 ## Editar Informações
-![Edit](EditarInfo.gif)
+![Edit](img/EditarInfo.gif)
 
 ## Adicionar Item
-![Add](AddItem.gif)
+![Add](img/AddItem.gif)
 
 ## Pesquisa
-![Pesquisa](PesquisaCardappio.png)
+![Pesquisa](img/PesquisaCardappio.png)
 
 # Instruções de acesso
 
