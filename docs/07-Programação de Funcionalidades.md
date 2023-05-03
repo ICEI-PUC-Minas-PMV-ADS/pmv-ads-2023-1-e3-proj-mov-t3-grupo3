@@ -6,18 +6,18 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
 
-|ID    | Descrição do Requisito  |
-|------|-----------------------------------------|
-|RF-001| O aplicativo deve conceder ao usuário master uma forma de login.   |
-|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital.  |
-|RF-003| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |
-|RF-004| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. |
-|RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. |
-|RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|
-|RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. | 
-|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |
-|RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |
-|RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-001| O aplicativo deve conceder ao usuário master uma forma de login.   |   | 
+|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital.  |   |
+|RF-003| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |   |
+|RF-004| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. |   |
+|RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. |   |
+|RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|   |
+|RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |    |
+|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |   |
+|RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |   |
+|RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |   |
 
 
 
