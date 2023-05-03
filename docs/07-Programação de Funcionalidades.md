@@ -23,11 +23,12 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 ## Home Cardápio
 Na página inicial, o usuário pode visualizar a lista com os itens disponíveis no cardápio, bem como suas descrições e valores. (RF-003)
-![Home]![ListaCardappio](https://user-images.githubusercontent.com/103212087/236043231-1a0b554e-d6de-4fdd-bd42-91971c24980a.png)
+![Home]!<img src="https://docs/img/ListaCardappio.png" width=50% height=50%>
 
 ## Item
 Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes. (RF-005)
-![Item](img/Item.gif)
+![Item](img/Item.gif)![ListaCardappio](https://user-images.githubusercontent.com/103212087/236043341-bf8a6d8f-43ba-4084-8a3f-dd1e16d4613d.png )
+
 
 ## Pesquisa
 É possível pesquisar por itens específicos utilizando a barra de busca/filtro. (RF-004)
