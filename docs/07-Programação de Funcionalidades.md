@@ -40,7 +40,9 @@ Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhe
 
 ## Login
 Ao usuários admin, é possível realizar o login, utilizando e-mail e senha. (RF-001)
-![Login](img/Login.gif)
+
+<img src= "https://user-images.githubusercontent.com/103212087/236046493-9d162b97-2757-4b51-bf95-e453556fbca3.gif" width=30% height=30%>
+
 
 ## Editar Informações
 Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante (RF-009)
