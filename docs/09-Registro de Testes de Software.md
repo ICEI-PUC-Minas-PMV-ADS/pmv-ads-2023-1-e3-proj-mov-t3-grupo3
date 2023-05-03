@@ -47,8 +47,8 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Objetivo do Teste 	| Verificar se o usuário cliente do restaurante consegue navegar e visualizar as informações do cardápio. |
 | Passos 	| - Acessar a tela inicial; <br> - Selecionar um ítem do cardápio; <br> - Visualizar a imagem, descrição e preço. |
 |Critério de Êxito | - O cardápio, ítem, descrição e preço foi visualizado com sucesso. |
-|Resultado| - |
-|Registro| - |
+|Resultado| Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes |
+|Registro| <img src="https://user-images.githubusercontent.com/103212087/236045433-6485df7e-29a4-49d9-bb80-13361cf35afe.gif" width=30% height=30%> |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Avaliar ítem do cardápio** 	|
 |	Requisito Associado 	| RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> RF-004 O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. <br> RF-006 O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. |
