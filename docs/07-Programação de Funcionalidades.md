@@ -16,6 +16,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|  |
 |RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |   | 
 |RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |  |
+|RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |  |
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |    |
 
 # Instruções de acesso
