@@ -46,7 +46,10 @@ Ao usuários admin, é possível realizar o login, utilizando e-mail e senha. (R
 
 ## Editar Informações
 Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante (RF-009)
-![Edit](img/EditarInfo.gif)
+
+<img src= "https://user-images.githubusercontent.com/103212087/236046825-c3e62d31-eba8-44ad-bc13-5ea3bfa2a588.gif" width=30% height=30%>
+
+
 
 ## Adicionar Item
 Da mesma forma, é possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. (RF-002)
