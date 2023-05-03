@@ -19,6 +19,9 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |  |
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |    |
 
+# Login
+[Login~](img/Login.gif)
+
 # Instruções de acesso
 
 • Para hospedar nossa aplicação utilizamos a plataforma "---", cujo link de acesso encontra-se disponível através do URL: 
