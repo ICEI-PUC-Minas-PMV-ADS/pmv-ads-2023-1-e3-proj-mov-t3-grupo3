@@ -34,6 +34,7 @@ Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhe
 
 ## Pesquisa
 É possível pesquisar por itens específicos utilizando a barra de busca/filtro. (RF-004)
+
 <img src= "https://user-images.githubusercontent.com/103212087/236045843-9ba16f54-bc3e-492b-86f5-197c47ce9bcf.png" width=30% height=30%>
 
 
