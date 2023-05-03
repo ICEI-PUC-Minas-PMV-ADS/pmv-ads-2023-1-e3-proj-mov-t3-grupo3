@@ -50,7 +50,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
    <table>
         <tr>
-            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/persona-luiz-felipe-almeida.png" alt="persona2"></td>
+            <td rowspan="2"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/persona-luiz-felipe-almeida.png" width=80% height=80% alt="persona2"></td>
             <td colspan="2"><strong>Luiz Felipe Almeida</strong></td>
         </tr>
         <tr>
