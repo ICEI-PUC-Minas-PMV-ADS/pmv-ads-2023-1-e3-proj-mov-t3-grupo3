@@ -19,8 +19,25 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |  |
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |    |
 
-# Login
+# Artefatos Produzidos
+
+## Login
 ![Login](img/Login.gif)
+
+## Home Cardápio
+![Home](ListaCardappio.png)
+
+## Item
+![Item](Item.gif)
+
+## Editar Informações
+![Edit](EditarInfo.gif)
+
+## Adicionar Item
+![Add](AddItem.gif)
+
+## Pesquisa
+![Pesquisa](PesquisaCardappio.png)
 
 # Instruções de acesso
 
