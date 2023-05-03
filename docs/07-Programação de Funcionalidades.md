@@ -21,14 +21,17 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 # Artefatos Produzidos
 
-## Login
-![Login](img/Login.gif)
-
 ## Home Cardápio
 ![Home](img/ListaCardappio.png)
 
 ## Item
 ![Item](img/Item.gif)
+
+## Pesquisa
+![Pesquisa](img/PesquisaCardappio.png)
+
+## Login
+![Login](img/Login.gif)
 
 ## Editar Informações
 ![Edit](img/EditarInfo.gif)
@@ -36,8 +39,6 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 ## Adicionar Item
 ![Add](img/AddItem.gif)
 
-## Pesquisa
-![Pesquisa](img/PesquisaCardappio.png)
 
 # Instruções de acesso
 
