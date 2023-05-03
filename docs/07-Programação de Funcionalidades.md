@@ -28,6 +28,7 @@ Na página inicial, o usuário pode visualizar a lista com os itens disponíveis
 
 ## Item
 Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes. (RF-005)
+
 <img src="https://user-images.githubusercontent.com/103212087/236045433-6485df7e-29a4-49d9-bb80-13361cf35afe.gif" width=30% height=30%>
 
 
