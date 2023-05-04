@@ -8,15 +8,15 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| O aplicativo deve conceder ao usuário master uma forma de login.   |   | 
-|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital.  |   |
-|RF-003| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |   |
-|RF-004| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. |   |
-|RF-005| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. |   |
-|RF-006| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|   |
-|RF-007| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |    |
-|RF-008| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |   |
-|RF-009| O aplicativo deve permitir que o usuário master edite as informações sobre o restaurante.   |   |
+|RF-001| O aplicativo deve conceder ao usuário master uma forma de login.   |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Login e https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/src/cardappio/src/common/context/useUser.js   | 
+|RF-002| O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir itens do cardápio digital.  |   |
+|RF-003| O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir informações sobre o estabelecimento.  |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Sobre e https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/src/cardappio/src/common/context/useTextoInfo.js  |
+|RF-004| O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Cardapio e https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/src/cardappio/src/common/context/useItens.js  |
+|RF-005| O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. |   |
+|RF-006| O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Item  |
+|RF-007| O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.|   |
+|RF-008| O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |    |
+|RF-009| O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.   |   |
 |RNF-004| O aplicativo deve estar disponível também no idioma inglês.  |   |
 
 
