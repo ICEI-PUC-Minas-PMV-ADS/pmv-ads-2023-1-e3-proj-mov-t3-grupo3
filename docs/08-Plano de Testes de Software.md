@@ -32,7 +32,7 @@
 |Critério de Êxito | -Após alerta de "sugestão enviada com sucesso" o aplicativo direcionará o usuário para a tela principal. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Visualizar Sugestões** 	|
-|	Requisito Associado 	| RF-009	O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. |
+|	Requisito Associado 	| RF-010	O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. |
 | Objetivo do Teste 	|Verificar se o usuário master consegue visualizar uma sugestão de um cliente de seu estabelecimento. |
 | Passos 	| - Acessar a tela inicial; <br> - Escolher uma sugestão da lista; <br> - Visualizar a susgestão escolhida.|
 |Critério de Êxito | - A sugestão escrita por um cliente será apresentada para leitura. |
