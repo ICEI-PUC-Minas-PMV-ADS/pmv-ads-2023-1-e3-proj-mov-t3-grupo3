@@ -41,30 +41,37 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
       </tr>
       <tr>
         <td>RF-005</td>
-        <td>O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital..</td>
+        <td>O aplicativo deve permitir que o usuário visualize todas as informações do estabelecimento cadastradas.</td>
+        <td><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Sobre">Pagina sobre</a> e <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/src/cardappio/src/common/context/useTextoInfo.js">useTextoInfo.js</a></td>
+        <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/infos.png" style="width: 200px;"></td>
+      </tr>
+      <tr>
+      <tr>
+        <td>RF-006</td>
+        <td>O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital.</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>RF-006</td>
+        <td>RF-007</td>
         <td>O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário.</td>
         <td><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/tree/main/src/cardappio/src/pages/Item">Pagina do item</a></td>
         <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/ItemCardappio.png" style="width: 200px;"></td>
       </tr>
       <tr>
-        <td>RF-007</td>
+        <td>RF-008</td>
         <td>O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio.</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>RF-008</td>
+        <td>RF-009</td>
         <td>O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento.</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>RF-009</td>
+        <td>RF-010</td>
         <td>O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários.</td>
         <td></td>
         <td></td>
