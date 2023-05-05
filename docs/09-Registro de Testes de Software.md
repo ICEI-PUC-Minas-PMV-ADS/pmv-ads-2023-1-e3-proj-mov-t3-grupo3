@@ -20,60 +20,41 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 |  	|  	|
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – CRUD dos ítens do cardápio** 	|
-|	Requisito Associado 	|RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital;<br>RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos.
+|	Requisito Associado 	|RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital;<br>RF-004	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos.
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar ítens ao cardápio com sucesso. |
-| Passos 	| - Acessar a tela inicial; <br> - Acessar o campo de listar ítens; <br> - Inserir novos dados; <br> - Confirmar inserção; <br> - Visualizar mensagem de confirmação efetuada com sucesso; |
+| Passos 	| - Acessar a tela inicial; <br> - Visualizar todos as informações inseridas; <br> - Clicar no botão de inserir; <br> - Preencher os campos <br> - Clicar no botão de confirmar a ação;<br> - Clicar para editar uma informação; <br> - Alterar informações <br> - Clicar no botão de confirmar a ação; <br> - Clicar no botão de exclusão |
 |Critério de Êxito | - O ítem cadastrado estará listado na tela inicial. |
 |Resultado| É possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. |
 |Registro| <img src= "https://user-images.githubusercontent.com/103212087/236047127-24a479a3-3eb8-4225-900d-2719057cfc48.gif" width=30% height=30%> |
 |  	|  	|
 |  	|  	|
-| **Caso de Teste** 	| **CT-03 CRUD ítens do cardápio** 	|
-|	Requisito Associado 	| RF-002 - O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital. <br> RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> |
-| Objetivo do Teste 	| Verificar se o usuário consegue editar ítens do cardápio com sucesso. |
-| Passos 	| -Acessar a tela inicial; <br> - Visualizar o ítem listado a ser editado; <br> -Acessar o campo de edição do ítem; <br> -Editar os dados; <br> - Clicar no botão de confirmar a ação; <br> - Visualizar mensagem de confirmação efetuada com sucesso. |
-|Critério de Êxito | - O ítem editado estará listado de forma atualizada na tela inicial. |
-|Resultado| Uma vez conectado, o usuário master pode realizar alterações na descrição do restaurante  |
-|Registro| <img src= "https://user-images.githubusercontent.com/103212087/236046825-c3e62d31-eba8-44ad-bc13-5ea3bfa2a588.gif" width=30% height=30%> |
+| **Caso de Teste** 	| **CT-03 CRUD das informações do estabelecimento** 	|
+|	Requisito Associado 	| RF-003 O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir informações sobre o estabelecimento; <br>RF-005 O aplicativo deve permitir que o usuário visualize todas as informações do estabelecimento cadastradas.|
+| Objetivo do Teste 	| Verificar se o usuário consegue adicionar, visualizar, editar e excluir informações sobre o estabelecimento com sucesso. |
+| Passos 	| -Acessar a tela inicial; <br> - Clicar na logo do estabelecimento; <br> - Visualizar todos as informações inseridas; <br> - Clicar no botão de inserir; <br> - Preencher os campos <br> - Clicar no botão de confirmar a ação;<br> - Clicar para editar uma informação; <br> - Alterar informações <br> - Clicar no botão de confirmar a ação; <br> - Clicar no botão de exclusão |
+|Critério de Êxito | - A informação seria inserida, editada e por fim excluida, assim sumindo da lista. |
+|Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/crudInfos.gif" width=30% height=30%> |
 |  	|  	|
 |  	|  	|
-| **Caso de Teste** 	| **CT-04 – Excluir ítens do cardápio** 	|
-|	Requisito Associado 	| RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar /editar/excluir itens do cardápio digital. <br> RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. |
-| Objetivo do Teste 	| Verificar se o usuário consegue excluir ítens do cardápio com sucesso. |
-| Passos 	| - Acessar a tela inicial; <br> - Visualizar o ítem listado a ser excluído; <br> - Acessar o campo de exclusão do ítem; <br> - Confirmar a ação; <br> - Visualizar mensagem de confirmação efetuada com sucesso; |
-|Critério de Êxito | -O ítem exluído não será apresentado na tela inicial. |
-|Resultado| A funcionalidade ainda não foi implementada.|
-|Registro| Ainda sem registro |
-|  	|  	|
-|  	|  	|
-| **Caso de Teste** 	| **CT-05 – Visualização do cardápio** 	|
-|	Requisito Associado 	| RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> RF-004	O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. <br> RF-005	O aplicativo deve apresentar a descrição e/ou composição do item selecionado pelo usuário. |
-| Objetivo do Teste 	| Verificar se o usuário cliente do restaurante consegue navegar e visualizar as informações do cardápio. |
-| Passos 	| - Acessar a tela inicial; <br> - Selecionar um ítem do cardápio; <br> - Visualizar a imagem, descrição e preço. |
-|Critério de Êxito | - O cardápio, ítem, descrição e preço foi visualizado com sucesso. |
-|Resultado| Ao selecionar um item, ele é expandido, melhorando a visualização dos detalhes |
-|Registro| <img src="https://user-images.githubusercontent.com/103212087/236045433-6485df7e-29a4-49d9-bb80-13361cf35afe.gif" width=30% height=30%> |
-|  	|  	|
-|  	|  	|
-| **Caso de Teste** 	| **CT-06 – Avaliar ítem do cardápio** 	|
-|	Requisito Associado 	| RF-003	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> RF-004 O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. <br> RF-006 O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. |
+| **Caso de Teste** 	| **CT-05 – Avaliar ítem do cardápio** 	|
+|	Requisito Associado 	| RF-004	O aplicativo deve permitir que o usuário visualize todos os itens cadastrados no cardápio digital (sejam eles alimentos ou bebidas) por meio de fotos. <br> RF-006 O aplicativo deve permitir que o usuário faça uma busca/filtre por um determinado item desejado no cardápio digital. <br> RF-008 O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. |
 | Objetivo do Teste 	|Verificar se o usuário consegue avaliar um ítem do cardápio. |
 | Passos 	| - Acessar a tela principal do cardápio; <br> - Escolher um ítem; <br> - Acessar o campo de avaliação; <br> - Avaliar; <br> - Confirmar avaliação. |
 |Critério de Êxito | - Após confirmar a avaliação o aplicativo retornará a tela inicial e o ítem estará com uma avaliação realizada. |
 |Resultado| A funcionalidade ainda não foi implementada. |
-|Registro| - |
+|Registro| Ainda sem registro. |
 |  	|  	|
 |  	|  	|
-| **Caso de Teste** 	| **CT-07 – Envio de sugestões** 	|
-|	Requisito Associado 	| RF-007	O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |
+| **Caso de Teste** 	| **CT-06 – Envio de sugestões** 	|
+|	Requisito Associado 	| RF-009	O aplicativo deve permitir que o usuário envie sugestões de forma anônima para o estabelecimento. |
 | Objetivo do Teste 	| Verificar se o usuário consegue enviar uma sugestão. |
 | Passos 	| - Acessar a tela inicial; <br> - Acessar o campo de enviar sugestão; <br> - Escrever sugestão; <br> -Enviar o formulário. |
 |Critério de Êxito | -Após alerta de "sugestão enviada com sucesso" o aplicativo direcionará o usuário para a tela principal. |
 |Resultado| A funcionalidade ainda não foi implementada. |
 |Registro| Ainda sem registro.  |
 |  	|  	|
-| **Caso de Teste** 	| **CT-08 – Visualizar Sugestões** 	|
-|	Requisito Associado 	| RF-008	O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. |
+| **Caso de Teste** 	| **CT-07 – Visualizar Sugestões** 	|
+|	Requisito Associado 	| RF-009	O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. |
 | Objetivo do Teste 	|Verificar se o usuário master consegue visualizar uma sugestão de um cliente de seu estabelecimento. |
 | Passos 	| - Acessar a tela inicial; <br> - Escolher uma sugestão da lista; <br> - Visualizar a susgestão escolhida.|
 |Critério de Êxito | - A sugestão escrita por um cliente será apresentada para leitura. |
