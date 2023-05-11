@@ -3,15 +3,18 @@ import { Image, StyleSheet,View } from "react-native";
 import Logo from "../../../assets/cardappio-logo.png";
 import {InputArea,BotaoLogin,BotaoLoginText} from './styles';
 import SignInput from "./components/SignInput";
-import { useUser } from "../../common/context/useUser";
 import BotaoVoltar from "../../components/BotaoVoltar";
+import {login} from "../../services/user-service"
+import { useUser } from "../../common/context/useUser";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Login () {
     //estado dos input
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('')
+    const {setSigned, setUser}= useUser()
     //função de login do contexto useUser
-    const {login} = useUser()
+    const navigation = useNavigation();
 
     return (
         <>
@@ -34,7 +37,7 @@ export default function Login () {
                     onChangeText={setPassword}                
                 />
                 {/* a chamada da fnução login, recebendo como parametro os estados dos input */}
-                <BotaoLogin onPress={()=> login({email, password})}>
+                <BotaoLogin onPress={()=> login({email, password}, setSigned, setUser, navigation)}>
                     <BotaoLoginText>Login</BotaoLoginText>
                 </BotaoLogin>
             </InputArea>

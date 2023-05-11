@@ -1,13 +1,19 @@
 import React from 'react'
 import {View, Text, TextInput, StyleSheet} from 'react-native'
 
-export default function InputFormulario({label, value, onChangeText}) {
+export default function InputFormulario({label, value, onChangeText, tipo = 'default', maxLength = 300, numberOfLines = 1, multiline = false}) {
+  
+ 
   return (
     <View>
       <Text style={styles.labelEdit}>{label}</Text>
       <TextInput style={styles.input}
         value={value}
         onChangeText={onChangeText}
+        keyboardType={tipo}
+        maxLength={maxLength}
+        numberOfLines={numberOfLines}
+        multiline = {multiline}
       />
     </View>
     )

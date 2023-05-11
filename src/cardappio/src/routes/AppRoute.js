@@ -4,10 +4,11 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Cardapio from "../pages/Cardapio";
 import Item from "../pages/Item";
 import Sobre from "../pages/Sobre";
-import { ItemProvider } from "../common/context/useItens";
-import { TextoInfoProvider } from "../common/context/useTextoInfo";
 import { UserProvider } from "../common/context/useUser";
+import { ItemProvider } from "../common/context/useItem";
+import { TextoInfoProvider } from "../common/context/useTextoInfo";
 import Login from "../pages/Login";
+
 
 const Stack = createNativeStackNavigator();
 

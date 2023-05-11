@@ -1,19 +1,17 @@
 import React, { useState } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import Icon from "@expo/vector-icons/MaterialIcons";
-import AddEditInfo from "./AddEditInfo";
-import { useTextoInfo } from "../../../common/context/useTextoInfo";
+import FormularioAddEditInfo from "./FormularioAddEditInfo";
 import { useUser } from "../../../common/context/useUser";
-
+import { deleteInfo } from "../../../services/textosSobre-service"
+import { useTextoInfo } from "../../../common/context/useTextoInfo";
 export default function CardSobre({texto}) {
   
   //Estado do formulario de edição
   const [ativaEditar, setAtivaEditar] = useState(false);
-  //Função retornada pelo contexto useTextInfo
-  const {removeInfo} = useTextoInfo()
   //Controle de estado de login retornado pelo contexto useUser
   const {signed} = useUser()
-
+  const {textosInfo, setTextoInfos} = useTextoInfo()
   //Função para alterar o estado do formulario de edição uma informação
   function onPreesButtonEditar(){
     setAtivaEditar(!ativaEditar)
@@ -32,7 +30,8 @@ export default function CardSobre({texto}) {
           </TouchableOpacity>}
           {signed && <TouchableOpacity
             onPress={() => {
-              removeInfo(texto.id);
+              const id = texto.id
+              deleteInfo({id}, textosInfo, setTextoInfos);
             }}
           >
             <Icon name="highlight-remove" size={20}/>
@@ -40,7 +39,7 @@ export default function CardSobre({texto}) {
           </View>
         </View>}
         {/* Caso o estado de Editar seja true, ele ira esconder o "Card" do texto e ira mostrar o campo de edição */}
-      {ativaEditar && <AddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
+      {ativaEditar && <FormularioAddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
     </>
   );
 }

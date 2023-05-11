@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Text,
   View,
@@ -11,11 +11,18 @@ import Logo from "../../../../assets/cardappio-logo.png";
 import Icon from "@expo/vector-icons/FontAwesome5";
 import { useNavigation } from "@react-navigation/native";
 import { useUser } from "../../../common/context/useUser";
+import { useItem } from "../../../common/context/useItem";
 
 export default function Topo() {
   const navigation = useNavigation()
   //usuario e estado do login retornado pelo contexto useUser
-  const { user, signed } = useUser()
+  const { signed } = useUser()
+  const [pesquisa, setPesquisa] = useState('')
+  const {filtrarPesquisa} = useItem() 
+
+  useEffect(()=> {
+    filtrarPesquisa(pesquisa) 
+  },[pesquisa])
 
   return (
     <>
@@ -33,7 +40,7 @@ export default function Topo() {
       </TouchableOpacity>
       {/* Condição dizendo que caso o signed seja true, ele ira mostrar o componente Text, que contem o nome do usuario logado */}
       <View style={styles.nomeEditar}>
-      {signed && <Text>Olá, {user.nome}!</Text>}
+      {signed && <Text>Olá admin!</Text>}
       </View>
       <View style={styles.pesquisa}>
         <TextInput
@@ -43,6 +50,10 @@ export default function Topo() {
           ])}
           placeholder="Ferramenta de pesquisa"
           placeholderTextColor={"#FEB342"}
+          onChangeText={(text) => {
+            setPesquisa(text)
+          }}
+          value={pesquisa}
         />
         {/* Botão para realizar pesquisa. Obs: Talvez eu coloque ele junto com o placeholder do TextInput anterior, para que a pesquisa seja feita a cada letra digitada pelo usuario */}
         <TouchableOpacity>

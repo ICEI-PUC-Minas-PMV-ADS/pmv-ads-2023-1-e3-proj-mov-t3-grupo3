@@ -12,19 +12,21 @@ import BotaoVoltarCardapio from "../../components/BotaoVoltarCardapio";
 import Logo from "../../../assets/cardappio-logo.png";
 import Icon from "@expo/vector-icons/MaterialIcons";
 import BotaoAdd from "../../components/BotaoAdd";
-import { useTextoInfo } from "../../common/context/useTextoInfo.js";
-import AddEditInfo from "./components/AddEditInfo";
+import FormularioAddEditInfo from "./components/FormularioAddEditInfo";
 import { useNavigation } from "@react-navigation/native";
 import { useUser } from "../../common/context/useUser";
+import { useTextoInfo } from "../../common/context/useTextoInfo"; 
+import { logout } from "../../services/user-service";
+
 
 export default function Sobre() {
   //Estado contendo todos os textos retornados pela API no contexto useTextoInfo
-  const { textosInfo } = useTextoInfo();
   //Controle do estado do formulario para adicionar uma nova informação
   const [ativaNovaInfo, setAtivaNovaInfo] = useState(false);
   //Estado de login e função para realizar logout retornados pelo contexto useUser
-  const { signed, logout } = useUser();
+  const { signed, setSigned, setUser } = useUser();
   const navigation = useNavigation();
+  const { textosInfo } = useTextoInfo()
 
   //Função para alterar o estado do formulario de adicionar uma nova informação
   function onPressButtonAdd() {
@@ -50,7 +52,7 @@ export default function Sobre() {
 
       {/* Caso o estado do formulario seja false, sera mostrado o botão de adicionar e caso seja true, o botão é esondido e é exibido um formulario de inserção de uma nova informação */}
       {!ativaNovaInfo && <BotaoAdd onPress={onPressButtonAdd} />}
-      {ativaNovaInfo && <AddEditInfo tituloForm={"Inserir nova informação"} onPress={onPressButtonAdd} />}
+      {ativaNovaInfo && <FormularioAddEditInfo tituloForm={"Inserir nova informação"} onPress={onPressButtonAdd} />}
 
       <BotaoVoltarCardapio />
 
@@ -76,7 +78,7 @@ export default function Sobre() {
         <TouchableOpacity
           style={styles.buttonLogin}
           onPress={() => {
-            logout();
+            logout(setSigned, setUser, navigation);
           }}
         >
           <Text style={styles.buttonLoginText}>Logout</Text>

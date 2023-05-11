@@ -1,25 +1,26 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
 import InputFormulario from '../../../components/InputFormulario'
 import BotaoSubmit from '../../../components/BotaoSubmit'
-import { useTextoInfo } from "../../../common/context/useTextoInfo"
+import {addInfo, updateInfo} from "../../../services/textosSobre-service"  
+import { useTextoInfo } from '../../../common/context/useTextoInfo'
 
 //O componente recebe como prop, um titulo, uma função e um objeto (texto), que caso não seja passado tem como padrão o valor null
-export default function AddEditInfo({tituloForm, onPress, texto = null}) {
+export default function FormularioAddEditInfo({tituloForm, onPress, texto = null}) {
   //Controle do estado dos inputs
-  const [titulo, setTitulo] = useState('');
-  const [descricao, setDescricao] = useState('');
-  
+  const [titulo, setTitulo] = useState(texto?.titulo || "");
+  const [descricao, setDescricao] = useState(texto?.descricao || "");
+  const {textosInfo, setTextoInfos} = useTextoInfo()
   //Funções retonradas pelo contexto useTextInfo
-  const { addInfo, updateInfo } = useTextoInfo();
 
   //Caso seja passado um objeto na prop texto, indica que esta se tratando de uma edição de uma informação, caindo na primeira condição e caso não seja passado nada ou seja o texto seja null, caira na segunda condição
   function onPressSalvar(){
     if(texto !=null){
-      updateInfo(texto.id, titulo, descricao)
+      const id = texto.id
+      updateInfo({id, titulo, descricao}, textosInfo, setTextoInfos)
       onPress();
     }else{
-      addInfo(titulo, descricao)
+      addInfo({titulo, descricao}, textosInfo, setTextoInfos)
       setTitulo('')
       setDescricao('')
       onPress()  
@@ -32,12 +33,7 @@ export default function AddEditInfo({tituloForm, onPress, texto = null}) {
   }
 
   //Ao carregar a pagina o useEffect é acionado, e verifica o se o objeto texto é diferente de null, ou seja, contenha alguma informação. Apos a verificação ele passa os dados para os estados do input, para que ja apareça as informações nos campos de digitação e para que não de erro na hora de salvar sem nenhum tipo de edição, pois se não fizesse esse set, possivelmente os campos iriam salvar vazios.
-  useEffect(()=>{
-    if(texto != null){
-      setTitulo(texto.titulo);
-      setDescricao(texto.descricao);  
-    }
-  }, [])
+
 
   return (
     <View style={styles.alteracao}>
