@@ -2,6 +2,8 @@ import { useNavigation } from '@react-navigation/native'
 import React from 'react'
 import { Text, TouchableOpacity, View, StyleSheet } from 'react-native'
 
+// Componente com botao que volta para a pagina Home do cardapio
+
 export default function BotaoVoltarCardapio() {
   const navigation = useNavigation()
     return (

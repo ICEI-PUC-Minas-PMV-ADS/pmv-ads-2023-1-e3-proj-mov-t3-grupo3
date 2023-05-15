@@ -1,3 +1,5 @@
+//Arquivo se serviços do usuario
+
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { auth } from "../config/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth/react-native";

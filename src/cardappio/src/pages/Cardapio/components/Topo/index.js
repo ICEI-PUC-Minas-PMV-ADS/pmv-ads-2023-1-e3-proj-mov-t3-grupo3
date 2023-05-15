@@ -7,22 +7,39 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
-import Logo from "../../../../assets/cardappio-logo.png";
+import Logo from "../../../../../assets/cardappio-logo.png";
 import Icon from "@expo/vector-icons/FontAwesome5";
 import { useNavigation } from "@react-navigation/native";
-import { useUser } from "../../../common/context/useUser";
-import { useItem } from "../../../common/context/useItem";
+import { useUser } from "../../../../common/context/useUser";
+import { useItem } from "../../../../common/context/useItem";
+import Categorias from "./components/Categorias";
 
 export default function Topo() {
   const navigation = useNavigation()
   //usuario e estado do login retornado pelo contexto useUser
   const { signed } = useUser()
   const [pesquisa, setPesquisa] = useState('')
-  const {filtrarPesquisa} = useItem() 
+  const {listaItens, setListaFiltrada} = useItem() 
+  const [categorias, setCategorias] = useState([])
 
   useEffect(()=> {
-    filtrarPesquisa(pesquisa) 
+
+    filtrarPesquisa(pesquisa, listaItens, setListaFiltrada) 
   },[pesquisa])
+
+
+
+  useEffect(() => {
+
+    filtrarPesquisa("");
+  }, [filtrarPesquisa]);
+
+  const filtrarPesquisa = (valorCampo) => {
+    const novaLista = listaItens.filter((item) =>
+      item.descricao.toLowerCase().includes(valorCampo.toLowerCase())
+    );
+    setListaFiltrada(novaLista);
+  };
 
   return (
     <>
@@ -42,6 +59,7 @@ export default function Topo() {
       <View style={styles.nomeEditar}>
       {signed && <Text>Olá admin!</Text>}
       </View>
+
       <View style={styles.pesquisa}>
         <TextInput
           style={StyleSheet.flatten([
@@ -55,7 +73,6 @@ export default function Topo() {
           }}
           value={pesquisa}
         />
-        {/* Botão para realizar pesquisa. Obs: Talvez eu coloque ele junto com o placeholder do TextInput anterior, para que a pesquisa seja feita a cada letra digitada pelo usuario */}
         <TouchableOpacity>
           <Icon
             style={StyleSheet.flatten([
@@ -66,6 +83,9 @@ export default function Topo() {
           />
         </TouchableOpacity>
       </View>
+
+      
+      <Categorias categorias={categorias} setCategorias={setCategorias}/>
     </>
   );
 }

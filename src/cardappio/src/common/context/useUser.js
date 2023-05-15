@@ -1,3 +1,5 @@
+// contexto para controle de estado dos usuarios
+
 import { useState, useContext, createContext } from "react";
 
 export const UserContext = createContext();

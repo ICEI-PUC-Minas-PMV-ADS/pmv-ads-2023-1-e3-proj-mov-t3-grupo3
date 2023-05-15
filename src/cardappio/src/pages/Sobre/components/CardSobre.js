@@ -4,14 +4,13 @@ import Icon from "@expo/vector-icons/MaterialIcons";
 import FormularioAddEditInfo from "./FormularioAddEditInfo";
 import { useUser } from "../../../common/context/useUser";
 import { deleteInfo } from "../../../services/textosSobre-service"
-import { useTextoInfo } from "../../../common/context/useTextoInfo";
-export default function CardSobre({texto}) {
+
+export default function CardSobre({texto, textosInfo, setTextoInfos}) {
   
   //Estado do formulario de edição
   const [ativaEditar, setAtivaEditar] = useState(false);
   //Controle de estado de login retornado pelo contexto useUser
   const {signed} = useUser()
-  const {textosInfo, setTextoInfos} = useTextoInfo()
   //Função para alterar o estado do formulario de edição uma informação
   function onPreesButtonEditar(){
     setAtivaEditar(!ativaEditar)
@@ -39,7 +38,7 @@ export default function CardSobre({texto}) {
           </View>
         </View>}
         {/* Caso o estado de Editar seja true, ele ira esconder o "Card" do texto e ira mostrar o campo de edição */}
-      {ativaEditar && <FormularioAddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto}/>}
+      {ativaEditar && <FormularioAddEditInfo tituloForm={"Editar"} onPress={onPreesButtonEditar} texto={texto} textosInfo={textosInfo} setTextoInfos={setTextoInfos}/>}
     </>
   );
 }

@@ -17,6 +17,7 @@ export default function ItemCardapio({ item, aoPressionar }) {
   return (
     //Cada card em forma de "botao" com redirecionamento para sua pagina, "acionando" a função que foi passada como parametro na chamada do componente
     <View>
+      {/* Caso o estado ativaEditar seja  false, ele ira exibir o item normalmente*/}
       {!ativaEditar && (
         <>
           <TouchableOpacity style={styles.card} onPress={aoPressionar}>
@@ -48,6 +49,7 @@ export default function ItemCardapio({ item, aoPressionar }) {
           </View>
         </>
       )}
+      {/* Caso o estado ativaEditar seja true, ele ira exibir um formulario de edição do item ja carregando as suas informações*/}
       {ativaEditar && (
         <FormularioAddEditItem
           tituloForm={"Editar"}

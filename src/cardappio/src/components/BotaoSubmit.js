@@ -1,7 +1,10 @@
 import React from 'react'
 import { Text, TouchableOpacity, View, StyleSheet } from 'react-native'
 
+//Componente de botao para envio ou cancelamento dos formularios, por padrão o texto exibido sera Salvar, a função é passada como paramatro
+
 export default function BotaoSubmit({onPress, textoBotao = "Salvar"}) {
+    
     return (
     <View style={styles.container}>
         <TouchableOpacity style={styles.botao} onPress={onPress}>

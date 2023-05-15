@@ -1,10 +1,12 @@
+//Arquivo de configuração do firebase
+
 import "firebase/storage"
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth/react-native";
 import { getFirestore } from "firebase/firestore"
 import { getStorage } from "firebase/storage"
 
-
+//Credenciais disponibilizadas pelo firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAURzWwikoYVsnYd1uODq-lsQsHNpA0g70",
   authDomain: "cardappiopuc.firebaseapp.com",

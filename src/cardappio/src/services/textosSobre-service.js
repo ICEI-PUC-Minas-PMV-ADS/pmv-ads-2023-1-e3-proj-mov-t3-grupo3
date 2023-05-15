@@ -1,9 +1,24 @@
+//Arquivo de serviços dos textos de informações sobre o estabelecimento
+
 import { db } from "../config/firebase";
 import {
   collection,
   addDoc,
-  doc, updateDoc, deleteDoc,
+  doc, updateDoc, deleteDoc, getDocs
 } from "firebase/firestore";
+
+//Função para listar todos os textos cadastradas
+export const carregaTextosInfo = async (setTextoInfos) => {
+  const textoInfosRef = collection(db, "textos_sobre");
+
+  try {
+    const querySnapshot = await getDocs(textoInfosRef);
+    const textoInfos = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    setTextoInfos(textoInfos)
+  } catch (error) {
+    console.log("Error getting documents: ", error);
+  }
+}
 
 export const addInfo = async ({titulo, descricao}, textosInfo, setTextoInfos) => {
   const novaInfo = {
@@ -11,13 +26,18 @@ export const addInfo = async ({titulo, descricao}, textosInfo, setTextoInfos) =>
     descricao: descricao,
   };
 
+
   try {
     const docRef = await addDoc(collection(db, "textos_sobre"), {
       titulo: novaInfo.titulo,
       descricao: novaInfo.descricao,
     });
+    const novaInfoComId = {
+      ...novaInfo,
+      id: docRef.id
+    }
 
-    setTextoInfos([...textosInfo, novaInfo]);
+    setTextoInfos([...textosInfo, novaInfoComId]);
   } catch (error) {
     console.error(error);
     if (error.response && error.response.status === 401) {

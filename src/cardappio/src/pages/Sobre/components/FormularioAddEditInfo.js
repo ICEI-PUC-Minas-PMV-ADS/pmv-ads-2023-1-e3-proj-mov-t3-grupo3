@@ -3,15 +3,13 @@ import { Text, View, StyleSheet } from 'react-native'
 import InputFormulario from '../../../components/InputFormulario'
 import BotaoSubmit from '../../../components/BotaoSubmit'
 import {addInfo, updateInfo} from "../../../services/textosSobre-service"  
-import { useTextoInfo } from '../../../common/context/useTextoInfo'
 
 //O componente recebe como prop, um titulo, uma função e um objeto (texto), que caso não seja passado tem como padrão o valor null
-export default function FormularioAddEditInfo({tituloForm, onPress, texto = null}) {
+export default function FormularioAddEditInfo({tituloForm, onPress, texto = null, textosInfo, setTextoInfos}) {
   //Controle do estado dos inputs
   const [titulo, setTitulo] = useState(texto?.titulo || "");
   const [descricao, setDescricao] = useState(texto?.descricao || "");
-  const {textosInfo, setTextoInfos} = useTextoInfo()
-  //Funções retonradas pelo contexto useTextInfo
+
 
   //Caso seja passado um objeto na prop texto, indica que esta se tratando de uma edição de uma informação, caindo na primeira condição e caso não seja passado nada ou seja o texto seja null, caira na segunda condição
   function onPressSalvar(){

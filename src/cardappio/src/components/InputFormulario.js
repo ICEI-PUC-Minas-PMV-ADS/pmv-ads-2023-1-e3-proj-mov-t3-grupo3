@@ -1,9 +1,10 @@
 import React from 'react'
 import {View, Text, TextInput, StyleSheet} from 'react-native'
 
+// Componente com um input para ser reutilizado em formulario, onde recebe algumas propriedades, onde algumas deas possuem valores padrões caso não sejam passadas na chamada do componente
+
 export default function InputFormulario({label, value, onChangeText, tipo = 'default', maxLength = 300, numberOfLines = 1, multiline = false}) {
   
- 
   return (
     <View>
       <Text style={styles.labelEdit}>{label}</Text>

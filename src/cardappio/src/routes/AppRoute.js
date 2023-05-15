@@ -6,7 +6,6 @@ import Item from "../pages/Item";
 import Sobre from "../pages/Sobre";
 import { UserProvider } from "../common/context/useUser";
 import { ItemProvider } from "../common/context/useItem";
-import { TextoInfoProvider } from "../common/context/useTextoInfo";
 import Login from "../pages/Login";
 
 
@@ -17,7 +16,6 @@ export default function AppRoute() {
     //Providers e rotas de navegação em stack
     <UserProvider>
       <ItemProvider>
-        <TextoInfoProvider>
           <NavigationContainer>
             <Stack.Navigator
               initialRouteName="Home"
@@ -31,7 +29,6 @@ export default function AppRoute() {
               <Stack.Screen name="Login" component={Login} />
             </Stack.Navigator>
           </NavigationContainer>
-        </TextoInfoProvider>
       </ItemProvider>
     </UserProvider>
   );
