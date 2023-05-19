@@ -1,5 +1,4 @@
 //Arquivo de serviços dos itens do cardapio
-
 import {
   collection,
   addDoc,
@@ -7,6 +6,8 @@ import {
   deleteDoc,
   doc,
   getDocs,
+  query,
+  where
 } from "firebase/firestore";
 import { db, storage } from "../config/firebase";
 import {
@@ -15,6 +16,7 @@ import {
   getDownloadURL,
   deleteObject,
 } from "firebase/storage";
+import { async } from "@firebase/util";
 
 //Função para listar todas as categorias cadastradas
 export const carregaListaCategorias = async (setCategorias) => {
@@ -26,10 +28,19 @@ export const carregaListaCategorias = async (setCategorias) => {
       id: doc.id,
       ...doc.data(),
     }));
+    const indexTodos = listaCategorias.findIndex(categoria => categoria.nome === "Todos");
+  if (indexTodos !== -1) {
+    const todosCategoria = listaCategorias[indexTodos];
+    listaCategorias.splice(indexTodos, 1);
+    listaCategorias.unshift(todosCategoria);
+  }
+
     setCategorias(listaCategorias);
-    console.log("entrou");
+
   } catch (error) {
-    console.log("Error getting documents: ", error);
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }
   }
 };
 
@@ -39,6 +50,11 @@ export const addCategoria = async (
   listaCategorias
 ) => {
   try {
+    if (!nome || nome.trim() === "") {
+      alert("Por favor, preencha todos os campos.");
+      return ;
+    } 
+
     const novaCategoria = {
       nome: nome,
     };
@@ -54,7 +70,7 @@ export const addCategoria = async (
     setListaCategoria(novaListaCategorias);
   } catch (error) {
     console.error(error);
-    if (error.response && error.response.status === 401) {
+    if (error.code === "permission-denied") {
       alert("Você não está autorizado a realizar esta operação.");
     }
     return listaCategorias;
@@ -66,10 +82,15 @@ export const updateCategoria = async (
   listaCategorias,
   setListaCategorias
 ) => {
+  if (!nome || nome.trim() === "") {
+    alert("Por favor, preencha todos os campos.");
+    return ;
+  }
+
   const categoriaAtualizada = {
     nome: nome,
   };
-  try {
+  try {   
     console.log(categoriaAtualizada.nome);
     const docRef = doc(db, "categorias", id);
     await updateDoc(docRef, categoriaAtualizada);
@@ -78,7 +99,9 @@ export const updateCategoria = async (
     );
     setListaCategorias(categoriasAtualizadas);
   } catch (error) {
-    console.error(error);
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }
   }
 };
 
@@ -94,7 +117,9 @@ export const deleteCategoria = async (
     );
     setListaCategorias(categoriasAtualizadas);
   } catch (error) {
-    console.error(error);
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }
   }
 };
 
@@ -108,14 +133,19 @@ export const carregaListaItens = async (setListaItens, setListaFiltrada) => {
       id: doc.id,
       ...doc.data(),
     }));
+    const listaItensSemEstablecimento = listaItens.filter((item) => item.nome !== "Estabelecimento")
     setListaItens(listaItens);
-    setListaFiltrada(listaItens);
+    setListaFiltrada(listaItensSemEstablecimento);
   } catch (error) {
     console.log("Error getting documents: ", error);
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }
   }
 };
 
 export async function uploadImage(uri, itemId) {
+  console.log(uri)
   if (!uri) return;
   try {
     const response = await fetch(uri);
@@ -139,6 +169,12 @@ export const addItem = async (
   setListaItens,
   setListaFiltrada
 ) => {
+
+  if (!nome || nome.trim() === "" || !valor || valor.trim() === "" || !categoria || !uri) {
+    alert("Por favor, preencha todos os campos.");
+    return ;
+  }
+
   try {
     const novoItem = {
       nome: nome,
@@ -159,11 +195,12 @@ export const addItem = async (
 
     await updateDoc(doc(db, "itens_do_cardapio", novoItemId), { url_img: url });
     const novaListaItens = [...listaItens, novoItemComId];
+    const listaItensSemEstablecimento = novaListaItens.filter((item) => item.nome !== "Estabelecimento")
     setListaItens(novaListaItens);
-    setListaFiltrada(novaListaItens);
+    setListaFiltrada(listaItensSemEstablecimento);
   } catch (error) {
     console.error(error);
-    if (error.response && error.response.status === 401) {
+    if (error.code === "permission-denied") {
       alert("Você não está autorizado a realizar esta operação.");
     }
     return listaItens;
@@ -176,8 +213,12 @@ export const updateItem = async (
   setListaItens,
   setListaFiltrada
 ) => {
-  console.log(id);
   try {
+    if (!nome || nome.trim() === "" || !valor || valor.trim() === "" || !categoria || !uri) {
+      alert("Por favor, preencha todos os campos.");
+      return ;
+    }
+
     const itemRef = doc(db, "itens_do_cardapio", id);
     const updateFields = {
       nome: nome,
@@ -202,11 +243,13 @@ export const updateItem = async (
     };
     const novaListaItens = [...listaItens];
     novaListaItens[index] = itemAtualizado;
+
+    const listaItensSemEstablecimento = novaListaItens.filter((item) => item.nome !== "Estabelecimento")
     setListaItens(novaListaItens);
-    setListaFiltrada(novaListaItens);
+    setListaFiltrada(listaItensSemEstablecimento);
   } catch (error) {
     console.error(error);
-    if (error.response && error.response.status === 401) {
+    if (error.code === "permission-denied") {
       alert("Você não está autorizado a realizar esta operação.");
     }
   }
@@ -222,12 +265,28 @@ export const deleteItem = async (
     const itemRef = doc(db, "itens_do_cardapio", id);
     await deleteDoc(itemRef);
     await deleteObject(ref(storage, `imagens_do_cardapio/${id}.jpg`));
+
+    // Obter todas as avaliações com idItem igual a id
+    const avaliacoesQuery = query(
+      collection(db, "avaliacoes"),
+      where("idItem", "==", id)
+    );
+    const avaliacoesSnapshot = await getDocs(avaliacoesQuery);
+
+    // Excluir cada avaliação individualmente
+    avaliacoesSnapshot.forEach(async (doc) => {
+      const avaliacaoRef = doc(db, "avaliacoes", doc.id);
+      await deleteDoc(avaliacaoRef);
+    });
+
     const novaListaItens = listaItens.filter((item) => item.id !== id);
+    const listaItensSemEstablecimento = novaListaItens.filter(
+      (item) => item.nome !== "Estabelecimento"
+    );
     setListaItens(novaListaItens);
-    setListaFiltrada(novaListaItens);
+    setListaFiltrada(listaItensSemEstablecimento);
   } catch (error) {
-    console.error(error);
-    if (error.response && error.response.status === 401) {
+    if (error.code === "permission-denied") {
       alert("Você não está autorizado a realizar esta operação.");
     }
   }
@@ -239,10 +298,93 @@ export const filtrarOpcao = (id, setListaFiltrada, listaItens, categorias) => {
     (categoria) => categoria.id === id
   );
   if (categoriaEscolhida.nome === "Todos") {
-    setListaFiltrada(listaItens);
+    const listaItensSemEstablecimento = listaItens.filter((item) => item.nome !== "Estabelecimento")
+    setListaFiltrada(listaItensSemEstablecimento);
   } else {
     const novaLista = listaItens.filter((item) => item.categoria === id);
-    setListaFiltrada(novaLista);
-    console.log("entrou");
+    setListaFiltrada(    novaLista.filter((item) => item.nome !== "Estabelecimento")
+    );
+  }
+};
+
+
+export const carregaSugestoes = async(setListaSugestoes) => {
+  const sugestoesRef = collection(db, "sugestoes");
+  try {
+    const querySnapshot = await getDocs(sugestoesRef);
+    const listaSugestoes = querySnapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    setListaSugestoes(listaSugestoes);
+  } catch (error) {
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }
+  }
+}
+
+
+export const addSugestao = async (sugestao) => {
+  try {
+    const sugestaoRef = collection(db, "sugestoes");
+    // Insere a sugestão no banco "sugestoes"
+    await addDoc(sugestaoRef, {
+      nomeItem: sugestao.nomeItem,
+      valor: sugestao.valor,
+      texto: sugestao.texto,
+    });
+  } catch (error) {
+    console.error("Erro ao inserir a sugestão:", error);
+  }
+};
+
+
+export const addAvaliacao = async (itemId, avaliacao) => {
+  try {
+    const avaliacaoRef = collection(db, "avaliacoes");
+    if (!avaliacao) {
+      alert("Por favor, escolha uma nota!");
+      return ;
+    }
+    // Salva a avaliação na coleção "avaliacoes"
+    await addDoc(avaliacaoRef, {
+      idItem: itemId,
+      valor: avaliacao,
+    });
+
+    alert("Avaliação e sugestão feita com sucesso!");
+  } catch (error) {
+    if (error.code === "permission-denied") {
+      alert("Você não está autorizado a realizar esta operação.");
+    }  }
+};
+
+export const calcularMediaAvaliacoes = async (itemId) => {
+  try {
+    const avaliacoesRef = collection(db, "avaliacoes");
+
+    // Consulta as avaliações filtrando pelo id do item
+    const querySnapshot = await getDocs(query(avaliacoesRef, where("idItem", "==", itemId)));
+
+    let soma = 0;
+    let quantidade = 0;
+
+    // Calcula a soma e a quantidade de avaliações encontradas
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      if (data && data.valor) {
+        const avaliacao = data.valor;
+        soma += avaliacao;
+        quantidade++;
+      }
+    });
+
+    const media = quantidade > 0 ? soma / quantidade : 0;
+
+    return media;
+  } catch (error) {
+    console.error("Erro ao calcular a média das avaliações:", error);
+    return 0;
   }
 };

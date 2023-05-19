@@ -8,10 +8,11 @@ export const ItemProvider = ({ children }) => {
   const [listaItens, setListaItens] = useState([]);
   const [listaFiltrada, setListaFiltrada] = useState([]);
   const [listaCategorias, setListaCategorias] = useState([])
+  const [listaSugestoes, setListaSugestoes] = useState([])
 
   return (
     <ItemContext.Provider
-      value={{ listaItens, setListaItens, listaFiltrada, setListaFiltrada, listaCategorias, setListaCategorias }}
+      value={{ listaItens, setListaItens, listaFiltrada, setListaFiltrada, listaCategorias, setListaCategorias, listaSugestoes, setListaSugestoes }}
     >
       {children}
     </ItemContext.Provider>
@@ -20,7 +21,7 @@ export const ItemProvider = ({ children }) => {
 
 export const useItem = () => {
   const context = useContext(ItemContext);
-  const { listaItens, setListaItens, listaFiltrada, setListaFiltrada, listaCategorias, setListaCategorias } =
+  const { listaItens, setListaItens, listaFiltrada, setListaFiltrada, listaCategorias, setListaCategorias, listaSugestoes, setListaSugestoes } =
     context;
 
  
@@ -31,6 +32,8 @@ export const useItem = () => {
     listaFiltrada,
     setListaFiltrada,
     listaCategorias, 
-    setListaCategorias
+    setListaCategorias,
+    listaSugestoes,
+    setListaSugestoes
   };
 };

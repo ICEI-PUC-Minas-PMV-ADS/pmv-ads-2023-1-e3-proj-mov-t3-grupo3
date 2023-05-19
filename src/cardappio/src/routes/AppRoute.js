@@ -7,6 +7,7 @@ import Sobre from "../pages/Sobre";
 import { UserProvider } from "../common/context/useUser";
 import { ItemProvider } from "../common/context/useItem";
 import Login from "../pages/Login";
+import Sugestoes from "../pages/Sugestoes";
 
 
 const Stack = createNativeStackNavigator();
@@ -27,6 +28,7 @@ export default function AppRoute() {
               <Stack.Screen name="Item" component={Item} />
               <Stack.Screen name="Sobre" component={Sobre} />
               <Stack.Screen name="Login" component={Login} />
+              <Stack.Screen name="Sugestoes" component={Sugestoes}/>
             </Stack.Navigator>
           </NavigationContainer>
       </ItemProvider>

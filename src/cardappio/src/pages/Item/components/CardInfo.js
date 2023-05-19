@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         marginVertical: 25,
         marginHorizontal: 15,
         gap: 10,
+        width: '90%'
     },
     nomeDoPrato:{
         color: "#FEB342",

@@ -43,7 +43,15 @@ export default function FormularioAddEditItem({ tituloForm, onPress, item }) {
 
     if (!result.canceled) {
       // A imagem foi selecionada
-      setUri(result.assets[0].uri);
+      let convertedUri = result.assets[0].uri;
+    
+      // Verifica se é um emulador iOS
+      if (Platform.OS === 'ios' && convertedUri.startsWith('file://')) {
+        // Remove o prefixo 'file://'
+        console.log("entrou")
+        convertedUri = convertedUri.slice(7);
+      }
+      setUri(convertedUri);
     }
   };
 
@@ -59,7 +67,7 @@ export default function FormularioAddEditItem({ tituloForm, onPress, item }) {
       );
       onPress();
     } else {
-      //Caso a prop item do componente seja igual de null, ela cai na opção de edição do item
+      //Caso a prop item do componente seja igual de null, ela cai na opção de edição do item      
       addItem(
         { nome, valor, descricao, copy, categoria, uri },
         listaItens,

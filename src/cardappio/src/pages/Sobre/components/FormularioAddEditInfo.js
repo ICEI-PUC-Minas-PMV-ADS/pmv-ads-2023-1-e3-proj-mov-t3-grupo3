@@ -52,11 +52,9 @@ const styles = StyleSheet.create({
 
   alteracao: {
     marginTop: 5,
-    marginLeft: 30,
-    marginRight: 30,
     marginBottom: 5,
     borderRadius: 10,
-    padding: 15,
+    width:"90%"
   },
 
   tituloEditar: {

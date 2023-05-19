@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import { TouchableOpacity, Text, StyleSheet, View } from "react-native";
 import { useUser } from "../../../../../common/context/useUser";
 import Icon from "@expo/vector-icons/MaterialIcons";
 
@@ -18,8 +18,12 @@ export default function Categoria({ categoria, onPress = null, ativaEditar = nul
     }
   }
 
+  if (signed && categoria.id === '9RplLw0PmAh8I0rWpTLC') {
+    return <Text>Todos</Text>; // Retorna nulo para não renderizar a categoria 
+  
+  }
   return (
-    <TouchableOpacity
+      <TouchableOpacity
       onPress={onPressCategoria}
       style={styles.categoria}
     >

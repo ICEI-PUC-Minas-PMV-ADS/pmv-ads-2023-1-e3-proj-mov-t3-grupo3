@@ -48,12 +48,11 @@ const styles = StyleSheet.create({
   box: {
     backgroundColor: "#f04c54",
     marginTop: 5,
-    marginLeft: 30,
-    marginRight: 30,
     marginBottom: 5,
     borderRadius: 10,
     padding: 15,
     flex: 1,
+    width: "90%"
   },
 
   tituloBox: {

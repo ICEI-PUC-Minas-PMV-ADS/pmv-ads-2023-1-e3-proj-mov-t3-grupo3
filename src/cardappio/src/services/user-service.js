@@ -19,7 +19,7 @@ export const login = async ({ email, password}, setSigned, setUser, navigation )
       AsyncStorage.setItem("@TOKEN_KEY", userRetornado.accessToken).then();
       setSigned(true);
       navigation.navigate("Home");
-      setUser(user);
+      setUser(userRetornado);
       return userRetornado;
     }
   } catch (error) {

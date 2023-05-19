@@ -42,7 +42,7 @@ export default function Categorias() {
 
   //A pagina ser carregada ele carrega todas as categorias
   useEffect(() => {
-    carregaListaCategorias(setListaCategorias).then(() => setLoaded(true)); // atualiza loaded após o carregamento das categorias
+    carregaListaCategorias(setListaCategorias, signed).then(() => setLoaded(true)); // atualiza loaded após o carregamento das categorias
   }, []);
 
   //Chamada da função de filtro
@@ -145,6 +145,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     paddingHorizontal: 20,
     overflow: "hidden",
-    justifyContent: "center",
+    alignItems: "center",
+    width: "100%"
   },
 });

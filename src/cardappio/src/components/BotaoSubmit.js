@@ -21,19 +21,14 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         marginTop: 5,
         marginBottom: 15,
-        backgroundColor: "#EF4F51",
-        height: 35,
-        marginLeft: 140,
-        marginRight: 140,
-        borderRadius: 5,
     },
     // estilização abaixo desnecessária (desabilitada por Anderson Marques)
-    // botao:{
-    //     backgroundColor: "#EF4F51",
-    //     paddingHorizontal: 86, 
-    //     paddingVertical: 10, 
-    //     borderRadius: 5, 
-    // },
+    botao:{
+        backgroundColor: "#EF4F51",
+        paddingHorizontal: 86, 
+        paddingVertical: 10, 
+        borderRadius: 5, 
+    },
     textoBotao:{
         color: "#ffff",
         fontSize: 15,

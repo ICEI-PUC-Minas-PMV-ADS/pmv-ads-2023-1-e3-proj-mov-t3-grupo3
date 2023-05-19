@@ -1,13 +1,11 @@
 import React from 'react'
 import { TouchableOpacity, Image, StyleSheet } from 'react-native'
-import estrela from '../assets/estrela.png'
-import estrelaCinza from '../assets/estrelaCinza.png'
+import estrela from '../../assets/estrela.png'
+import estrelaCinza from '../../assets/estrelaCinza.png'
 
 
-export default function Estrela({ onPress, desabilitada = true, preenchida, grande = false}) {
+export default function Estrela({ onPress, desabilitada = true, preenchida}) {
     
-    const styles = stylesFunction(grande);
-
     const getImagem = () => {
         if (preenchida){
             return estrela
@@ -25,10 +23,10 @@ export default function Estrela({ onPress, desabilitada = true, preenchida, gran
 }
 
 
-const stylesFunction = (grande) => StyleSheet.create({
+const styles = StyleSheet.create({
     estrela: {
-        width: grande ? 36: 12,
-        height: grande ? 36: 12,
+        width: 25,
+        height: 25,
         marginRight: 2
     },
 })

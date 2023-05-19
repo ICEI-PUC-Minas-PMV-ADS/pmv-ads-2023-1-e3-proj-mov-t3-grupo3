@@ -5,7 +5,7 @@ import {View, Text, TextInput, StyleSheet} from 'react-native'
 
 // Essa cópia foi criada para conseguirmos aumentar o tamanho de alguns formulários em específico
 
-export default function InputFormulario2({label, value, onChangeText, tipo = 'default', maxLength = 300, numberOfLines = 1, multiline = false}) {
+export default function InputFormulario2({label, value, onChangeText, tipo = 'default', maxLength = 300,}) {
   
   return (
     <View>
@@ -15,8 +15,8 @@ export default function InputFormulario2({label, value, onChangeText, tipo = 'de
         onChangeText={onChangeText}
         keyboardType={tipo}
         maxLength={maxLength}
-        numberOfLines={numberOfLines}
-        multiline = {multiline}
+        numberOfLines={5}
+        multiline = {true}
       />
     </View>
     )
@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
   // estilização dos campos de alteração / edição 
     input: {
       height: 100,
-      flex: 1,
       backgroundColor: "#eaeaea",
       borderRadius: 5,
       borderWidth: 1,

@@ -19,7 +19,7 @@ export default function Topo() {
   //usuario e estado do login retornado pelo contexto useUser
   const { signed } = useUser()
   const [pesquisa, setPesquisa] = useState('')
-  const {listaItens, setListaFiltrada} = useItem() 
+  const {listaItens, setListaFiltrada, listaFiltrada} = useItem() 
   const [categorias, setCategorias] = useState([])
 
   useEffect(()=> {
@@ -35,7 +35,8 @@ export default function Topo() {
   }, [filtrarPesquisa]);
 
   const filtrarPesquisa = (valorCampo) => {
-    const novaLista = listaItens.filter((item) =>
+    const listaItensSemEstablecimento = listaItens.filter((item) => item.nome !== "Estabelecimento")
+    const novaLista = listaItensSemEstablecimento.filter((item) =>
       item.descricao.toLowerCase().includes(valorCampo.toLowerCase())
     );
     setListaFiltrada(novaLista);
@@ -44,20 +45,22 @@ export default function Topo() {
   return (
     <>
     {/* Botao com redirecionamento para a pagina de sobre */}
-      <TouchableOpacity style={styles.topo} onPress={
-        () => {
-          navigation.navigate("Sobre")
-        } 
-      }>
-        <Image style={styles.imagem} source={Logo} />
-        <View style={styles.textoTopo}>
-          <Text style={styles.tituloTopo}>Cardappio</Text>
-          <Text style={styles.subtituloTopo}>Ver mais</Text>
+      <View style={styles.topo}>
+        <TouchableOpacity style={styles.logoTopo} onPress={
+          () => {
+            navigation.navigate("Sobre")
+          } 
+        }>
+          <Image style={styles.imagem} source={Logo} />
+          <View style={styles.textoTopo}>
+            <Text style={styles.tituloTopo}>Cardappio</Text>
+            <Text style={styles.subtituloTopo}>Ver mais</Text>
+          </View>
+        </TouchableOpacity>
+        {/* Condição dizendo que caso o signed seja true, ele ira mostrar o componente Text, que contem o nome do usuario logado */}
+        <View style={styles.nomeEditar}>
+          {signed && <Text style={styles.saudacao}>Olá admin!</Text>}
         </View>
-      </TouchableOpacity>
-      {/* Condição dizendo que caso o signed seja true, ele ira mostrar o componente Text, que contem o nome do usuario logado */}
-      <View style={styles.nomeEditar}>
-      {signed && <Text>Olá admin!</Text>}
       </View>
 
       <View style={styles.pesquisa}>
@@ -91,7 +94,11 @@ export default function Topo() {
 }
 
 const styles = StyleSheet.create({
-  topo: {
+  topo:{
+    flexDirection: "row",
+    alignItems: "center"
+  },
+  logoTopo: {
     padding: 15,
     flexDirection: "row",
     alignItems: "flex-end",
@@ -116,6 +123,10 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     marginRight: 20,
   }, 
+  saudacao:{
+    fontWeight: "bold",
+    fontSize: 18,
+  },
 
   pesquisa: {
     flexDirection: "row",
