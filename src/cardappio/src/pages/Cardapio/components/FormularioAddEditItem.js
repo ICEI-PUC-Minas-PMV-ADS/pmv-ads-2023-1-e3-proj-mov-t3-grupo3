@@ -10,6 +10,7 @@ import {
 
 import { Text } from "react-native";
 import InputFormulario from "../../../components/InputFormulario";
+import InputFormulario2 from "../../../components/InputFormulario2";
 import BotaoSubmit from "../../../components/BotaoSubmit";
 import * as ImagePicker from "expo-image-picker";
 import { addItem, updateItem } from "../../../services/item-service";
@@ -102,44 +103,50 @@ export default function FormularioAddEditItem({ tituloForm, onPress, item }) {
   );
 
   return (
-    <View>
-      <Text>{tituloForm}</Text>
-      <InputFormulario label={"Nome"} value={nome} onChangeText={setNome} />
+    <>
+    <View style={styles.alteracao}>
+      <Text style={styles.tituloEditar}>{tituloForm}</Text>
+      <InputFormulario label={"Nome:"} value={nome} onChangeText={setNome} />
 
       <InputFormulario
-        label={"Valor"}
+        label={"Valor:"}
         value={valor}
         onChangeText={setValor}
         tipo={"numeric"}
         maxLength={6}
       />
-      <InputFormulario
-        label={"Descrição"}
+
+      {/* O InputFormulario2 é uma cópia, e foi criada para conseguirmos alterar o tamanho de alguns formulários em específico */}
+      <InputFormulario2
+        label={"Descrição:"}
         value={descricao}
         onChangeText={setDescricao}
         numberOfLines={3}
         multiline={true}
       />
+
       <InputFormulario
-        label={"Copy"}
+        label={"Copy:"}
         value={copy}
         onChangeText={setCopy}
         numberOfLines={2}
         multiline={true}
       />
       {/* Botao para escolha da imagem */}
+      <View style={styles.imagemContainer}>
       <TouchableOpacity onPress={pickImage}>
         {uri && uri !== "" ? (
-          <Image source={{ uri }} style={{ width: 200, height: 200 }} />
+          <Image source={{ uri }} style={{ width: 250, height: 250, borderRadius: 15 }} />
         ) : (
           <Text>Imagem não selecionada</Text>
         )}
         <Text>Adicionar imagem</Text>
       </TouchableOpacity>
+      </View>
       
       {/* Botao de seleção de categoria */}
       <View>
-          <Text style={{ fontWeight: "bold", fontSize: 15 }}>Categoria</Text>
+          <Text style={{ fontWeight: "bold", fontSize: 15 }}>Categoria:</Text>
           <TouchableOpacity onPress={() => setModalVisible(true)}>
             <Text style={styles.input}>
               {categoria
@@ -171,19 +178,41 @@ export default function FormularioAddEditItem({ tituloForm, onPress, item }) {
             </TouchableOpacity>
           </Modal>
       </View>
-      <View style={styles.botoes}>
+      {/* <View style={styles.botoes}>
         <BotaoSubmit onPress={onPressSalvar} />
         <BotaoSubmit onPress={onPressCancelar} textoBotao={"Cancelar"} />
-      </View>
+      </View> */}
     </View>
-  );
+        <BotaoSubmit onPress={onPressSalvar} />
+        <BotaoSubmit onPress={onPressCancelar} textoBotao={"Cancelar"} />
+    </>
+  )
 }
 
 const styles = StyleSheet.create({
-  botoes: {
-    flexDirection: "row",
-    justifyContent: "space-between",
+
+  //estilização dos botões abaixo desnecessária (desabilitado por Anderson Marques)
+  // botoes: {
+  //   flexDirection: "row",
+  //   justifyContent: "space-between",
+  // },
+
+  alteracao: {
+    marginTop: 2,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 5,
+    borderRadius: 10,
+    padding: 15,
   },
+
+  tituloEditar: {
+    color: "#000",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+
   input: {
     backgroundColor: "#eaeaea",
     borderRadius: 10,
@@ -195,25 +224,36 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     width: "60%",
   },
+
   modalContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
+
   modalContent: {
     width: "80%",
     backgroundColor: "white",
     borderRadius: 10,
     padding: 20,
   },
+
   cancelButton: {
     textAlign: "center",
     marginTop: 10,
     color: "#EF4F51",
     fontSize: 18,
   },
+
   categoria: {
     padding: 15,
     justifyContent: "center",
   },
+
+  imagemContainer: {
+    marginTop: 20,
+    marginBottom: 20,
+    alignItems: "center",
+  },
+
 });

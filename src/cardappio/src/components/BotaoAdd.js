@@ -24,6 +24,8 @@ export default function BotaoAdd({ onPress, categoria = false  }) {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
+    marginTop: 20,
+    marginBottom: 15,
   },
   icone: {
     fontSize: 20,

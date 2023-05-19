@@ -34,16 +34,18 @@ export default function FormularioAddEditInfo({tituloForm, onPress, texto = null
 
 
   return (
+    <>
     <View style={styles.alteracao}>
       {/* Titulo do formulario passado como parametro, possivelmente Edição ou Adição */}
       <Text style={styles.tituloEditar}>{tituloForm}</Text>
       {/* Inputs contendo os valores dos estados e com a função de set no seu estado a cada alteração */}
       <InputFormulario label="Título:" value={titulo} onChangeText={setTitulo}/>
-      <InputFormulario label="Descrição:" value={descricao} onChangeText={setDescricao}/>
+      <InputFormulario label="Descrição:" value={descricao} onChangeText={setDescricao}/>  
+    </View>
       <BotaoSubmit onPress={onPressSalvar}/>
       <BotaoSubmit onPress={onPressCalcelar} textoBotao={"Cancelar"}/>
-    </View>
-  )
+    </>
+  );
 }
 
 const styles = StyleSheet.create({

@@ -14,18 +14,26 @@ export default function BotaoSubmit({onPress, textoBotao = "Salvar"}) {
     )
 }
 
+// estilização dos botões (Salvar | Deletar | Cancelar)
 const styles = StyleSheet.create({
     container:{
         alignItems: "center",
-        marginTop: 20,
+        justifyContent: "center",
+        marginTop: 5,
         marginBottom: 15,
-    },
-    botao:{
         backgroundColor: "#EF4F51",
-        paddingHorizontal: 86,
-        paddingVertical: 10,
+        height: 35,
+        marginLeft: 140,
+        marginRight: 140,
         borderRadius: 5,
     },
+    // estilização abaixo desnecessária (desabilitada por Anderson Marques)
+    // botao:{
+    //     backgroundColor: "#EF4F51",
+    //     paddingHorizontal: 86, 
+    //     paddingVertical: 10, 
+    //     borderRadius: 5, 
+    // },
     textoBotao:{
         color: "#ffff",
         fontSize: 15,

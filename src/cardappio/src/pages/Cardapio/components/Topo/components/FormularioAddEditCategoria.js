@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { View, StyleSheet} from "react-native";
 import InputFormulario from '../../../../../components/InputFormulario'
 import BotaoSubmit from '../../../../../components/BotaoSubmit'
 import { useItem } from '../../../../../common/context/useItem'
@@ -34,10 +35,26 @@ export default function FormularioAddEditCategoria({onPress, categoria = null}) 
 
   return (
     <>
-      <InputFormulario label={"Nome da categoria"} value={nome} onChangeText={setNome}/>
+    <View style={styles.alteracao}>
+      <InputFormulario label={"Nome da categoria:"} value={nome} onChangeText={setNome}/>
+    </View>
       <BotaoSubmit onPress={onPressBotaoSalvar}/>
       {categoria != null && <BotaoSubmit onPress={onPressDeletar} textoBotao={"Deletar"}/>}
       <BotaoSubmit onPress={onPress} textoBotao={"Cancelar"}/>
     </>
   )
 }
+
+const styles = StyleSheet.create({
+
+  //edição do nome das categorias (adm logado)
+  alteracao: {
+    marginTop: 5,
+    marginLeft: 40,
+    marginRight: 40,
+    marginBottom: 2,
+    borderRadius: 10,
+    padding: 15,
+  },
+
+});

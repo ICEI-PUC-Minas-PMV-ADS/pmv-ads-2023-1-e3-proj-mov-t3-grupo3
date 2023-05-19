@@ -1,9 +1,11 @@
 import React from 'react'
 import {View, Text, TextInput, StyleSheet} from 'react-native'
 
-// Componente com um input para ser reutilizado em formulario, onde recebe algumas propriedades, onde algumas deas possuem valores padrões caso não sejam passadas na chamada do componente
+// Componente com um input para ser reutilizado em formulario, onde recebe algumas propriedades, onde algumas deas possuem valores padrões caso não sejam passadas na chamada do componente.
 
-export default function InputFormulario({label, value, onChangeText, tipo = 'default', maxLength = 300, numberOfLines = 1, multiline = false}) {
+// Essa cópia foi criada para conseguirmos aumentar o tamanho de alguns formulários em específico
+
+export default function InputFormulario2({label, value, onChangeText, tipo = 'default', maxLength = 300, numberOfLines = 1, multiline = false}) {
   
   return (
     <View>
@@ -22,9 +24,9 @@ export default function InputFormulario({label, value, onChangeText, tipo = 'def
 
 const styles = StyleSheet.create({
 
-  // estilização dos campos de alteração / edição
+  // estilização dos campos de alteração / edição 
     input: {
-      height: 40,
+      height: 100,
       flex: 1,
       backgroundColor: "#eaeaea",
       borderRadius: 5,
