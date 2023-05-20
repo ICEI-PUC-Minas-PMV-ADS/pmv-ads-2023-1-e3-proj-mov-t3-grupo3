@@ -16,33 +16,36 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "infoPlist":{
+      "infoPlist": {
         "NSPhotoLibraryUsageDescription": true
-      }
+      },
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "config": {
-        "cleartext": {
-          "enabled": true
-        }
-      }    
+      "package": "com.matheus_enc.cardappio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "proxy": {
-      "https": false,
-      "http": true,
-      "ssl": false
-    },
     "packagerOpts": {
-  "sourceExts": ["js", "json", "ts", "tsx", "jsx"],
-  "hostType": "lan",
-  "lanType": "ip"
-}
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx"
+      ],
+      "hostType": "lan",
+      "lanType": "ip"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcdcb878-b246-4ea4-9c12-7b56f1b15909"
+      }
+    }
   }
 }
