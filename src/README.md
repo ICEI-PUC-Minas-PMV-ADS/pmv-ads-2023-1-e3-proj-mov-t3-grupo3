@@ -26,4 +26,4 @@
 #### QR Code para link de download
 ![qr-code-expo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/qrcode-expo.png)
 
-obs: Possivelmente algumas permissão deverão ser concedidas para instalar o app!
+obs: Possivelmente algumas permissões deverão ser concedidas para instalar o app!
