@@ -40,10 +40,10 @@
 |	Requisito Associado 	| RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir itens do cardápio digital. |
 |	Requisito Associado 	| RF-001	O aplicativo deve conceder ao usuário master uma forma de login. |
 | Objetivo do Teste 	| Como admin, o usuário deve ser apto a adicionar novos itens ao cardápio. |
-| Passos 	| - Fazer Login;<br>- Abrir o Cardápio;<br>- Clicar no ícone de adicionar produtos;<br>- adicionar novos produtos;<br>- verificar se foi corretamente adicionado;|
+| Passos 	| - Fazer Login;<br>- Abrir o Cardápio;<br>- Clicar no ícone de adicionar produtos;<br>- Adicionar novos produtos;<br>- verificar se foi corretamente adicionado;|
 |Critério de Êxito | O usuário deve ser capaz de cadastrar novos itens no cardápio de forma simples e intuitiva.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-07 – Editar informações do Estabelecimento 	|
+| **Caso de Teste** 	| **CT-07 – Editar informações do Estabelecimento** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003	O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir informações sobre o estabelecimento. |
 | Objetivo do Teste 	| Como admin, o usuário deve ser apto a editar as informações do estabelecimento. |
