@@ -21,3 +21,31 @@
 | Passos 	| - Abrir o cardápio completo;<br>- Clicar em algum item; <br>- Voltar;|
 |Critério de Êxito | As tarefas são realizadas em menos de 3 segundos.|
 |  	|  	|
+| **Caso de Teste** 	| **CT-04 – Avaliar o Prato** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008	O aplicativo deve conceder ao usuário a opção de avaliar determinado item do cardápio. |
+| Objetivo do Teste 	| Verificar se o usuário foi capaz de executar a avaliação do prato. |
+| Passos 	| - Abrir o cardápio completo;<br>- Clicar em algum item; <br>- Avaliar;|
+|Critério de Êxito | O sistema registrar e contabilizar a avaliação.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Acessar dados do Restaurante** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005	O aplicativo deve permitir que o usuário visualize todas as informações do estabelecimento cadastradas. |
+| Objetivo do Teste 	| Verificar se o usuário foi capaz de visualizar as informações do restaurante. |
+| Passos 	| - Abrir o cardápio;<br>- Clicar nas informações do restaurante;|
+|Critério de Êxito | O sistema deve exibir as informações do restaurante.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Cadastrar Itens no Cardápio** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002	O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir itens do cardápio digital. |
+|	Requisito Associado 	| RF-001	O aplicativo deve conceder ao usuário master uma forma de login. |
+| Objetivo do Teste 	| Como admin, o usuário deve ser apto a adicionar novos itens ao cardápio. |
+| Passos 	| - Fazer Login;<br>- Abrir o Cardápio;<br>- Clicar no ícone de adicionar produtos;<br>- adicionar novos produtos;<br>- verificar se foi corretamente adicionado;|
+|Critério de Êxito | O usuário deve ser capaz de cadastrar novos itens no cardápio de forma simples e intuitiva.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-07 – Editar informações do Estabelecimento 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003	O aplicativo deve conceder ao usuário master a opção de cadastrar/editar/excluir informações sobre o estabelecimento. |
+| Objetivo do Teste 	| Como admin, o usuário deve ser apto a editar as informações do estabelecimento. |
+| Passos 	| - Fazer Login;<br>- Abrir o Cardápio;<br>- Clicar nas informações do restaurante;<br>- Alterá-las;<br>- Verificar se foi corretamente alterada;|
+|Critério de Êxito | O usuário deve ser capaz de editar as informações do usuário de forma simples e intuitiva.|
