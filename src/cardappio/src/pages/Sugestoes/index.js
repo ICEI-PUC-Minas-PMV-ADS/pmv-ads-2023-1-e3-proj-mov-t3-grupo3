@@ -25,7 +25,7 @@ export default function Sugestoes() {
           </View>
         ) : (
           listaSugestoes.map((sugestao) => {
-            return loaded && <CardSugestao sugestao={sugestao} />;
+            return loaded && <CardSugestao key={sugestao.id} sugestao={sugestao} />;
           })
         )}
         <View style={styles.buttonContainer}>
