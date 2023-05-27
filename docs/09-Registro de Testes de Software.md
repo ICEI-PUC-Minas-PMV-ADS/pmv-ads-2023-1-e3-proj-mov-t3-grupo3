@@ -25,7 +25,7 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Passos 	| - Acessar a tela inicial; <br> - Visualizar todos as informações inseridas; <br> - Clicar no botão de inserir; <br> - Preencher os campos <br> - Clicar no botão de confirmar a ação;<br> - Clicar para editar uma informação; <br> - Alterar informações <br> - Clicar no botão de confirmar a ação; <br> - Clicar no botão de exclusão |
 |Critério de Êxito | - O ítem cadastrado estará listado na tela inicial. |
 |Resultado| É possível adicionar ou remover itens do cardápio, quando o usuário master está conectado ao aplicativo. |
-|Registro| <img src= "https://user-images.githubusercontent.com/103212087/236047127-24a479a3-3eb8-4225-900d-2719057cfc48.gif" width=30% height=30%> |
+|Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/CRUD-Item.gif" width=30% height=30%> |
 |  	|  	|
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 CRUD das informações do estabelecimento** 	|
@@ -42,7 +42,7 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Passos 	| - Acessar a tela principal do cardápio; <br> - Escolher um ítem; <br> - Acessar o campo de avaliação; <br> - Avaliar; <br> - Confirmar avaliação. |
 |Critério de Êxito | - Após confirmar a avaliação o aplicativo retornará a tela inicial e o ítem estará com uma avaliação realizada. |
 |Resultado| A funcionalidade ainda não foi implementada. |
-|Registro| Ainda sem registro. |
+|Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Avalia%C3%A7%C3%A3o.gif" width=30% height=30%> |
 |  	|  	|
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Envio de sugestões** 	|
@@ -51,7 +51,7 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Passos 	| - Acessar a tela inicial; <br> - Acessar o campo de enviar sugestão; <br> - Escrever sugestão; <br> -Enviar o formulário. |
 |Critério de Êxito | -Após alerta de "sugestão enviada com sucesso" o aplicativo direcionará o usuário para a tela principal. |
 |Resultado| A funcionalidade ainda não foi implementada. |
-|Registro| Ainda sem registro.  |
+|Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Sugest%C3%A3o.gif" width=30% height=30%>  |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Visualizar Sugestões** 	|
 |	Requisito Associado 	| RF-010	O aplicativo deve permitir que o usuário master visualize as sugestões anonimas enviadas pelos usuários. |
@@ -59,6 +59,6 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Passos 	| - Acessar a tela inicial; <br> - Escolher uma sugestão da lista; <br> - Visualizar a susgestão escolhida.|
 |Critério de Êxito | - A sugestão escrita por um cliente será apresentada para leitura. |
 |Resultado| A funcionalidade ainda não foi implementada. |
-|Registro| Ainda sem registro. |
+|Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Visualizar-SugestaoEAvalicao.gif" width=30% height=30%> |
 |  	|  	|
 
