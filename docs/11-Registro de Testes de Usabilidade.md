@@ -1,8 +1,56 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+**O relatório final dos testes de Software e de Usabilidade encontra-se disponível através do documento:**
+[Registro.de.Teste.de.Usabilidade.xlsx](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/files/11559098/Registro.de.Teste.de.Usabilidade.xlsx)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+
+| **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
+|        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
+| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
+| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
+| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
+|**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
+       
+<br />
+<br />       
+       
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+
+| **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
+|        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
+| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
+| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
+| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
+|**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
+       
+<br />
+<br />       
+
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+
+| **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
+|        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
+| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
+| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
+| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
+|**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
+       
+<br />
+<br />      
+
+

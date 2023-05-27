@@ -9,35 +9,21 @@
 *Obs: a versão LTS (18) não é funcional no Expo*
 
 ### Instruções:
-1. Instale o JSON Server,  e o localtunel globalmente com o comando: 
-
-   ```npm install -g json-server``` 
-   ```npm install -g json-server-auth``` 
-   ```npm install -g localtunnel```
-
-   ou, caso ocorra um erro de permissão, utilize:
-
-   ```sudo npm install -g json-server```
-   ```sudo npm install -g json-server-auth```
-   ```sudo npm install -g json-server-auth```
+1. Execute o comando ```npm install``` para instalar os pacotes necessários.
 
 
-2. Execute o comando ```npm install``` para instalar os pacotes necessários.
+2. Para iniciar o projeto, execute o comando: ```npx expo start```
 
-3. No terminal, navegue até a pasta do seu banco de dados (db.json) e execute o comando:
 
-   ```npx json-server-auth db.json```
+  
 
-   Esse comando irá iniciar o servidor na porta 3000.
+## Download do .apk
 
-4. Agora em outro terminal execute o comando 
+<a href="https://expo.dev/accounts/matheus_enc/projects/cardappio/builds/06211dc3-a652-4cf9-b5a9-eb9648aae9bd">Link no expo.dev</a>
 
-   ```lt --port 3000```
+<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/arquivos/cardappio.apk">Link de download do arquivo .apk</a>
 
-   Esse comando pegara o banco de dados e ira criar um link com "mais segurança". Caso tenha iniciado em outra porta e não a 3000 basta alterar para a sua, por exemplo 3001, 3002 etc.
+#### QR Code para link de download
+![qr-code-expo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/qrcode-expo.png)
 
-5. Para iniciar o projeto, execute o comando:
-
-   ```npx expo start```
-
-Isso deve ser suficiente para configurar um servidor local com JSON Server e Expo/React Native. Basta agora fazer as requisições HTTP para a URL do seu servidor, que por padrão será ``http://localhost:3000``, mas o local tunel diponibiliza um novo link, por exemplo ``https://smooth-buttons-agree-170-239-223-159.loca.lt`` para acessar. Com o link dsponibilizado basta substituir no arquivo urlApi.js, localizado dentro da pasta services, e alterar sua url base ``const BASE_URL = "link"``
+obs: Possivelmente algumas permissões deverão ser concedidas para instalar o app!

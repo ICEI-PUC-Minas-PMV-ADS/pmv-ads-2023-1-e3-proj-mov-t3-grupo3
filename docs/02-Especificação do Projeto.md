@@ -208,10 +208,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | Alta | 
 |RNF-002| O aplicativo deverá estar disponível ao usuário 24h por dia. |  Alta | 
 |RNF-003| O aplicativo deve conter uma interface gráfica de fácil manuseio. |  Média | 
-|RNF-004| O aplicativo deve estar disponível também no idioma inglês. |  Baixa | 
-|RNF-005| O aplicativo não deverá apresentar um tempo de resposta que exceda 3 segundos quando não existirem problemas relacionados à qualidade de conexão. |  Alta | 
-|RNF-006| O aplicativo deve suportar vários usuários conectados de forma simultânea, não apresentando lentidão em suas funcionalidades. |  Alta | 
-|RNF-007| O aplicativo será desenvolvido com React Native. |  Alta | 
+|RNF-004| O aplicativo não deverá apresentar um tempo de resposta que exceda 3 segundos quando não existirem problemas relacionados à qualidade de conexão. |  Alta | 
+|RNF-005| O aplicativo deve suportar vários usuários conectados de forma simultânea, não apresentando lentidão em suas funcionalidades. |  Alta | 
+|RNF-006| O aplicativo será desenvolvido com React Native. |  Alta | 
 
 ## Restrições
 
