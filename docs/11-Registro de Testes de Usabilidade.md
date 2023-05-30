@@ -10,11 +10,11 @@
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |    Poder acessar nos dois aparelhos que possui.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso.|    :D   |        
-| **CT 02 - BUSCA**  | Filtrou rapidamente entre os itens do cardápio.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso. |    :I   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
-| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                        
-|**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
+| **CT 02 - BUSCA**  | Filtrou rapidamente entre os itens do cardápio.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso. |    :D   |  
+| **CT 03 - TEMPO DE RESPOSTA** | Navegou entre as telas com rapidez. |Incapaz de trazer um ponto negativo. | Tarefa realizada com sucesso.|     :)   |     
+| **CT 04 - AVALIAR O PRATO** | Espaço intuitivo.  | Não informar o limite de caracteres. | Tarefa realizada com sucesso. | :) |         
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | Visualização da avaliação do estabelecimento.| Falta do número de telefone para pedidos. | Tarefa realizada com sucesso. |  :) |                        
+|**OBSERVAÇÕES GERAIS**   | Teve facilidade com o sistema e possui sugestões de melhoria. |     |      | :D  |  
        
 <br />
 <br />       
@@ -24,7 +24,7 @@
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |   Utilizou o aplicativo mesmo em um celular antigo.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |        
-| **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :I   |  
+| **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |  
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
 | **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
