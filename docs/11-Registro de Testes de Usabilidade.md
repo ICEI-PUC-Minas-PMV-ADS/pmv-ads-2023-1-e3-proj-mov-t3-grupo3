@@ -9,8 +9,8 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   Tarefa realizada com sucesso.|    :D   |        
-| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 01 - RESPONSIVIDADE**     |    Poder acessar nos dois aparelhos que possui.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso.|    :D   |        
+| **CT 02 - BUSCA**  | Filtrou rapidamente entre os itens do cardápio.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso. |    :I   |  
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
 | **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                        
@@ -23,8 +23,8 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |  Tarefa realizada com sucesso. |    :D   |        
-| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 01 - RESPONSIVIDADE**     |   Utilizou o aplicativo mesmo em um celular antigo.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |        
+| **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :I   |  
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
 | **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
@@ -37,8 +37,7 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |  Tarefa realizada com sucesso.|    :D   |        
-| **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
+| **CT 01 - RESPONSIVIDADE**     |    Capacidade de disponibilizar a aplicaçãos nos tablets em cada mesa do estabelecimento.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso.|    :D   |        
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |            
 | **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso.|  :) |         
 | **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | Tarefa realizada com sucesso, porém com dificuldade. |   :) |          
