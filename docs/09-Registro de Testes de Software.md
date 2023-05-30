@@ -41,7 +41,6 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Objetivo do Teste 	|Verificar se o usuário consegue avaliar um ítem do cardápio. |
 | Passos 	| - Acessar a tela principal do cardápio; <br> - Escolher um ítem; <br> - Acessar o campo de avaliação; <br> - Avaliar; <br> - Confirmar avaliação. |
 |Critério de Êxito | - Após confirmar a avaliação o aplicativo retornará a tela inicial e o ítem estará com uma avaliação realizada. |
-|Resultado| A funcionalidade ainda não foi implementada. |
 |Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Avalia%C3%A7%C3%A3o.gif" width=30% height=30%> |
 |  	|  	|
 |  	|  	|
@@ -50,7 +49,6 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Objetivo do Teste 	| Verificar se o usuário consegue enviar uma sugestão. |
 | Passos 	| - Acessar a tela inicial; <br> - Acessar o campo de enviar sugestão; <br> - Escrever sugestão; <br> -Enviar o formulário. |
 |Critério de Êxito | -Após alerta de "sugestão enviada com sucesso" o aplicativo direcionará o usuário para a tela principal. |
-|Resultado| A funcionalidade ainda não foi implementada. |
 |Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Sugest%C3%A3o.gif" width=30% height=30%>  |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Visualizar Sugestões** 	|
@@ -58,7 +56,6 @@ Esta seção contem os casos de teste referentes aos casos de uso e não funcion
 | Objetivo do Teste 	|Verificar se o usuário master consegue visualizar uma sugestão de um cliente de seu estabelecimento. |
 | Passos 	| - Acessar a tela inicial; <br> - Escolher uma sugestão da lista; <br> - Visualizar a susgestão escolhida.|
 |Critério de Êxito | - A sugestão escrita por um cliente será apresentada para leitura. |
-|Resultado| A funcionalidade ainda não foi implementada. |
 |Registro| <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/img/Visualizar-SugestaoEAvalicao.gif" width=30% height=30%> |
 |  	|  	|
 
