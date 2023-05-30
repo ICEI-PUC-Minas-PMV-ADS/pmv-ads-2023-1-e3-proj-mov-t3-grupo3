@@ -5,7 +5,7 @@
 
 
 
-**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicação: Usuário: Matheus Marinho**
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
@@ -21,7 +21,7 @@
 <br />
 <br />       
        
-**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicação: Usuário: Samantha Boaventura**
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
@@ -37,7 +37,7 @@
 <br />
 <br />       
 
-**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicção: Usuário:**
+**Execução de tarefas feitas pelo usuário** ***----*** **dentro da aplicação: Usuário: Antônio Eduardo**
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
