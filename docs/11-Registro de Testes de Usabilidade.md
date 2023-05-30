@@ -13,9 +13,7 @@
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
-| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
-| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |                        
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
@@ -29,9 +27,7 @@
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
 | **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
-| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
-| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |                      
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
@@ -43,8 +39,7 @@
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
-| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |            
 | **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
 | **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
 | **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
