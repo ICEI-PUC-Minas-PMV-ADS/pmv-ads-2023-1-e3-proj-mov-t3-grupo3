@@ -9,11 +9,11 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   Tarefa realizada com sucesso.|    :D   |        
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |                        
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                        
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
@@ -23,11 +23,11 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |  Tarefa realizada com sucesso. |    :D   |        
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |     
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
 | **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |                      
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
@@ -37,11 +37,11 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |   ----- |    :)   |        
+| **CT 01 - RESPONSIVIDADE**     |    -----    | ----- |  Tarefa realizada com sucesso.|    :D   |        
 | **CT 02 - BUSCA**  | -----  | -----   |  ----- |    :I   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | -----|     :)   |            
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | ----- |  :) |         
-| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | ----- |   :D |          
+| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |            
+| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso.|  :) |         
+| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | ----- | ----- | Tarefa realizada com sucesso, porém com dificuldade. |   :) |          
 | **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | ----- | -----  |   ----- |    :I |                
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
