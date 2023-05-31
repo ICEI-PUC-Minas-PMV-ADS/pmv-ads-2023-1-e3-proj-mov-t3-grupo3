@@ -24,8 +24,8 @@
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |   Utilizou o aplicativo mesmo em um celular antigo.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |        
 | **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |    
-| **CT 03 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 04 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
+| **CT 03 - AVALIAR O PRATO** | Estrelas para visualização da avaliação.  | Não poder ver as avaliações escritas de outros clientes. | Tarefa realizada com sucesso. | :) |         
+| **CT 04 - ACESSAR DADOS DO RESTAURANTE**    | -----|  | Tarefa realizada com sucesso. |  :) |                      
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
