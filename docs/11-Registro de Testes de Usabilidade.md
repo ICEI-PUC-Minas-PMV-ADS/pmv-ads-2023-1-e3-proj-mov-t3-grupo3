@@ -11,9 +11,8 @@
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |    Poder acessar nos dois aparelhos que possui.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso.|    :D   |        
 | **CT 02 - BUSCA**  | Filtrou rapidamente entre os itens do cardápio.  | Incapaz de trazer um ponto negativo. |   Tarefa realizada com sucesso. |    :D   |  
-| **CT 03 - TEMPO DE RESPOSTA** | Navegou entre as telas com rapidez. |Incapaz de trazer um ponto negativo. | Tarefa realizada com sucesso.|     :)   |     
-| **CT 04 - AVALIAR O PRATO** | Espaço intuitivo.  | Não informar o limite de caracteres. | Tarefa realizada com sucesso. | :) |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | Visualização da avaliação do estabelecimento.| Falta do número de telefone para pedidos. | Tarefa realizada com sucesso. |  :) |                        
+| **CT 03 - AVALIAR O PRATO** | Espaço intuitivo.  | Não informar o limite de caracteres. | Tarefa realizada com sucesso. | :) |         
+| **CT 04 - ACESSAR DADOS DO RESTAURANTE**    | Visualização da avaliação do estabelecimento.| Falta do número de telefone para pedidos. | Tarefa realizada com sucesso. |  :) |                        
 |**OBSERVAÇÕES GERAIS**   | Teve facilidade com o sistema e possui sugestões de melhoria. |     |      | :D  |  
        
 <br />
@@ -24,10 +23,9 @@
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
 | **CT 01 - RESPONSIVIDADE**     |   Utilizou o aplicativo mesmo em um celular antigo.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |        
-| **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |  
-| **CT 03 - TEMPO DE RESPOSTA** | ----- |-----  | Tarefa realizada com sucesso.|     :)   |     
-| **CT 04 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
+| **CT 02 - BUSCA**  | Encontrou com facilidade o item desejado.  | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso. |    :D   |    
+| **CT 03 - AVALIAR O PRATO** | -----  | ----- | ----- | :I |         
+| **CT 04 - ACESSAR DADOS DO RESTAURANTE**    | -----| ----- | Tarefa realizada com sucesso. |  :) |                      
 |**OBSERVAÇÕES GERAIS**   | -----  |     |      | :D  |  
        
 <br />
@@ -37,11 +35,10 @@
 
 | **ETAPAS ESPERADAS** | **Pontos Positivos** | **Pontos Negativos** | **Resultado do Teste** | **SENTIMENTO** |
 |        ---      	 |         ---    	|       -----     	|        ----       |    -----     | 
-| **CT 01 - RESPONSIVIDADE**     |    Capacidade de disponibilizar a aplicaçãos nos tablets em cada mesa do estabelecimento.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso.|    :D   |        
-| **CT 03 - TEMPO DE RESPOSTA** | Depois de iniciado, as telas funcionam rapidamente. | Inicialização mais demorada que o esperado.  | Tarefa realizada com sucesso.|     :)   |            
-| **CT 05 - ACESSAR DADOS DO RESTAURANTE**    |Todas as informações necessárias foram encontradas facilmente.|Incapaz de trazer um ponto negativo. | Tarefa realizada com sucesso.|  :D |         
-| **CT 06 - CADASTRAR ITENS NO CARDÁPIO**    | Espaços intuitivos para cada objeto de descrição. | O tamanho do arquivo usado para foto de perfil não foi aceito pelo sistema. | Tarefa realizada com sucesso, porém com dificuldade. |   :) |          
-| **CT 07 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | Campos de digitação grandes que ajudam na edição das informações. | Não ter uma pré-visualização das informações editadas. |   Tarefa realizada com sucesso. |    :) |                
+| **CT 01 - RESPONSIVIDADE**     |    Capacidade de disponibilizar a aplicaçãos nos tablets em cada mesa do estabelecimento.    | Incapaz de trazer um ponto negativo. |  Tarefa realizada com sucesso.|    :D   |                   
+| **CT 04 - ACESSAR DADOS DO RESTAURANTE**    |Todas as informações necessárias foram encontradas facilmente.|Incapaz de trazer um ponto negativo. | Tarefa realizada com sucesso.|  :D |         
+| **CT 05 - CADASTRAR ITENS NO CARDÁPIO**    | Espaços intuitivos para cada objeto de descrição. | O tamanho do arquivo usado para foto de perfil não foi aceito pelo sistema. | Tarefa realizada com sucesso, porém com dificuldade. |   :) |          
+| **CT 06 - EDITAR INFORMAÇÕES DO ESTABELECIMENTO**  | Campos de digitação grandes que ajudam na edição das informações. | Não ter uma pré-visualização das informações editadas. |   Tarefa realizada com sucesso. |    :) |                
 |**OBSERVAÇÕES GERAIS**   | Apresentou pouca dificuldade para interagir com o sistema. Encontrou de forma intuitiva os botões para executar as tarefas.  |     |      | :D  |  
        
 <br />
