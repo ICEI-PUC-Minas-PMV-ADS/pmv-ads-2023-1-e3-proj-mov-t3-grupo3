@@ -12,11 +12,10 @@ import {
 import { db, storage } from "../config/firebase";
 import {
   ref,
-  uploadBytes,
+  uploadBytesResumable,
   getDownloadURL,
   deleteObject,
 } from "firebase/storage";
-import { async } from "@firebase/util";
 
 //Função para listar todas as categorias cadastradas
 export const carregaListaCategorias = async (setCategorias) => {
@@ -145,17 +144,29 @@ export const carregaListaItens = async (setListaItens, setListaFiltrada) => {
 };
 
 export async function uploadImage(uri, itemId) {
-  console.log(uri)
   if (!uri) return;
   try {
+    console.log(uri)
     const response = await fetch(uri);
     const blobImage = await response.blob();
     const imageName = `${itemId}.jpg`;
     const imageRef = ref(storage, `imagens_do_cardapio/${imageName}`);
-    console.log(imageRef);
-    await uploadBytes(imageRef, blobImage);
+    
+    
+    try {
+      const uploadTask = uploadBytesResumable(imageRef, blobImage);
+      await new Promise((resolve, reject) => {
+        uploadTask.on('state_changed', null, reject, resolve);
+      });
+    } catch (uploadError) {
+      console.error('Error during image upload:', uploadError);
+      // Tratar o erro de upload conforme necessário
+      // Por exemplo, mostrar uma mensagem de erro ao usuário
+      return null;
+    }
+    
     const imageUrl = await getDownloadURL(imageRef);
-    console.log(imageUrl);
+
     return imageUrl;
   } catch (error) {
     console.error(error);

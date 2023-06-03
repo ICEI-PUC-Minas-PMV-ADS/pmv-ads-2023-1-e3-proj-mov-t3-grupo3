@@ -48,7 +48,6 @@ export default function FormularioAddEditItem({ tituloForm, onPress, item }) {
       // Verifica se é um emulador iOS
       if (Platform.OS === 'ios' && convertedUri.startsWith('file://')) {
         // Remove o prefixo 'file://'
-        console.log("entrou")
         convertedUri = convertedUri.slice(7);
       }
       setUri(convertedUri);

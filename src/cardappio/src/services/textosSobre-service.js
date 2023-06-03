@@ -21,7 +21,7 @@ export const carregaTextosInfo = async (setTextoInfos) => {
 }
 
 export const addInfo = async ({titulo, descricao}, textosInfo, setTextoInfos) => {
-  if (!titulo || nome.trim() === "" || !descricao || descricao.trim() === "") {
+  if (!titulo || titulo.trim() === "" || !descricao || descricao.trim() === "") {
     alert("Por favor, preencha todos os campos.");
     return ;
   }
@@ -53,7 +53,7 @@ export const addInfo = async ({titulo, descricao}, textosInfo, setTextoInfos) =>
 
 //Recebe parametros e atribui a um objeto,assim fazendo uma requisição na API e insere o novo dado no banco e no textosInfo, substituindo o anterior
 export const updateInfo = async ({id, titulo, descricao}, textosInfo, setTextoInfos)  => {
-  if (!titulo || nome.trim() === "" || !descricao || descricao.trim() === "") {
+  if (!titulo || titulo.trim() === "" || !descricao || descricao.trim() === "") {
     alert("Por favor, preencha todos os campos.");
     return ;
   }

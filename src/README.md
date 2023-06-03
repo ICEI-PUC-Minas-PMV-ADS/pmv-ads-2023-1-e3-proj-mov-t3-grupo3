@@ -1,5 +1,9 @@
 ## O video é uma breve apresentação das funcionalidades até a entrega da etapa 3
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/src/Execu%C3%A7%C3%A3o%20da%20aplica%C3%A7%C3%A3o.mkv">Link</a>
+<a href="https://1drv.ms/u/s!AnmNHrrnRnlaxpgqDUgUURwKGy0bog?e=FDj9Jw">Link OneDrive</a>
+<a href="https://drive.google.com/file/d/1GLNR2GWRef4z3Fzz0dEAiFS4IC1qYT0_/view?usp=sharing">Link GoogleDrive</a>
+<a href="https://youtu.be/URLSI9Hrnfo">Link Youtube</a>
+
+
 
 ## Configurando um servidor local com JSON Server e React Native/Expo
 
