@@ -1,6 +1,8 @@
 ## O video é uma breve apresentação das funcionalidades até a entrega da etapa 3
 <a href="https://1drv.ms/u/s!AnmNHrrnRnlaxpgqDUgUURwKGy0bog?e=FDj9Jw">Link OneDrive</a>
+<br>
 <a href="https://drive.google.com/file/d/1GLNR2GWRef4z3Fzz0dEAiFS4IC1qYT0_/view?usp=sharing">Link GoogleDrive</a>
+<br>
 <a href="https://youtu.be/URLSI9Hrnfo">Link Youtube</a>
 
 
