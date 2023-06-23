@@ -25,7 +25,7 @@
 
 ## Download do .apk
 
-<a href="https://expo.dev/accounts/matheus_enc/projects/cardappio/builds/06211dc3-a652-4cf9-b5a9-eb9648aae9bd">Link no expo.dev</a>
+<a href="https://expo.dev/accounts/matheus_enc/projects/cardappio/builds/6d7099f2-0077-41aa-9f20-e11b7ad4544f">Link no expo.dev</a>
 
 <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3/blob/main/docs/arquivos/cardappio.apk">Link de download do arquivo .apk</a>
 

@@ -160,8 +160,6 @@ export async function uploadImage(uri, itemId) {
       });
     } catch (uploadError) {
       console.error('Error during image upload:', uploadError);
-      // Tratar o erro de upload conforme necessário
-      // Por exemplo, mostrar uma mensagem de erro ao usuário
       return null;
     }
     
