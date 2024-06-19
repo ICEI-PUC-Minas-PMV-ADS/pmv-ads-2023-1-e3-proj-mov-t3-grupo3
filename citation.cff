@@ -1,0 +1,22 @@
+message: Aplicativo mobile desenvolvido para exibir um cardapio customizável de um estabelecimento.
+title: Cardappio
+authors:
+  - family-names: Marques Rosa
+    given-names: Anderson
+  - family-names: César Feza Rodrigues
+    given-names: Bruno
+  - family-names: Jorge Buzelin
+    given-names: Felipe
+  - family-names: Estevam Nunes Cordeiro
+    given-names: Matheus
+  - family-names: Martins Oliveira
+    given-names: Samara
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Curcino de Lima
+    given-names: Mateus
+keywords:
+  - Cardapio
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo3
+version: 1.0.0
+date-released: 2023-06-23
